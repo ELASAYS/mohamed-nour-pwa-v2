@@ -1,0 +1,1693 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=5.0">
+<meta name="theme-color" content="#C9952A">
+<meta name="description" content="محمد نور لزيوت السيارات - قائمة أسعار جملة محدّثة لأكثر من 850 منتج من الزيوت والفلاتر والشحومات بأفضل الأسعار">
+<title>محمد نور لزيوت السيارات | أسعار جملة محدّثة يوميًا</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800;900&display=swap" rel="stylesheet">
+<!-- PWA: real external manifest + real service worker + icons -->
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="محمد نور">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="application-name" content="محمد نور">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+
+:root{
+  --bg:#F7F5F0;--bg2:#EFECE4;--surface:#FFFFFF;
+  --border:#E2DDD4;--border2:#C9C3B8;
+  --gold:#C9952A;--gold-dark:#A67C1F;--gold-light:#EAB54A;--gold-pale:#FDF3DC;--gold-pill:#FAE8BC;
+  --text:#1C1917;--text2:#57534E;--text3:#A8A29E;
+  --green:#25D366;--green-dark:#128C7E;
+  --red:#DC2626;--red-pale:#FEE2E2;
+  --orange:#F59E0B;--orange-pale:#FEF3C7;
+  --blue:#2563EB;--blue-pale:#DBEAFE;
+  --radius:12px;--radius-sm:8px;
+  --shadow:0 2px 8px rgba(0,0,0,0.07),0 0 0 0.5px rgba(0,0,0,0.04);
+  --shadow-hover:0 8px 24px rgba(0,0,0,0.12),0 0 0 0.5px rgba(201,149,42,0.2);
+}
+
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{font-family:'Tajawal',sans-serif;background:var(--bg);color:var(--text);min-height:100vh;direction:rtl;font-size:15px;line-height:1.6;overflow-x:hidden}
+
+::-webkit-scrollbar{width:6px;height:6px}
+::-webkit-scrollbar-track{background:var(--bg2)}
+::-webkit-scrollbar-thumb{background:var(--gold);border-radius:4px}
+
+/* TOP ALERT */
+.top-alert{background:linear-gradient(90deg,#DC2626,#B91C1C);color:#fff;text-align:center;padding:8px 14px;font-size:13px;font-weight:600;position:relative;overflow:hidden}
+.top-alert-track{display:inline-block;white-space:nowrap;animation:marquee 28s linear infinite}
+.top-alert-track span{margin:0 30px}
+@keyframes marquee{from{transform:translateX(100%)}to{transform:translateX(-100%)}}
+@media(min-width:900px){.top-alert-track{animation-duration:40s}}
+
+/* HEADER */
+header{background:var(--surface);border-bottom:1px solid var(--border);position:sticky;top:0;z-index:200;box-shadow:0 1px 12px rgba(0,0,0,0.06)}
+.header-inner{max-width:1280px;margin:0 auto;padding:14px 24px;display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:12px;flex-shrink:0}
+.brand-mark{width:44px;height:44px;border-radius:11px;background:linear-gradient(135deg,var(--gold),var(--gold-dark));display:flex;align-items:center;justify-content:center;font-size:19px;font-weight:900;color:#fff;letter-spacing:-1px;box-shadow:0 3px 10px rgba(201,149,42,0.35)}
+.brand-name{font-size:17px;font-weight:800;color:var(--text);line-height:1.1}
+.brand-sub{font-size:11px;color:var(--text3);margin-top:2px;letter-spacing:0.04em;font-weight:500}
+.header-search{flex:1;max-width:460px;display:flex;align-items:center;gap:10px;background:var(--bg);border:1.5px solid var(--border);border-radius:10px;padding:9px 14px;transition:border-color 0.2s,box-shadow 0.2s}
+.header-search:focus-within{border-color:var(--gold);box-shadow:0 0 0 3px rgba(201,149,42,0.12);background:#fff}
+.header-search input{flex:1;background:none;border:none;outline:none;font-family:'Tajawal',sans-serif;font-size:14px;color:var(--text);min-width:0}
+.header-search input::placeholder{color:var(--text3)}
+.search-ic{color:var(--text3);font-size:16px;flex-shrink:0}
+.clear-search{background:none;border:none;cursor:pointer;color:var(--text3);font-size:18px;padding:0;display:none;line-height:1}
+.clear-search.show{display:block}
+.header-meta{display:flex;align-items:center;gap:8px;margin-right:auto}
+.badge-count{background:var(--gold-pale);border:1px solid var(--gold-light);color:var(--gold-dark);font-size:12px;font-weight:700;padding:5px 12px;border-radius:20px;white-space:nowrap}
+.wa-header-btn{display:flex;align-items:center;gap:6px;background:var(--green);color:#fff;border:none;border-radius:8px;padding:8px 14px;font-family:'Tajawal',sans-serif;font-size:13px;font-weight:700;cursor:pointer;text-decoration:none;white-space:nowrap;transition:background 0.2s,transform 0.15s;box-shadow:0 2px 6px rgba(37,211,102,0.3)}
+.wa-header-btn:hover{background:#20BA5A;transform:translateY(-1px)}
+
+/* FILTERS */
+.filter-bar{background:var(--surface);border-bottom:1px solid var(--border);padding:0 24px;position:sticky;top:73px;z-index:150}
+.filter-bar-inner{max-width:1280px;margin:0 auto;padding:12px 0}
+.controls-row{display:flex;align-items:center;gap:16px;margin-bottom:12px;flex-wrap:wrap}
+.control-group{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.control-label{font-size:12px;color:var(--text3);white-space:nowrap;font-weight:500}
+.styled-select{background:var(--bg);border:1.5px solid var(--border);color:var(--text);font-family:'Tajawal',sans-serif;font-size:13px;font-weight:500;border-radius:8px;padding:7px 30px 7px 14px;outline:none;cursor:pointer;transition:border-color 0.2s;-webkit-appearance:none;appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%23A8A29E' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:left 10px center;min-width:120px}
+.styled-select:focus{border-color:var(--gold)}
+.price-range-box{display:flex;align-items:center;gap:10px;background:var(--bg);border:1.5px solid var(--border);border-radius:8px;padding:6px 12px}
+.price-range-box input[type=range]{accent-color:var(--gold);cursor:pointer;width:130px;height:4px}
+.price-val{font-size:12px;font-weight:700;color:var(--gold-dark);background:var(--gold-pale);padding:3px 8px;border-radius:6px;white-space:nowrap;min-width:70px;text-align:center}
+.reset-btn{background:transparent;border:1.5px solid var(--border);color:var(--text2);font-family:'Tajawal',sans-serif;font-size:12px;font-weight:600;border-radius:8px;padding:7px 14px;cursor:pointer;transition:all 0.15s;white-space:nowrap}
+.reset-btn:hover{border-color:var(--red);color:var(--red);background:var(--red-pale)}
+.pills-scroll{display:flex;gap:7px;flex-wrap:wrap;align-items:center;max-height:90px;overflow-y:auto;padding-bottom:2px}
+.pill{display:inline-flex;align-items:center;gap:5px;padding:6px 14px;border-radius:50px;border:1.5px solid var(--border2);background:var(--surface);font-size:13px;font-weight:500;color:var(--text2);cursor:pointer;transition:all 0.15s;white-space:nowrap;user-select:none;font-family:'Tajawal',sans-serif}
+.pill:hover{border-color:var(--gold);color:var(--gold-dark);background:var(--gold-pale)}
+.pill.active{border-color:var(--gold);background:linear-gradient(135deg,var(--gold),var(--gold-dark));color:#fff;font-weight:700;box-shadow:0 2px 6px rgba(201,149,42,0.3)}
+.pill .cnt{font-size:10px;opacity:0.7;background:rgba(0,0,0,0.08);border-radius:10px;padding:1px 6px;font-weight:600}
+.pill.active .cnt{background:rgba(255,255,255,0.25);opacity:1}
+
+/* MAIN */
+.main{max-width:1280px;margin:0 auto;padding:20px 24px 100px}
+.b2b-banner{background:linear-gradient(135deg,#1C1917,#292524);color:#fff;border-radius:var(--radius);padding:14px 20px;margin-bottom:18px;display:flex;align-items:center;gap:14px;box-shadow:0 4px 14px rgba(0,0,0,0.15);border:1px solid #3D3832;position:relative;overflow:hidden}
+.b2b-banner::before{content:"";position:absolute;top:0;right:0;width:180px;height:100%;background:radial-gradient(ellipse at right,rgba(201,149,42,0.25),transparent 70%);pointer-events:none}
+.b2b-icon{width:44px;height:44px;border-radius:10px;background:linear-gradient(135deg,var(--gold),var(--gold-dark));display:flex;align-items:center;justify-content:center;font-size:22px;flex-shrink:0;box-shadow:0 3px 10px rgba(201,149,42,0.4)}
+.b2b-text{flex:1;position:relative;z-index:1}
+.b2b-title{font-size:15px;font-weight:800;color:var(--gold-light);margin-bottom:2px}
+.b2b-sub{font-size:12.5px;color:#D7D3CE;font-weight:500;line-height:1.5}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:20px}
+.scard{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:14px 16px;display:flex;align-items:center;gap:12px;box-shadow:var(--shadow);border-right:3px solid var(--gold);transition:transform 0.2s,box-shadow 0.2s}
+.scard:hover{transform:translateY(-2px);box-shadow:var(--shadow-hover)}
+.scard-icon{width:40px;height:40px;border-radius:10px;background:var(--gold-pale);display:flex;align-items:center;justify-content:center;font-size:18px;flex-shrink:0}
+.scard-val{font-size:19px;font-weight:800;color:var(--text);line-height:1}
+.scard-label{font-size:11px;color:var(--text3);margin-top:3px;font-weight:500}
+.area-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:14px;flex-wrap:wrap;gap:8px}
+.area-title{font-size:17px;font-weight:800;color:var(--text);display:flex;align-items:center;gap:8px}
+.area-title .dot{width:8px;height:8px;border-radius:50%;background:var(--gold);display:inline-block}
+.area-sub{font-size:13px;color:var(--text3);margin-right:6px;font-weight:500}
+.area-sub strong{color:var(--gold-dark);font-weight:700}
+
+/* GRID */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:14px}
+
+/* PRODUCT CARD */
+.pcard{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);display:flex;flex-direction:column;box-shadow:var(--shadow);transition:all 0.2s ease;overflow:hidden;position:relative}
+.pcard:hover{border-color:rgba(201,149,42,0.4);box-shadow:var(--shadow-hover);transform:translateY(-3px)}
+.pcard.in-cart{border-color:var(--green);box-shadow:0 0 0 2px rgba(37,211,102,0.18),var(--shadow)}
+.pcard-ribbon{position:absolute;top:10px;left:10px;z-index:3;display:flex;flex-direction:column;gap:4px;align-items:flex-start;pointer-events:none}
+.ribbon-tag{font-size:9.5px;font-weight:800;letter-spacing:0.02em;padding:3px 8px;border-radius:6px;color:#fff;box-shadow:0 2px 5px rgba(0,0,0,0.12);display:inline-flex;align-items:center;gap:3px}
+.ribbon-hot{background:linear-gradient(135deg,#F97316,#DC2626)}
+.ribbon-deal{background:linear-gradient(135deg,#8B5CF6,#6D28D9)}
+.ribbon-stock{background:var(--surface);color:var(--green-dark);border:1px solid #BBF7D0;font-size:9px;padding:2.5px 7px;font-weight:700}
+.ribbon-stock .pulse{width:6px;height:6px;border-radius:50%;background:var(--green);display:inline-block;animation:pulse 1.6s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:0.5;transform:scale(0.85)}}
+.pcard-body{padding:14px 14px 10px;flex:1;display:flex;flex-direction:column;gap:6px;padding-top:34px}
+.pcard-top{display:flex;justify-content:space-between;align-items:flex-start;gap:6px}
+.pcard-co{font-size:10px;font-weight:800;letter-spacing:0.04em;background:var(--gold-pale);color:var(--gold-dark);border:1px solid #E8C97A;padding:3px 8px;border-radius:5px;max-width:110px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;flex-shrink:0;cursor:pointer;transition:background 0.15s;font-family:'Tajawal',sans-serif}
+.pcard-co:hover{background:var(--gold-pill)}
+.pcard-unit-badge{font-size:9.5px;color:var(--text2);font-weight:600;background:var(--bg2);padding:3px 7px;border-radius:4px}
+.pcard-name{font-size:13.5px;font-weight:600;color:var(--text);line-height:1.45;flex:1;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;min-height:39px}
+.pcard-size{font-size:11px;color:var(--text3);font-weight:500;display:flex;align-items:center;gap:4px}
+.pcard-size::before{content:"📏";font-size:10px}
+.pcard-footer{padding:10px 14px 12px;border-top:1px solid var(--border);display:flex;align-items:center;justify-content:space-between;gap:8px;background:linear-gradient(180deg,var(--bg),#F3F0E9)}
+.price-group{display:flex;flex-direction:column}
+.price-lbl{font-size:9px;color:var(--gold-dark);letter-spacing:0.08em;text-transform:uppercase;font-weight:800;display:flex;align-items:center;gap:3px}
+.price-lbl::before{content:"💰";font-size:9px}
+.price-num{font-size:20px;font-weight:800;color:var(--gold-dark);line-height:1.1}
+.price-cur{font-size:10px;font-weight:700;color:var(--gold);margin-right:2px}
+.pcard-actions{display:flex;gap:6px;align-items:center}
+
+/* Action buttons on card */
+.wa-btn{display:flex;align-items:center;gap:5px;background:linear-gradient(135deg,var(--green),#20B758);color:#fff;border:none;border-radius:8px;padding:8px 12px;font-size:12px;font-weight:700;font-family:'Tajawal',sans-serif;cursor:pointer;text-decoration:none;transition:all 0.15s;flex-shrink:0;white-space:nowrap;box-shadow:0 2px 6px rgba(37,211,102,0.35)}
+.wa-btn:hover{background:linear-gradient(135deg,#1EB85A,#149942);transform:scale(1.05);box-shadow:0 4px 10px rgba(37,211,102,0.5)}
+.wa-btn:active{transform:scale(0.96)}
+.wa-btn svg{width:14px;height:14px;flex-shrink:0}
+
+.cart-btn{display:flex;align-items:center;justify-content:center;width:34px;height:34px;border-radius:8px;background:var(--gold-pale);color:var(--gold-dark);border:1.5px solid var(--gold-light);cursor:pointer;flex-shrink:0;transition:all 0.15s;font-size:15px;font-family:'Tajawal',sans-serif;font-weight:800}
+.cart-btn:hover{background:var(--gold);color:#fff;transform:scale(1.06)}
+.cart-btn:active{transform:scale(0.94)}
+.cart-btn.in-cart{background:var(--green);color:#fff;border-color:var(--green-dark)}
+.cart-btn.in-cart:hover{background:var(--red);border-color:var(--red)}
+.share-btn{display:flex;align-items:center;justify-content:center;width:34px;height:34px;border-radius:8px;background:var(--bg2);color:var(--text2);border:1.5px solid var(--border);cursor:pointer;flex-shrink:0;transition:all 0.15s;font-size:13px;font-family:'Tajawal',sans-serif}
+.share-btn:hover{background:var(--blue-pale);color:var(--blue);border-color:var(--blue);transform:scale(1.06)}
+.share-btn:active{transform:scale(0.94)}
+
+/* EMPTY */
+.empty{grid-column:1/-1;text-align:center;padding:64px 20px;color:var(--text3);background:var(--surface);border-radius:var(--radius);border:1px dashed var(--border2)}
+.empty-icon{font-size:48px;margin-bottom:14px;opacity:0.4}
+.empty p{font-size:16px;color:var(--text2);font-weight:600}
+.empty small{font-size:12.5px;margin-top:6px;display:block}
+
+/* LOAD MORE */
+.load-more{display:flex;justify-content:center;margin-top:32px}
+.btn-more{background:var(--surface);border:1.5px solid var(--gold);color:var(--gold-dark);font-family:'Tajawal',sans-serif;font-size:14px;font-weight:700;border-radius:10px;padding:12px 40px;cursor:pointer;transition:all 0.2s;box-shadow:0 2px 8px rgba(201,149,42,0.1);display:inline-flex;align-items:center;gap:8px}
+.btn-more:hover{background:var(--gold-pale);border-color:var(--gold-dark);transform:translateY(-1px)}
+.btn-more .remaining{background:var(--gold-pale);padding:3px 9px;border-radius:12px;font-size:11.5px;font-weight:700;color:var(--gold-dark)}
+
+/* FLOATING CART */
+.fab-cart{position:fixed;bottom:22px;right:22px;z-index:300;min-width:64px;height:58px;border-radius:29px;padding:0 20px 0 16px;background:linear-gradient(135deg,var(--gold),var(--gold-dark));color:#fff;display:flex;align-items:center;gap:10px;text-decoration:none;border:none;cursor:pointer;font-family:'Tajawal',sans-serif;font-size:14px;font-weight:800;box-shadow:0 8px 24px rgba(201,149,42,0.5);transition:all 0.25s;opacity:0;transform:translateY(80px) scale(0.8);pointer-events:none}
+.fab-cart.visible{opacity:1;transform:translateY(0) scale(1);pointer-events:auto;animation:cartBounce 2.4s ease-in-out infinite}
+.fab-cart:hover{transform:scale(1.05);box-shadow:0 12px 32px rgba(201,149,42,0.6)}
+.fab-cart svg{width:26px;height:26px;flex-shrink:0}
+.fab-cart-count{background:#fff;color:var(--gold-dark);border-radius:20px;padding:2px 9px;font-size:13px;font-weight:900;min-width:26px;text-align:center;box-shadow:0 2px 6px rgba(0,0,0,0.15)}
+@keyframes cartBounce{0%,100%{box-shadow:0 8px 24px rgba(201,149,42,0.5),0 0 0 0 rgba(201,149,42,0.5)}50%{box-shadow:0 8px 24px rgba(201,149,42,0.5),0 0 0 14px rgba(201,149,42,0)}}
+@keyframes cartPulse{0%{transform:scale(1)}30%{transform:scale(1.15)}100%{transform:scale(1)}}
+.fab-cart.pulse{animation:cartPulse 0.45s ease,cartBounce 2.4s ease-in-out infinite 0.45s}
+
+/* FLOATING WA */
+.fab-wa{position:fixed;bottom:22px;left:22px;z-index:300;width:58px;height:58px;border-radius:50%;background:linear-gradient(135deg,var(--green),#1FA855);color:#fff;display:flex;align-items:center;justify-content:center;text-decoration:none;box-shadow:0 8px 24px rgba(37,211,102,0.45);transition:all 0.2s;animation:fabPulse 2.2s ease-in-out infinite}
+.fab-wa:hover{transform:scale(1.08)}
+.fab-wa svg{width:28px;height:28px}
+@keyframes fabPulse{0%,100%{box-shadow:0 8px 24px rgba(37,211,102,0.45),0 0 0 0 rgba(37,211,102,0.5)}50%{box-shadow:0 8px 24px rgba(37,211,102,0.45),0 0 0 14px rgba(37,211,102,0)}}
+
+/* CART DRAWER */
+.cart-overlay{position:fixed;inset:0;background:rgba(0,0,0,0.5);z-index:500;opacity:0;pointer-events:none;transition:opacity 0.25s;backdrop-filter:blur(3px)}
+.cart-overlay.open{opacity:1;pointer-events:auto}
+.cart-drawer{position:fixed;top:0;bottom:0;right:0;width:min(460px,100vw);background:var(--bg);z-index:510;transform:translateX(100%);transition:transform 0.3s cubic-bezier(.25,.8,.25,1);display:flex;flex-direction:column;box-shadow:-8px 0 40px rgba(0,0,0,0.25)}
+.cart-drawer.open{transform:translateX(0)}
+.cart-head{padding:18px 22px;background:linear-gradient(135deg,#1C1917,#292524);color:#fff;display:flex;align-items:center;gap:12px;border-bottom:3px solid var(--gold);flex-shrink:0}
+.cart-head-icon{width:42px;height:42px;border-radius:10px;background:linear-gradient(135deg,var(--gold),var(--gold-dark));display:flex;align-items:center;justify-content:center;font-size:20px;flex-shrink:0}
+.cart-head-title{flex:1}
+.cart-head-title h2{font-size:16px;font-weight:800;color:var(--gold-light);margin-bottom:2px}
+.cart-head-title p{font-size:12px;color:#D7D3CE;font-weight:500}
+.cart-close{background:rgba(255,255,255,0.1);color:#fff;border:none;width:34px;height:34px;border-radius:8px;cursor:pointer;font-size:18px;display:flex;align-items:center;justify-content:center;transition:background 0.15s}
+.cart-close:hover{background:rgba(255,255,255,0.2)}
+.cart-body{flex:1;overflow-y:auto;padding:14px;display:flex;flex-direction:column;gap:10px}
+.cart-empty{text-align:center;padding:60px 20px;color:var(--text3)}
+.cart-empty-icon{font-size:60px;margin-bottom:14px;opacity:0.4}
+.cart-empty p{font-size:15px;color:var(--text2);font-weight:600;margin-bottom:4px}
+.cart-empty small{font-size:12.5px;display:block}
+.cart-item{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:12px;display:flex;flex-direction:column;gap:8px;animation:pop 0.25s ease}
+.cart-item-top{display:flex;justify-content:space-between;gap:10px;align-items:flex-start}
+.cart-item-info{flex:1;min-width:0}
+.cart-item-name{font-size:13.5px;font-weight:700;color:var(--text);line-height:1.4;margin-bottom:4px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.cart-item-meta{display:flex;gap:6px;flex-wrap:wrap;font-size:10.5px}
+.cart-item-meta span{background:var(--bg2);padding:2px 7px;border-radius:4px;color:var(--text2);font-weight:600}
+.cart-item-meta .co{background:var(--gold-pale);color:var(--gold-dark);border:1px solid #E8C97A}
+.cart-item-remove{background:var(--red-pale);color:var(--red);border:none;width:28px;height:28px;border-radius:7px;cursor:pointer;font-size:14px;display:flex;align-items:center;justify-content:center;transition:all 0.15s;flex-shrink:0}
+.cart-item-remove:hover{background:var(--red);color:#fff;transform:rotate(90deg)}
+.cart-item-bottom{display:flex;align-items:center;justify-content:space-between;gap:10px;border-top:1px dashed var(--border);padding-top:8px}
+.qty-group{display:flex;align-items:center;background:var(--bg);border:1.5px solid var(--border);border-radius:8px;overflow:hidden}
+.qty-btn{background:none;border:none;cursor:pointer;width:32px;height:30px;font-size:17px;font-weight:700;color:var(--gold-dark);display:flex;align-items:center;justify-content:center;transition:background 0.15s}
+.qty-btn:hover{background:var(--gold-pale)}
+.qty-btn:disabled{color:var(--text3);cursor:not-allowed;opacity:0.5}
+.qty-val{min-width:34px;text-align:center;font-size:14px;font-weight:800;color:var(--text)}
+.cart-item-total{font-size:15px;font-weight:800;color:var(--gold-dark);text-align:left}
+.cart-item-total small{font-size:10px;color:var(--text3);font-weight:600;display:block}
+.cart-foot{background:var(--surface);border-top:1px solid var(--border);padding:16px 20px 18px;flex-shrink:0;box-shadow:0 -4px 14px rgba(0,0,0,0.06)}
+.b2b-note{background:var(--gold-pale);border:1px dashed var(--gold);border-radius:8px;padding:9px 12px;font-size:11.5px;color:var(--gold-dark);font-weight:600;margin-bottom:10px;display:flex;align-items:center;gap:6px}
+.cart-summary{display:flex;flex-direction:column;gap:6px;margin-bottom:12px}
+.cart-summary-row{display:flex;justify-content:space-between;align-items:center;font-size:13px;color:var(--text2)}
+.cart-summary-row.total{font-size:16px;font-weight:800;color:var(--text);padding-top:8px;border-top:1px dashed var(--border);margin-top:4px}
+.cart-summary-row.total .amt{color:var(--gold-dark);font-size:20px}
+.cart-actions{display:flex;gap:8px}
+.cart-wa-btn{flex:1;display:flex;align-items:center;justify-content:center;gap:7px;background:linear-gradient(135deg,var(--green),#1FA855);color:#fff;border:none;border-radius:10px;padding:13px 16px;font-family:'Tajawal',sans-serif;font-size:14px;font-weight:800;cursor:pointer;transition:all 0.15s;text-decoration:none;box-shadow:0 3px 10px rgba(37,211,102,0.4)}
+.cart-wa-btn:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(37,211,102,0.55)}
+.cart-wa-btn svg{width:18px;height:18px}
+.cart-clear-btn{background:var(--red-pale);color:var(--red);border:1.5px solid #FCA5A5;border-radius:10px;padding:0 14px;font-family:'Tajawal',sans-serif;font-size:12.5px;font-weight:700;cursor:pointer;white-space:nowrap;transition:all 0.15s}
+.cart-clear-btn:hover{background:var(--red);color:#fff;border-color:var(--red)}
+
+/* PWA INSTALL MODAL (fallback instructions) */
+.pwa-modal-overlay{position:fixed;inset:0;background:rgba(0,0,0,0.6);z-index:700;opacity:0;pointer-events:none;transition:opacity 0.25s;backdrop-filter:blur(4px);display:flex;align-items:center;justify-content:center;padding:20px}
+.pwa-modal-overlay.open{opacity:1;pointer-events:auto}
+.pwa-modal{background:var(--surface);border-radius:16px;max-width:460px;width:100%;max-height:90vh;overflow-y:auto;box-shadow:0 20px 60px rgba(0,0,0,0.35);transform:scale(0.9) translateY(20px);opacity:0;transition:all 0.3s cubic-bezier(.34,1.56,.64,1)}
+.pwa-modal-overlay.open .pwa-modal{transform:scale(1) translateY(0);opacity:1}
+.pwa-modal-head{padding:20px 24px;background:linear-gradient(135deg,var(--gold),var(--gold-dark));color:#fff;border-radius:16px 16px 0 0;display:flex;align-items:center;gap:12px;position:sticky;top:0;z-index:2}
+.pwa-modal-head-icon{width:46px;height:46px;border-radius:11px;background:rgba(255,255,255,0.2);display:flex;align-items:center;justify-content:center;font-size:24px;flex-shrink:0;border:1.5px solid rgba(255,255,255,0.3)}
+.pwa-modal-head-text{flex:1}
+.pwa-modal-head-text h3{font-size:17px;font-weight:800;line-height:1.2;margin-bottom:2px}
+.pwa-modal-head-text p{font-size:12.5px;opacity:0.9;font-weight:500}
+.pwa-modal-close{background:rgba(255,255,255,0.2);border:none;color:#fff;width:34px;height:34px;border-radius:8px;cursor:pointer;font-size:18px;display:flex;align-items:center;justify-content:center;transition:background 0.15s;flex-shrink:0}
+.pwa-modal-close:hover{background:rgba(255,255,255,0.3)}
+.pwa-modal-body{padding:22px 24px}
+.pwa-browser-tabs{display:flex;gap:6px;margin-bottom:18px;background:var(--bg2);padding:4px;border-radius:10px}
+.pwa-tab{flex:1;padding:8px 10px;border:none;background:none;font-family:'Tajawal',sans-serif;font-size:12px;font-weight:700;color:var(--text2);cursor:pointer;border-radius:7px;transition:all 0.15s;display:flex;align-items:center;justify-content:center;gap:5px}
+.pwa-tab:hover{color:var(--gold-dark)}
+.pwa-tab.active{background:var(--surface);color:var(--gold-dark);box-shadow:0 2px 6px rgba(0,0,0,0.08)}
+.pwa-tab-ic{font-size:14px}
+.pwa-steps{display:none}
+.pwa-steps.active{display:block;animation:pop 0.25s ease}
+.pwa-step{display:flex;gap:14px;padding:12px 0;border-bottom:1px dashed var(--border)}
+.pwa-step:last-child{border-bottom:none}
+.pwa-step-num{width:30px;height:30px;border-radius:50%;background:var(--gold-pale);color:var(--gold-dark);display:flex;align-items:center;justify-content:center;font-weight:800;font-size:14px;flex-shrink:0;border:2px solid var(--gold-light)}
+.pwa-step-text{flex:1;font-size:13.5px;color:var(--text);line-height:1.6}
+.pwa-step-text b{color:var(--gold-dark);font-weight:800}
+.pwa-step-text .ic{display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:5px;background:var(--bg2);font-size:13px;margin:0 3px;vertical-align:-6px}
+.pwa-note{margin-top:14px;background:var(--gold-pale);border:1px dashed var(--gold);border-radius:8px;padding:10px 12px;font-size:12px;color:var(--gold-dark);font-weight:600;line-height:1.5}
+.pwa-reason{background:var(--red-pale);border:1px solid #FCA5A5;border-radius:8px;padding:10px 12px;margin-bottom:14px;font-size:12px;color:var(--red);font-weight:600;line-height:1.5;display:flex;align-items:flex-start;gap:7px}
+.pwa-reason .ic{font-size:15px;flex-shrink:0}
+.pwa-reason.info{background:var(--blue-pale);border-color:#93C5FD;color:var(--blue)}
+
+/* PWA BANNER */
+.pwa-banner{position:fixed;bottom:94px;left:50%;transform:translateX(-50%) translateY(200%);background:#1C1917;color:#fff;border-radius:12px;padding:12px 16px;display:flex;align-items:center;gap:10px;box-shadow:0 10px 30px rgba(0,0,0,0.3);z-index:320;max-width:calc(100vw - 30px);transition:transform 0.35s cubic-bezier(.34,1.56,.64,1);border:1px solid #3D3832}
+.pwa-banner.show{transform:translateX(-50%) translateY(0)}
+.pwa-banner-icon{width:38px;height:38px;border-radius:9px;background:linear-gradient(135deg,var(--gold),var(--gold-dark));display:flex;align-items:center;justify-content:center;font-size:19px;flex-shrink:0}
+.pwa-banner-text{flex:1;min-width:0}
+.pwa-banner-text b{font-size:13px;color:var(--gold-light);display:block}
+.pwa-banner-text small{font-size:11px;color:#D7D3CE;display:block}
+.pwa-install{background:var(--gold);color:#fff;border:none;border-radius:7px;padding:7px 14px;font-family:'Tajawal',sans-serif;font-size:12px;font-weight:800;cursor:pointer;white-space:nowrap}
+.pwa-install:hover{background:var(--gold-dark)}
+.pwa-dismiss{background:none;border:none;color:var(--text3);cursor:pointer;font-size:18px;padding:0 4px}
+
+/* TOAST */
+.toast{position:fixed;bottom:30px;left:50%;transform:translateX(-50%) translateY(140px);background:#1C1917;color:#fff;padding:12px 22px;border-radius:50px;font-size:13.5px;font-weight:600;box-shadow:0 8px 28px rgba(0,0,0,0.25);transition:transform 0.3s cubic-bezier(.34,1.56,.64,1);z-index:600;max-width:92vw;display:flex;align-items:center;gap:8px}
+.toast.show{transform:translateX(-50%) translateY(0)}
+.toast.success{background:var(--green-dark)}
+.toast.error{background:var(--red)}
+
+/* RESPONSIVE */
+@media(max-width:900px){
+  .stats{grid-template-columns:repeat(2,1fr)}
+  .filter-bar{top:64px}
+}
+@media(max-width:640px){
+  .header-inner{padding:10px 14px;gap:10px}
+  .filter-bar{padding:0 14px;top:60px}
+  .main{padding:14px 14px 100px}
+  .stats{grid-template-columns:repeat(2,1fr);gap:8px}
+  .scard{padding:12px}
+  .scard-val{font-size:16px}
+  .scard-icon{width:34px;height:34px;font-size:15px}
+  .grid{grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:10px}
+  .brand-sub{display:none}
+  .brand-mark{width:38px;height:38px;font-size:16px}
+  .brand-name{font-size:15px}
+  .wa-header-btn{padding:6px 10px;font-size:12px}
+  .wa-header-btn span:not(.wa-ic){display:none}
+  .badge-count{font-size:11px;padding:4px 9px}
+  .pcard-body{padding-top:30px}
+  .pcard-name{font-size:12.5px;min-height:36px}
+  .price-num{font-size:17px}
+  .wa-btn{padding:7px 9px;font-size:11.5px}
+  .wa-btn svg{width:13px;height:13px}
+  .wa-btn span{display:none}
+  .wa-btn{padding:7px;width:34px;height:34px;justify-content:center}
+  .cart-btn,.share-btn{width:32px;height:32px;font-size:14px}
+  .pcard-actions{gap:5px}
+  .controls-row{gap:10px;margin-bottom:10px}
+  .styled-select{font-size:12.5px;min-width:100px;padding:6px 26px 6px 10px}
+  .price-range-box{padding:5px 10px;gap:8px}
+  .price-range-box input[type=range]{width:90px}
+  .price-val{font-size:11px;min-width:60px;padding:2px 6px}
+  .reset-btn{padding:6px 10px;font-size:11.5px}
+  .pill{font-size:12px;padding:5px 11px}
+  .b2b-banner{padding:12px 14px;gap:10px}
+  .b2b-title{font-size:13.5px}
+  .b2b-sub{font-size:11.5px;line-height:1.45}
+  .b2b-icon{width:38px;height:38px;font-size:18px}
+  .fab-wa{width:52px;height:52px;bottom:16px;left:16px}
+  .fab-wa svg{width:24px;height:24px}
+  .fab-cart{bottom:16px;right:16px;height:52px;padding:0 16px 0 12px;font-size:12.5px}
+  .fab-cart svg{width:22px;height:22px}
+  .fab-cart-count{font-size:12px;padding:1px 7px;min-width:22px}
+  .cart-head{padding:14px 16px}
+  .cart-head-title h2{font-size:14.5px}
+  .cart-head-title p{font-size:11px}
+  .cart-head-icon{width:36px;height:36px;font-size:17px}
+  .cart-foot{padding:14px 16px 16px}
+  .cart-wa-btn{padding:12px;font-size:13px}
+  .cart-summary-row.total .amt{font-size:18px}
+  .pwa-banner{bottom:84px;padding:10px 12px;width:calc(100vw - 24px)}
+  .pwa-banner-text b{font-size:12px}
+  .pwa-banner-text small{font-size:10.5px}
+  .area-title{font-size:15px}
+  .area-sub{font-size:12px}
+  .pills-scroll{max-height:76px}
+}
+@media(max-width:380px){
+  .grid{grid-template-columns:repeat(auto-fill,minmax(145px,1fr));gap:8px}
+  .pcard-body{padding:10px 10px 8px;padding-top:28px}
+  .pcard-footer{padding:8px 10px 10px}
+  .pcard-co{font-size:9px;padding:2px 6px;max-width:80px}
+  .pcard-name{font-size:12px}
+  .price-num{font-size:16px}
+  .cart-btn,.share-btn,.wa-btn{width:30px;height:30px}
+}
+
+@keyframes pop{from{opacity:0;transform:translateY(10px) scale(0.97)}to{opacity:1;transform:none}}
+.pcard{animation:pop 0.3s ease both}
+*:focus-visible{outline:2px solid var(--gold);outline-offset:2px;border-radius:4px}
+button,a{-webkit-tap-highlight-color:transparent}
+
+@media print{.fab-wa,.fab-cart,.wa-btn,.cart-btn,.share-btn,.wa-header-btn,.top-alert,.filter-bar,.load-more,.cart-drawer,.cart-overlay,.pwa-banner,.toast{display:none!important}.pcard{break-inside:avoid}}
+</style>
+</head>
+<body>
+
+<!-- TOP ALERT -->
+<div class="top-alert">
+  <div class="top-alert-track">
+    <span>⚠️ الأسعار متغيرة يوميًا حسب السوق — يُرجى التأكد عبر واتساب قبل الطلب</span>
+    <span>🔥 خصومات خاصة للكميات الكبيرة</span>
+    <span>🚚 توصيل متاح لجميع المحافظات</span>
+    <span>💎 جميع المنتجات أصلية ومضمونة</span>
+    <span>🛒 أضف منتجاتك للسلة واطلب كلها برسالة واحدة</span>
+  </div>
+</div>
+
+<!-- HEADER -->
+<header>
+  <div class="header-inner">
+    <div class="brand">
+      <div class="brand-mark">م ن</div>
+      <div class="brand-text">
+        <div class="brand-name">محمد نور لزيوت السيارات</div>
+        <div class="brand-sub">قائمة أسعار الجملة المحدّثة</div>
+      </div>
+    </div>
+    <div class="header-search">
+      <span class="search-ic">🔍</span>
+      <input type="text" id="searchInput" placeholder="ابحث عن منتج، شركة، أو حجم..." autocomplete="off">
+      <button class="clear-search" id="clearSearch" aria-label="مسح البحث">✕</button>
+    </div>
+    <div class="header-meta">
+      <div class="badge-count" id="headerCount">— صنف</div>
+      <a class="wa-header-btn" id="headerWA" href="#" target="_blank" rel="noopener">
+        <span class="wa-ic">💬</span><span>تواصل معنا</span>
+      </a>
+    </div>
+  </div>
+</header>
+
+<!-- FILTERS -->
+<div class="filter-bar">
+  <div class="filter-bar-inner">
+    <div class="controls-row">
+      <div class="control-group">
+        <span class="control-label">الوحدة:</span>
+        <select class="styled-select" id="unitSelect">
+          <option value="">الكل</option>
+        </select>
+      </div>
+      <div class="control-group">
+        <span class="control-label">الترتيب:</span>
+        <select class="styled-select" id="sortSelect">
+          <option value="popular">🔥 الأكثر طلبًا</option>
+          <option value="cheap">⬇️ الأرخص سعرًا</option>
+          <option value="expensive">⬆️ الأعلى سعرًا</option>
+          <option value="name">🔤 أبجدي</option>
+        </select>
+      </div>
+      <div class="control-group">
+        <span class="control-label">أقصى سعر:</span>
+        <div class="price-range-box">
+          <input type="range" id="priceRange" min="0" max="10000" step="50" value="10000">
+          <div class="price-val" id="priceVal">—</div>
+        </div>
+      </div>
+      <button class="reset-btn" id="resetBtn" type="button">🔄 إعادة تعيين</button>
+    </div>
+    <div class="pills-scroll" id="pills"></div>
+  </div>
+</div>
+
+<!-- MAIN -->
+<div class="main">
+  <div class="b2b-banner">
+    <div class="b2b-icon">🤝</div>
+    <div class="b2b-text">
+      <div class="b2b-title">أسعار جملة حقيقية للتجار</div>
+      <div class="b2b-sub">خصومات إضافية للكميات الكبيرة • تعامل مباشر مع الموزّع • جودة مضمونة 100%</div>
+    </div>
+  </div>
+
+  <div class="stats" id="statsRow">
+    <div class="scard"><div class="scard-icon">📦</div><div><div class="scard-val" id="st1">—</div><div class="scard-label">إجمالي الأصناف</div></div></div>
+    <div class="scard"><div class="scard-icon">📈</div><div><div class="scard-val" id="st2">—</div><div class="scard-label">متوسط السعر</div></div></div>
+    <div class="scard"><div class="scard-icon">⬇️</div><div><div class="scard-val" id="st3">—</div><div class="scard-label">أقل سعر</div></div></div>
+    <div class="scard"><div class="scard-icon">⬆️</div><div><div class="scard-val" id="st4">—</div><div class="scard-label">أعلى سعر</div></div></div>
+  </div>
+
+  <div class="area-header">
+    <div class="area-title"><span class="dot"></span> المنتجات المتاحة</div>
+    <div class="area-sub">عرض <strong id="shownCount">0</strong> من أصل <strong id="totalCount">0</strong> منتج</div>
+  </div>
+
+  <div class="grid" id="grid"></div>
+
+  <div class="load-more" id="loadMoreDiv" style="display:none">
+    <button class="btn-more" id="loadMoreBtn" type="button">
+      <span>تحميل المزيد</span>
+      <span class="remaining" id="remaining">0</span>
+      <span>⬇️</span>
+    </button>
+  </div>
+</div>
+
+<!-- Floating buttons -->
+<a href="#" id="fabWA" class="fab-wa" aria-label="تواصل واتساب" target="_blank" rel="noopener">
+  <svg viewBox="0 0 32 32" fill="currentColor"><path d="M19.11 17.205c-.372 0-1.088 1.39-1.518 1.39a.63.63 0 0 1-.315-.1c-.802-.402-1.504-.817-2.163-1.447-.545-.516-1.146-1.29-1.46-1.963a.426.426 0 0 1-.073-.215c0-.33.99-.945.99-1.49 0-.143-.73-2.09-.832-2.335-.143-.372-.214-.487-.6-.487-.187 0-.36-.043-.53-.043-.302 0-.53.115-.746.315-.688.645-1.032 1.318-1.06 2.264v.114c-.015.99.472 1.977 1.017 2.78 1.23 1.82 2.506 3.41 4.554 4.34.616.287 2.035.888 2.722.888.817 0 2.15-.515 2.48-1.318.114-.257.157-.515.157-.787 0-.228-.057-.643-.242-.768-.57-.4-1.66-.79-2.435-.79zM16.46 4.92c-6.306 0-11.442 5.135-11.442 11.44 0 1.963.515 3.897 1.503 5.59l-1.504 5.373 5.53-1.476a11.39 11.39 0 0 0 5.92 1.63c6.306 0 11.42-5.135 11.42-11.44 0-6.306-5.114-11.44-11.42-11.44z"/></svg>
+</a>
+
+<button type="button" class="fab-cart" id="fabCart" aria-label="فتح السلة">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+  <span>السلة</span>
+  <span class="fab-cart-count" id="fabCartCount">0</span>
+</button>
+
+<!-- Cart Drawer -->
+<div class="cart-overlay" id="cartOverlay"></div>
+<aside class="cart-drawer" id="cartDrawer" aria-label="سلة المشتريات" aria-hidden="true">
+  <div class="cart-head">
+    <div class="cart-head-icon">🛒</div>
+    <div class="cart-head-title">
+      <h2>سلة طلبك</h2>
+      <p id="cartHeadSub">لا توجد منتجات بعد</p>
+    </div>
+    <button class="cart-close" id="cartClose" aria-label="إغلاق">✕</button>
+  </div>
+  <div class="cart-body" id="cartBody"></div>
+  <div class="cart-foot" id="cartFoot" style="display:none">
+    <div class="b2b-note">💎 الأسعار تقديرية — سيتم تأكيد السعر النهائي للكميات عبر واتساب</div>
+    <div class="cart-summary">
+      <div class="cart-summary-row"><span>عدد الأصناف</span><span id="sumItems">0</span></div>
+      <div class="cart-summary-row"><span>إجمالي الكميات</span><span id="sumQty">0</span></div>
+      <div class="cart-summary-row total"><span>الإجمالي التقديري</span><span class="amt" id="sumTotal">0 ج.م</span></div>
+    </div>
+    <div class="cart-actions">
+      <a class="cart-wa-btn" id="cartWABtn" href="#" target="_blank" rel="noopener">
+        <svg viewBox="0 0 32 32" fill="currentColor" aria-hidden="true"><path d="M19.11 17.205c-.372 0-1.088 1.39-1.518 1.39a.63.63 0 0 1-.315-.1c-.802-.402-1.504-.817-2.163-1.447-.545-.516-1.146-1.29-1.46-1.963a.426.426 0 0 1-.073-.215c0-.33.99-.945.99-1.49 0-.143-.73-2.09-.832-2.335-.143-.372-.214-.487-.6-.487-.187 0-.36-.043-.53-.043-.302 0-.53.115-.746.315-.688.645-1.032 1.318-1.06 2.264v.114c-.015.99.472 1.977 1.017 2.78 1.23 1.82 2.506 3.41 4.554 4.34.616.287 2.035.888 2.722.888.817 0 2.15-.515 2.48-1.318.114-.257.157-.515.157-.787 0-.228-.057-.643-.242-.768-.57-.4-1.66-.79-2.435-.79zM16.46 4.92c-6.306 0-11.442 5.135-11.442 11.44 0 1.963.515 3.897 1.503 5.59l-1.504 5.373 5.53-1.476a11.39 11.39 0 0 0 5.92 1.63c6.306 0 11.42-5.135 11.42-11.44 0-6.306-5.114-11.44-11.42-11.44z"/></svg>
+        <span>إرسال الطلب عبر واتساب</span>
+      </a>
+      <button class="cart-clear-btn" id="cartClearBtn" type="button">مسح الكل</button>
+    </div>
+  </div>
+</aside>
+
+<!-- PWA Install Banner -->
+<div class="pwa-banner" id="pwaBanner">
+  <div class="pwa-banner-icon">📲</div>
+  <div class="pwa-banner-text">
+    <b>ثبّت التطبيق على موبايلك</b>
+    <small>وصول أسرع • يعمل بدون نت</small>
+  </div>
+  <button class="pwa-install" id="pwaInstall">تثبيت</button>
+  <button class="pwa-dismiss" id="pwaDismiss" aria-label="إغلاق">✕</button>
+</div>
+
+<!-- PWA Install Modal (fallback for iOS / Firefox / when prompt unavailable) -->
+<div class="pwa-modal-overlay" id="pwaModalOverlay" role="dialog" aria-labelledby="pwaModalTitle" aria-hidden="true">
+  <div class="pwa-modal">
+    <div class="pwa-modal-head">
+      <div class="pwa-modal-head-icon">📲</div>
+      <div class="pwa-modal-head-text">
+        <h3 id="pwaModalTitle">ثبّت التطبيق على جهازك</h3>
+        <p>وصول أسرع • يعمل بدون نت • شاشة كاملة</p>
+      </div>
+      <button class="pwa-modal-close" id="pwaModalClose" aria-label="إغلاق">✕</button>
+    </div>
+    <div class="pwa-modal-body">
+      <div id="pwaReasonBox"></div>
+      <div class="pwa-browser-tabs" id="pwaTabs">
+        <button class="pwa-tab" data-tab="android" type="button"><span class="pwa-tab-ic">🤖</span>أندرويد</button>
+        <button class="pwa-tab" data-tab="ios" type="button"><span class="pwa-tab-ic">🍎</span>iPhone</button>
+        <button class="pwa-tab" data-tab="desktop" type="button"><span class="pwa-tab-ic">💻</span>الكمبيوتر</button>
+      </div>
+
+      <div class="pwa-steps" data-steps="android">
+        <div class="pwa-step"><div class="pwa-step-num">١</div><div class="pwa-step-text">افتح الموقع في متصفح <b>Chrome</b> أو <b>Edge</b> على الموبايل</div></div>
+        <div class="pwa-step"><div class="pwa-step-num">٢</div><div class="pwa-step-text">اضغط على زر القائمة <span class="ic">⋮</span> أعلى يمين الشاشة</div></div>
+        <div class="pwa-step"><div class="pwa-step-num">٣</div><div class="pwa-step-text">اختر <b>"تثبيت التطبيق"</b> أو <b>"Add to Home screen"</b></div></div>
+        <div class="pwa-step"><div class="pwa-step-num">٤</div><div class="pwa-step-text">اضغط <b>"تثبيت"</b> في النافذة المنبثقة → سيظهر الأيقونة على الشاشة الرئيسية ✅</div></div>
+      </div>
+
+      <div class="pwa-steps" data-steps="ios">
+        <div class="pwa-step"><div class="pwa-step-num">١</div><div class="pwa-step-text">افتح الموقع في متصفح <b>Safari</b> (مهم جدًا — ليس Chrome أو غيره)</div></div>
+        <div class="pwa-step"><div class="pwa-step-num">٢</div><div class="pwa-step-text">اضغط على زر المشاركة <span class="ic">⬆️</span> في أسفل الشاشة</div></div>
+        <div class="pwa-step"><div class="pwa-step-num">٣</div><div class="pwa-step-text">مرّر لأسفل واختر <b>"إضافة إلى الشاشة الرئيسية"</b> (Add to Home Screen) <span class="ic">➕</span></div></div>
+        <div class="pwa-step"><div class="pwa-step-num">٤</div><div class="pwa-step-text">اضغط <b>"إضافة"</b> (Add) في الزاوية → سيظهر التطبيق على الشاشة الرئيسية ✅</div></div>
+        <div class="pwa-note">💡 ملاحظة: iPhone لا يدعم التثبيت التلقائي — الخطوات اليدوية هي الطريقة الرسمية من Apple.</div>
+      </div>
+
+      <div class="pwa-steps" data-steps="desktop">
+        <div class="pwa-step"><div class="pwa-step-num">١</div><div class="pwa-step-text">افتح الموقع في <b>Chrome</b> أو <b>Edge</b> على الكمبيوتر</div></div>
+        <div class="pwa-step"><div class="pwa-step-num">٢</div><div class="pwa-step-text">ابحث عن أيقونة <span class="ic">⬇️</span> أو <span class="ic">💻</span> في نهاية شريط العنوان (يسار النجمة)</div></div>
+        <div class="pwa-step"><div class="pwa-step-num">٣</div><div class="pwa-step-text">اضغط عليها → ستظهر نافذة <b>"تثبيت محمد نور"</b></div></div>
+        <div class="pwa-step"><div class="pwa-step-num">٤</div><div class="pwa-step-text">اضغط <b>"تثبيت"</b> → سيفتح التطبيق في نافذة مستقلة ويظهر في قائمة التطبيقات ✅</div></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script>
+/* ═══════════════════════════════════════════════
+   CONFIG
+   ═══════════════════════════════════════════════ */
+const CONFIG = {
+  WA_NUMBER: '201019388501',
+  BRAND_NAME: 'محمد نور لزيوت السيارات',
+  CURRENCY: 'ج.م',
+  PAGE_SIZE: 48,
+  DEAL_THRESHOLD: 0.7,
+  CART_STORAGE_KEY: 'mn_oils_cart_v1',
+  PWA_DISMISS_KEY: 'mn_oils_pwa_dismissed_v1',
+};
+
+/* ═══════════════════════════════════════════════
+   DATA
+   ═══════════════════════════════════════════════ */
+const RAW_DATA = [{"n": "ابيسكو ٥/٤٠ (تخليقي) 4 لتر", "p": 1400.0, "u": "جالون", "c": "ابيسكو", "s": "4لتر"}, {"n": "ابيسكو اتش دي () ٤ ٥٠لتر", "p": 375.0, "u": "جالون", "c": "ابيسكو", "s": "4لتر"}, {"n": "ابيسكو اتش دي (سعودي ) 1 لتر", "p": 104.17, "u": "جالون", "c": "ابيسكو", "s": "1لتر"}, {"n": "ابيسكو ازرق سي دي ۲۰ لتر", "p": 1750.0, "u": "جركن", "c": "ابيسكو", "s": "20لتر"}, {"n": "ابيسكو اس اف ٤ ٢٠-٥٠ لتر", "p": 450.0, "u": "جالون", "c": "ابيسكو", "s": "4لتر"}, {"n": "ابيسكو اس ال ٤ ٢٠-٥٠ لتر", "p": 550.0, "u": "جالون", "c": "ابيسكو", "s": "4لتر"}, {"n": "ابيسكو اسمر سي اف ۲۰ لتر", "p": 2200.0, "u": "جركن", "c": "ابيسكو", "s": "20لتر"}, {"n": "ابيسكو باور ۳۲۰", "p": 203.33, "u": "جالون", "c": "ابيسكو", "s": "1لتر"}, {"n": "ابيسكو تروس ١٤٠ / ١٦ لتر", "p": 1630.0, "u": "جركن", "c": "ابيسكو", "s": "16لتر"}, {"n": "ابيسكو سي اتش فور 5 لتر", "p": 625.0, "u": "جالون", "c": "ابيسكو", "s": "5لتر"}, {"n": "ابيسكو مياة اخضر بزيت 4 لتر ٤٠%", "p": 300.0, "u": "جالون", "c": "ابيسكو", "s": "4لتر"}, {"n": "افيز بلاستك ١٥ / سم١٤", "p": 28.5, "u": "قطعة", "c": "افيز", "s": ""}, {"n": "افيز بلاستيك ٤,٨٢٠٠ صيني", "p": 53.0, "u": "كيس", "c": "افيز", "s": ""}, {"n": "افيز بلاستيك ٤,٨٣٠٠ صيني", "p": 58.0, "u": "كيس", "c": "افيز", "s": ""}, {"n": "افيز بلاستيك ٤,٨٣٧٠ صيني", "p": 70.0, "u": "كيس", "c": "افيز", "s": ""}, {"n": "افيز بلاستيك ٤,٨۳۷۰ صيني ابيض", "p": 70.0, "u": "كيس", "c": "افيز", "s": ""}, {"n": "افيز بلاستيك عريض ٧,٦٣٨٠ تايواني", "p": 150.0, "u": "كيس", "c": "افيز", "s": ""}, {"n": "اكسوفو اسكوتر ١ ١٠/٤٠ لتر", "p": 295.0, "u": "جالون", "c": "اكسوفو", "s": "1لتر"}, {"n": "اكسوفو فتيس () VIابيض التر", "p": 400.0, "u": "جالون", "c": "اكسوفو", "s": "1لتر"}, {"n": "اكسوفو فورتي تخليقي ١ ١٠/٤٠ لتر", "p": 290.0, "u": "جالون", "c": "اكسوفو", "s": "1لتر"}, {"n": "الاهلية ارفانول 1 ك", "p": 191.67, "u": "قطعة", "c": "الاهلية", "s": "1ك"}, {"n": "الاهلية شحم نافيبرون ١/٢ كم", "p": 55.83, "u": "قطعة", "c": "الاهلية", "s": "1/2ك"}, {"n": "الاهلية شحم نالكس 1 ك", "p": 8333.0, "u": "قطعة", "c": "الاهلية", "s": "1ك"}, {"n": "الأهلية شحم نالكس ١/٢ ك", "p": 41.67, "u": "جالون", "c": "الاهلية", "s": "1/2ك"}, {"n": "الاهلية صفيحة شحم ۱۱۸", "p": 970.0, "u": "بستلة", "c": "الاهلية", "s": "18ك"}, {"n": "الاهلية مركب تشحيم ١٤ لتر", "p": 800.0, "u": "جركن", "c": "الاهلية", "s": "14ك"}, {"n": "المصرية احمر تريلا ۲۰ لتر", "p": 960.0, "u": "جركن", "c": "المصرية", "s": "20لتر"}, {"n": "المصرية بسئلة شحم ك١٠", "p": 850.0, "u": "بستلة", "c": "المصرية", "s": "10ك"}, {"n": "المصرية تروس ١٤٠ / ١٦ لتر", "p": 880.0, "u": "جركن", "c": "المصرية", "s": "16لتر"}, {"n": "المصرية تروس ١٤٠ ا لتر", "p": 260.0, "u": "جالون", "c": "المصرية", "s": "1لتر"}, {"n": "المصرية سي دي 1 لتر", "p": 65.0, "u": "جالون", "c": "المصرية", "s": "1لتر"}, {"n": "المصرية سي دي 4 لتر", "p": 237.5, "u": "جالون", "c": "المصرية", "s": "4لتر"}, {"n": "المصرية هيدروليك ١٦ لتر", "p": 800.0, "u": "جركن", "c": "المصرية", "s": "16لتر"}, {"n": "النيل هيدروليك ٦٨ / ١٦ لتر", "p": 1000.0, "u": "جركن", "c": "النيل", "s": "16لتر"}, {"n": "الوادي صفيحة شحم اكسترا ۲۲۸", "p": 650.0, "u": "بستلة", "c": "الوادي", "s": "28ك"}, {"n": "الوادي مركب تشحيم 11 لتر", "p": 435.0, "u": "جركن", "c": "الوادي", "s": "11ك"}, {"n": "امارات مصر تروس ١٦ لتر ١٤٠", "p": 1550.0, "u": "جركن", "c": "امارات مصر", "s": "16لتر"}, {"n": "امیر صاروخ", "p": 6.25, "u": "قطعة", "c": "أخرى", "s": ""}, {"n": "ايثانول اضافة بنزين", "p": 165.0, "u": "قطعة", "c": "أخرى", "s": ""}, {"n": "ايزي احمر فياجرا السيارات", "p": 560.0, "u": "قطعة", "c": "ايزي", "s": ""}, {"n": "ايزي ازرق فياجرا سيارات", "p": 550.0, "u": "قطعة", "c": "ايزي", "s": ""}, {"n": "ايزي موتور فلاش ماكينه", "p": 450.0, "u": "قطعة", "c": "ايزي", "s": ""}, {"n": "باكم الماني ١/٢ لتر ATE", "p": 250.0, "u": "قطعة", "c": "باكم", "s": ""}, {"n": "باكم بلاتنيوم صغير", "p": 25.0, "u": "قطعة", "c": "باكم", "s": ""}, {"n": "باكم بلاتنيوم كبير", "p": 34.17, "u": "قطعة", "c": "باكم", "s": ""}, {"n": "باكم بلاستك فرينو ربع", "p": 14.58, "u": "قطعة", "c": "باكم", "s": ""}, {"n": "باكم بلاستيك وولف ۱/۲", "p": 10.62, "u": "قطعة", "c": "باكم", "s": ""}, {"n": "باكم فاليو ايطالي D3", "p": 130.21, "u": "قطعة", "c": "باكم", "s": ""}, {"n": "باكم فاليو ايطالي DUT4", "p": 155.0, "u": "قطعة", "c": "باكم", "s": ""}, {"n": "باكم فرنساوي بندكس صغير", "p": 56.25, "u": "قطعة", "c": "باكم", "s": ""}, {"n": "باكم فرنساوي بندكس كبير", "p": 85.0, "u": "قطعة", "c": "باكم", "s": ""}, {"n": "باكم فورما صفير ١/٤ بالخصم", "p": 20.83, "u": "قطعة", "c": "باكم", "s": ""}, {"n": "باكم فورما كبير ۲۱۱", "p": 48.33, "u": "قطعة", "c": "باكم", "s": ""}, {"n": "باور صاج فالي 1 لتر", "p": 62.5, "u": "قطعة", "c": "باور", "s": "1لتر"}, {"n": "باور صاج هانز اماراتي 1 APT لتر", "p": 66.67, "u": "قطعة", "c": "باور", "s": "1لتر"}, {"n": "باور ماتريكس بلاستيك ۷۰۰ مل", "p": 37.5, "u": "قطعة", "c": "باور", "s": "700م"}, {"n": "باور ماكس صاج اماراتي", "p": 115.0, "u": "جالون", "c": "باور", "s": "1لتر"}, {"n": "بتروتريد توك توك ۱.۷ ك", "p": 175.0, "u": "جالون", "c": "بتروتريد", "s": "1.7ك"}, {"n": "بتروجاك سي دي 4 لتر", "p": 362.5, "u": "جالون", "c": "بتروجاك", "s": "4لتر"}, {"n": "بتروجاك توكتوك ١,٦ ك", "p": 137.5, "u": "جالون", "c": "بتروجاك", "s": "1.6ك"}, {"n": "بتروجاك زيت موتور ۲۲ لتر", "p": 1650.0, "u": "جركن", "c": "بتروجاك", "s": "22لتر"}, {"n": "بترومين احمر ٥٠ / ٤ لتر", "p": 375.0, "u": "جالون", "c": "بترومين", "s": "4لتر"}, {"n": "بترومين اكسترا 4 لتر بالخصم", "p": 475.0, "u": "جالون", "c": "بترومين", "s": "4لتر"}, {"n": "بترومين الترا ١٥/٥٠ ٧ عرض 5 لتر", "p": 750.0, "u": "جالون", "c": "بترومين", "s": "5لتر"}, {"n": "بترومين تروس 1 لتر / ۹۰", "p": 112.5, "u": "جالون", "c": "بترومين", "s": "1لتر"}, {"n": "بترومين تروس ١٦ لتر / ١٤٠", "p": 1980.0, "u": "جالون", "c": "بترومين", "s": "16لتر"}, {"n": "بترومين تروس ١٦ لتر / ۹۰", "p": 1600.0, "u": "جركن", "c": "بترومين", "s": "16لتر"}, {"n": "بترومين تروس 4 لتر / ١٤٠", "p": 512.5, "u": "جالون", "c": "بترومين", "s": "4لتر"}, {"n": "بترومين تروس ۹۰ / ٤ لتر", "p": 400.0, "u": "جالون", "c": "بترومين", "s": "4لتر"}, {"n": "بترومين توك توك ١.٦ ك", "p": 187.5, "u": "جالون", "c": "بترومين", "s": "1.6ك"}, {"n": "بترومين توك توك ۱,۷۵۰ ك", "p": 207.5, "u": "جالون", "c": "بترومين", "s": "1.7ك"}, {"n": "بترومين ديومين 1 لتر", "p": 104.17, "u": "جالون", "c": "بترومين", "s": "1لتر"}, {"n": "بترومين ديومين ٤٠ / ٤ لتر", "p": 407.5, "u": "جالون", "c": "بترومين", "s": "4لتر"}, {"n": "بترومين ديومين 5 لتر", "p": 495.0, "u": "جالون", "c": "بترومين", "s": "5لتر"}, {"n": "بترومين ديومين ازرق ۲۰ لتر", "p": 1800.0, "u": "جركن", "c": "بترومين", "s": "20لتر"}, {"n": "بترومين سوبر ديزل ۲۰ لتر", "p": 2250.0, "u": "جركن", "c": "بترومين", "s": "20لتر"}, {"n": "بترومين سوبر ديزل 5 لتر", "p": 581.25, "u": "جالون", "c": "بترومين", "s": "5لتر"}, {"n": "بترومين شحم ازرق زد اف ۱ ك", "p": 440.0, "u": "قطعة", "c": "بترومين", "s": "1ك"}, {"n": "بترومين شحم ام بي ثري ١/٢ ك", "p": 275.0, "u": "قطعة", "c": "بترومين", "s": "1/2ك"}, {"n": "بترومين فليت ماستر ۲۰ لتر", "p": 2700.0, "u": "جركن", "c": "بترومين", "s": "20لتر"}, {"n": "بترومين هيدروليك ١٦ ٣٧ لتر", "p": 1200.0, "u": "جركن", "c": "بترومين", "s": "16لتر"}, {"n": "بترومين هيدروليك ٦٨ / ١٦ لتر", "p": 1130.0, "u": "جركن", "c": "بترومين", "s": "16لتر"}, {"n": "برجش شحم ٢.٥ كيلو الماني", "p": 2600.0, "u": "قطعة", "c": "برجش", "s": "2.5ك"}, {"n": "بريفكس شحم اصفر ۱/۲ ك", "p": 30.83, "u": "قطعة", "c": "بريفكس", "s": "1/2ك"}, {"n": "تام ابيض سي جي ۲۰ لتر", "p": 2660.0, "u": "جركن", "c": "تام (اولي انرجي)", "s": "20لتر"}, {"n": "نام احمر () ٢٠ ٤٠لتر", "p": 1840.0, "u": "جركن", "c": "تام (اولي انرجي)", "s": "20لتر"}, {"n": "تام احمر () ١ ٥٠لتر", "p": 106.25, "u": "جالون", "c": "تام (اولي انرجي)", "s": "1لتر"}, {"n": "تام احمر () ٢٠ ٥٠لتر", "p": 1865.0, "u": "جركن", "c": "تام (اولي انرجي)", "s": "20لتر"}, {"n": "تام احمر () ٤ ٥٠لتر", "p": 400.0, "u": "جالون", "c": "تام (اولي انرجي)", "s": "4لتر"}, {"n": "تام احمر () 5 ٥٠لتر", "p": 500.0, "u": "جالون", "c": "تام (اولي انرجي)", "s": "5لتر"}, {"n": "تام ازرق () ۲۰ ۵۰لتر", "p": 1975.0, "u": "جركن", "c": "تام (اولي انرجي)", "s": "20لتر"}, {"n": "تام ازرق () 4 ٥٠لتر", "p": 435.0, "u": "جالون", "c": "تام (اولي انرجي)", "s": "4لتر"}, {"n": "تام ازرق () 5 ٥٠لتر", "p": 540.0, "u": "جالون", "c": "تام (اولي انرجي)", "s": "5لتر"}, {"n": "تام اسمر ۲۰ لتر", "p": 2150.0, "u": "جركن", "c": "تام (اولي انرجي)", "s": "20لتر"}, {"n": "تام اسمر 5 لتر", "p": 540.0, "u": "جالون", "c": "تام (اولي انرجي)", "s": "5لتر"}, {"n": "تام اكسل ٤٨ لتر", "p": 1430.0, "u": "جالون", "c": "تام (اولي انرجي)", "s": "4لتر"}, {"n": "تام تروس ١٦ ٩٠ لتر", "p": 1630.0, "u": "جركن", "c": "تام (اولي انرجي)", "s": "16لتر"}, {"n": "تام تروس ١٤٠ / ١٦ لتر", "p": 1800.0, "u": "جركن", "c": "تام (اولي انرجي)", "s": "16لتر"}, {"n": "تام تروس ١٤٠ / ٤ لتر", "p": 450.0, "u": "جالون", "c": "تام (اولي انرجي)", "s": "4لتر"}, {"n": "تام تروس ١ ١٤٠ لتر", "p": 125.0, "u": "جالون", "c": "تام (اولي انرجي)", "s": "1لتر"}, {"n": "نام تروس ۱۹۰ لتر", "p": 120.0, "u": "جالون", "c": "تام (اولي انرجي)", "s": "1لتر"}, {"n": "نام توك توك ١.٦ لتر", "p": 180.0, "u": "جالون", "c": "تام (اولي انرجي)", "s": "1.6ك"}, {"n": "تام دهبي ۲۰ لتر بالخصم", "p": 2360.0, "u": "جركن", "c": "تام (اولي انرجي)", "s": "20لتر"}, {"n": "تام دهبي 5 لتر", "p": 600.0, "u": "جالون", "c": "تام (اولي انرجي)", "s": "5لتر"}, {"n": "نام مياة احمر ۳۳", "p": 375.0, "u": "جالون", "c": "تام (اولي انرجي)", "s": "4لتر"}, {"n": "تام هيدروليك ١٦ ٣٧ لتر", "p": 1450.0, "u": "جركن", "c": "تام (اولي انرجي)", "s": "16لتر"}, {"n": "تام هيدروليك ١٦ ٦٨ لتر", "p": 1200.0, "u": "جركن", "c": "تام (اولي انرجي)", "s": "16لتر"}, {"n": "تعاون اس اف 4 لتر", "p": 460.0, "u": "جالون", "c": "تعاون", "s": "4لتر"}, {"n": "تعاون اس ج ازرق 4 لتر", "p": 520.0, "u": "جالون", "c": "تعاون", "s": "4لتر"}, {"n": "تعاون اكس بي ال 4 لتر", "p": 635.0, "u": "جالون", "c": "تعاون", "s": "4لتر"}, {"n": "تعاون تروس ١٦ لتر ١٤٠", "p": 1900.0, "u": "جركن", "c": "تعاون", "s": "16لتر"}, {"n": "تعاون تروس 4 لتر ١٤٠", "p": 490.0, "u": "جالون", "c": "تعاون", "s": "4لتر"}, {"n": "تعاون سوبر اكس () ٤ ۱۰۰۰۰لتر", "p": 405.0, "u": "جالون", "c": "تعاون", "s": "4لتر"}, {"n": "تعاون سوبر اكس ١٦ لتر", "p": 1600.0, "u": "جركن", "c": "تعاون", "s": "16لتر"}, {"n": "تعاون سوبر ستان ۲۰ لتر", "p": 1870.0, "u": "جركن", "c": "تعاون", "s": "20لتر"}, {"n": "تعاون سوبر ستان 4 لتر", "p": 385.0, "u": "جالون", "c": "تعاون", "s": "4لتر"}, {"n": "تعاون سوليبيل ١٦ لتر", "p": 1595.0, "u": "جركن", "c": "تعاون", "s": "16لتر"}, {"n": "تعاون سي اي فور ۲۰ لتر", "p": 2800.0, "u": "جركن", "c": "تعاون", "s": "20لتر"}, {"n": "تعاون سي اي فور 5 لتر", "p": 710.0, "u": "جالون", "c": "تعاون", "s": "5لتر"}, {"n": "تعاون كوب فاكت ۲۰ لتر", "p": 2230.0, "u": "جركن", "c": "تعاون", "s": "20لتر"}, {"n": "تعاون كوب فاكت 5 لتر", "p": 565.0, "u": "جالون", "c": "تعاون", "s": "5لتر"}, {"n": "تعاون كوب فاكت ٢٠ ٢٥/٥٠ لتر", "p": 2250.0, "u": "جركن", "c": "تعاون", "s": "20لتر"}, {"n": "تعاون هيدروليك ١٦ ٦٨ لتر", "p": 1280.0, "u": "جركن", "c": "تعاون", "s": "16لتر"}, {"n": "تلميع طابلوه AKM مل ٢٥٠", "p": 45.0, "u": "قطعة", "c": "تلميع", "s": ""}, {"n": "تلميع طابلوه جليداتور ٤٥٠ مل", "p": 77.0, "u": "قطعة", "c": "تلميع", "s": ""}, {"n": "تلميع طابلوه عصفورة ٢٠٠ مم", "p": 37.0, "u": "قطعة", "c": "تلميع", "s": ""}, {"n": "تلميع طابلوه عصفورة كبير", "p": 65.0, "u": "قطعة", "c": "تلميع", "s": ""}, {"n": "تلميع طابلوه فلامنجو سيلفر كبير", "p": 75.0, "u": "قطعة", "c": "تلميع", "s": ""}, {"n": "تلميع طابلوه كريستال بالاسفنجة", "p": 80.0, "u": "قطعة", "c": "تلميع", "s": ""}, {"n": "تلميع طايلوه فيلامنجو سيلفر صغير", "p": 45.0, "u": "قطعة", "c": "تلميع", "s": ""}, {"n": "تلميع ومنظف جلد رابيدو", "p": 95.0, "u": "قطعة", "c": "تلميع", "s": ""}, {"n": "توتال ٥ ١٠/٤۰ ۷۰۰۰ لتر بسعر ٤", "p": 950.0, "u": "جالون", "c": "توتال", "s": "4لتر"}, {"n": "توتال ازرق ١٥/٤٠ ۷۵۰۰ ٢٠ لتر", "p": 3100.0, "u": "جركن", "c": "توتال", "s": "20لتر"}, {"n": "توتال ازرق ٥ ١٥/٤٠ ٧٤٠٠ لتر", "p": 820.0, "u": "جالون", "c": "توتال", "s": "5لتر"}, {"n": "توتال إلف تقيل ٥٠ / ٤ لتر", "p": 450.0, "u": "جالون", "c": "توتال", "s": "4لتر"}, {"n": "توتال انيو ( ) ٤ ٥/٣٠ ۱۰۰۰۰لتر", "p": 1650.0, "u": "جالون", "c": "توتال", "s": "4لتر"}, {"n": "توتال انيو ( ) ٤ ٥/٤٠ ١٠٠۰۰لتر", "p": 1650.0, "u": "جالون", "c": "توتال", "s": "4لتر"}, {"n": "توتال باور ۱ ۲۲۰ لتر", "p": 200.0, "u": "جالون", "c": "توتال", "s": "1لتر"}, {"n": "توتال تروس ١١٤٠ لتر", "p": 208.33, "u": "جالون", "c": "توتال", "s": "1لتر"}, {"n": "توتال تروس ۱۹۰ لتر", "p": 195.83, "u": "جالون", "c": "توتال", "s": "1لتر"}, {"n": "توتال جردل شحم ام بي ١٥ ك", "p": 3000.0, "u": "بسئلة", "c": "توتال", "s": "15ك"}, {"n": "توتال روبيا اس ۲۰ لتر", "p": 2750.0, "u": "جركن", "c": "توتال", "s": "20لتر"}, {"n": "توتال روبيا اس ١٦ لتر", "p": 2200.0, "u": "جركن", "c": "توتال", "s": "16لتر"}, {"n": "توتال روبيا اس 5 لتر", "p": 716.67, "u": "جالون", "c": "توتال", "s": "5لتر"}, {"n": "توتال غطاء اسمر ١٦ لتر", "p": 1900.0, "u": "جركن", "c": "توتال", "s": "16لتر"}, {"n": "توتال فليت ٥ ٢٠/٥٠ لتر", "p": 750.0, "u": "جالون", "c": "توتال", "s": "20لتر"}, {"n": "توتال فورتي () ۱ ۳۰۰لتر", "p": 148.33, "u": "جالون", "c": "توتال", "s": "4لتر"}, {"n": "توتال فورتي () ١ ٥٠٠لتر", "p": 166.67, "u": "جالون", "c": "توتال", "s": "1لتر"}, {"n": "توتال كورتز ٤ ٥٠٠٠ لتر", "p": 633.33, "u": "جالون", "c": "توتال", "s": "4لتر"}, {"n": "توتال مياة خضراء 1 لتر", "p": 125.0, "u": "جالون", "c": "توتال", "s": "1لتر"}, {"n": "توتال مياه حمراء 4 لتر", "p": 500.0, "u": "جالون", "c": "توتال", "s": "4لتر"}, {"n": "توتال مياه خضراء 5 لتر بسعر 4", "p": 460.0, "u": "جالون", "c": "توتال", "s": "5لتر"}, {"n": "توتال مياه زرقاء 1 لتر", "p": 115.0, "u": "جالون", "c": "توتال", "s": "1لتر"}, {"n": "توتال مياه زرقاء 5 لتر بسعر :", "p": 450.0, "u": "جالون", "c": "توتال", "s": "5لتر"}, {"n": "توتال هيدروليك ٦٨ اصفر ١٦ لتر", "p": 1230.0, "u": "جركن", "c": "توتال", "s": "16لتر"}, {"n": "توتال هيدروليك ازولا ابيض ١٦/٦٨ لتر", "p": 1800.0, "u": "جركن", "c": "توتال", "s": 16}, {"n": "جومالكة ماليزي", "p": 37.5, "u": "قطعة", "c": "أخرى", "s": ""}, {"n": "جيت اسمر ۲۰ لتر", "p": 1370.0, "u": "جركن", "c": "جيت", "s": "20لتر"}, {"n": "جيت توك توك ١.٦ ك", "p": 118.33, "u": "جالون", "c": "جيت", "s": "1.6ك"}, {"n": "جيت زيت متور 1 لتر", "p": 83.33, "u": "جالون", "c": "جيت", "s": "1لتر"}, {"n": "حشوة تويوتا ملاكي بروفاندر ياباني", "p": 135.0, "u": "قطعة", "c": "حشوة", "s": ""}, {"n": "حشوة جاز الفيل ٢ مرحلة", "p": 115.0, "u": "قطعة", "c": "حشوة", "s": ""}, {"n": "حشوة جاز ام بي فايف اتش E518", "p": 3700.0, "u": "قطعة", "c": "حشوة", "s": ""}, {"n": "حشوة جاز ام بي فور اتش", "p": 3780.0, "u": "قطعة", "c": "حشوة", "s": ""}, {"n": "حشوة جاز ام بي فور فلولاين | دولفين", "p": 900.0, "u": "قطعة", "c": "حشوة", "s": ""}, {"n": "حشوة جاز ام بي فور مهلي", "p": 3350.0, "u": "قطعة", "c": "حشوة", "s": ""}, {"n": "حشوة جاز بروفاندر ۲ مرحلة ۲۰۲۰", "p": 155.0, "u": "قطعة", "c": "حشوة", "s": ""}, {"n": "حشوة جاز بروفاندر / بي بي ياباني", "p": 145.0, "u": "قطعة", "c": "حشوة", "s": ""}, {"n": "حشوة جاز تويوتا GBM", "p": 85.0, "u": "قطعة", "c": "حشوة", "s": ""}, {"n": "حشوة جاز تویوتا باور ماکس", "p": 60.0, "u": "قطعة", "c": "حشوة", "s": ""}, {"n": "حشوة جاز جامبو ۲۰۲۰", "p": 160.0, "u": "قطعة", "c": "حشوة", "s": ""}, {"n": "حشوة جاز ديمكس JDA", "p": 80.0, "u": "قطعة", "c": "حشوة", "s": ""}, {"n": "حشوة جاز لودر ايسوزو تي اف ۳۷۸", "p": 75.0, "u": "قطعة", "c": "حشوة", "s": ""}, {"n": "حشوة جاز مان تيجا ورلد فيل ۹۸", "p": 285.0, "u": "قطعة", "c": "حشوة", "s": ""}, {"n": "حشوة جاز مرسيدس 1 لتر مغلف", "p": 37.0, "u": "قطعة", "c": "حشوة", "s": ""}, {"n": "حشوة جاز مرسيدس ۱/۲", "p": 35.0, "u": "قطعة", "c": "حشوة", "s": ""}, {"n": "حشوة دركسيون مرسيدس وورلد فيل ۲.", "p": 125.0, "u": "قطعة", "c": "حشوة", "s": ""}, {"n": "حشوة زيت افيكو ٧٠٧٤ / ۱۱۰ باور ماکس", "p": 650.0, "u": "قطعة", "c": "حشوة", "s": ""}, {"n": "حشوة زيت اكسور هنجست E175", "p": 820.0, "u": "قطعة", "c": "حشوة", "s": ""}, {"n": "حشوة زيت اكسور وورلد فيل ۱۷۵", "p": 360.0, "u": "قطعة", "c": "حشوة", "s": ""}, {"n": "حشوة زيت ام بي فايف اتش E523", "p": 1500.0, "u": "قطعة", "c": "حشوة", "s": ""}, {"n": "حشوة زيت ام بي فور اتش E510", "p": 1400.0, "u": "قطعة", "c": "حشوة", "s": ""}, {"n": "حشوة زيت ام بي فور البحار", "p": 700.0, "u": "قطعة", "c": "حشوة", "s": ""}, {"n": "حشوة زيت ام بي فور مهلي", "p": 1350.0, "u": "قطعة", "c": "حشوة", "s": ""}, {"n": "حشوة زيت اوبل سيجما شيفوليه كروز", "p": 165.0, "u": "قطعة", "c": "حشوة", "s": ""}, {"n": "حشوة زيت ايسوزو ٢٢٤", "p": 50.0, "u": "قطعة", "c": "حشوة", "s": ""}, {"n": "حشوة زيت بيجو وستروين حديث ٣٥٨", "p": 115.0, "u": "قطعة", "c": "حشوة", "s": ""}, {"n": "حشوة زيت بيجو وستروين قديم ۳۱۰", "p": 150.0, "u": "قطعة", "c": "حشوة", "s": ""}, {"n": "حشوة زيت توسان (اصلي) حديث M000", "p": 355.0, "u": "قطعة", "c": "حشوة", "s": ""}, {"n": "حشوة زيت توسان M0002021", "p": 170.0, "u": "قطعة", "c": "حشوة", "s": ""}, {"n": "حشوة زيت توسان تربو M100", "p": 130.0, "u": "قطعة", "c": "حشوة", "s": ""}, {"n": "حشوة زيت توسان قدیم ۲۰۱۵", "p": 140.0, "u": "قطعة", "c": "حشوة", "s": ""}, {"n": "حشوة زيت تويوتا كرولا لاكزس اصلي", "p": 330.0, "u": "قطعة", "c": "حشوة", "s": ""}, {"n": "حشوة زيت جامبو ۲۰۲۰", "p": 135.0, "u": "قطعة", "c": "حشوة", "s": ""}, {"n": "حشوة زيت ديمكس ۲۰۲۰ باور ماکس", "p": 120.0, "u": "قطعة", "c": "حشوة", "s": ""}, {"n": "حشوة زيت رينو كليو", "p": 120.0, "u": "قطعة", "c": "حشوة", "s": ""}, {"n": "حشوة زيت شيري / تيجو / اسبرانزا", "p": 90.0, "u": "قطعة", "c": "حشوة", "s": ""}, {"n": "حشوة زيت شيفروليه كروز نايلاندي", "p": 150.0, "u": "قطعة", "c": "حشوة", "s": ""}, {"n": "حشوة زيت فيات تيبو (-E31D93)", "p": 140.0, "u": "قطعة", "c": "حشوة", "s": ""}, {"n": "حشوة زيت لودر ML140", "p": 110.0, "u": "قطعة", "c": "حشوة", "s": ""}, {"n": "حشوة زيت مان تيجا ورلد فيل ٨٦", "p": 270.0, "u": "قطعة", "c": "حشوة", "s": ""}, {"n": "حشوة زيت مرسيدس ٣٥ ورلد فيل ۱۱", "p": 370.0, "u": "قطعة", "c": "حشوة", "s": ""}, {"n": "حشوة زيت مرسيدس A200", "p": 160.0, "u": "قطعة", "c": "حشوة", "s": ""}, {"n": "حشوة زيت مرسيدس 2200 الماني", "p": 180.0, "u": "قطعة", "c": "حشوة", "s": ""}, {"n": "حشوة زيت مرسيدس A300", "p": 170.0, "u": "قطعة", "c": "حشوة", "s": ""}, {"n": "حشوة زيت مرسيدس D155", "p": 145.0, "u": "قطعة", "c": "حشوة", "s": ""}, {"n": "حشوة زيت مرسيدس دي ۲۳۸", "p": 170.0, "u": "قطعة", "c": "حشوة", "s": ""}, {"n": "حشوة زيت مرسيدس سي ۱۸۰", "p": 150.0, "u": "قطعة", "c": "حشوة", "s": ""}, {"n": "حشوة زيت مرسيدس مكنة سمراء HD08", "p": 130.0, "u": "قطعة", "c": "حشوة", "s": ""}, {"n": "حشوة زيت مرسيدس ملاكي مكنة بيضاء", "p": 85.0, "u": "قطعة", "c": "حشوة", "s": ""}, {"n": "حشوة زيت موتسكل", "p": 35.0, "u": "قطعة", "c": "حشوة", "s": ""}, {"n": "حشوة زيت نيسان ۲۰۰۶ كوري", "p": 135.0, "u": "قطعة", "c": "حشوة", "s": ""}, {"n": "حشوة زيت نيسان قشقاي ورينو", "p": 155.0, "u": "قطعة", "c": "حشوة", "s": ""}, {"n": "حشوة مرسيدس ٨ سلندر وورلد فيل ١٧٤", "p": 295.0, "u": "قطعة", "c": "حشوة", "s": ""}, {"n": "MP4/510 حشوة مياه", "p": 800.0, "u": "قطعة", "c": "حشوة", "s": ""}, {"n": "رافع اوكتان را بيدو", "p": 100.0, "u": "قطعة", "c": "أخرى", "s": ""}, {"n": "روکیت برميل شحم ازرق", "p": 5300.0, "u": "برميل", "c": "روکیت", "s": ""}, {"n": "روکیت برميل شحم اصفر", "p": 5300.0, "u": "قطعة", "c": "روکیت", "s": ""}, {"n": "روكيت بستلة شحم ۱۱۸", "p": 600.0, "u": "بستلة", "c": "روکیت", "s": "18ك"}, {"n": "روكيت شحم 0.5 كجم", "p": 13.0, "u": "قطعة", "c": "روکیت", "s": "1/2ك"}, {"n": "روكيت شحم 1 ك", "p": 25.83, "u": "قطعة", "c": "روکیت", "s": "1ك"}, {"n": "روكيت صفيحة شحم ازرق 4 ك", "p": 120.0, "u": "بستلة", "c": "روکیت", "s": "4ك"}, {"n": "روكيت صفيحة شحم اصفر 4 ك", "p": 120.0, "u": "بسئلة", "c": "روکیت", "s": "4ك"}, {"n": "روكيت مركب تشحيم 1 لتر", "p": 50.0, "u": "جالون", "c": "روکیت", "s": "1ك"}, {"n": "ريزول ٦٠ منظف بوابة وحساسات", "p": 410.0, "u": "جالون", "c": "ريزول", "s": ""}, {"n": "ريزول () ۱۲منظف الحقن المباشر", "p": 370.0, "u": "قطعة", "c": "ريزول", "s": ""}, {"n": "ریزول () ۲۰حماية فتيس اتوماتيك", "p": 815.0, "u": "قطعة", "c": "ريزول", "s": ""}, {"n": "ريزول () ۲۰متور فلاش", "p": 370.0, "u": "قطعة", "c": "ريزول", "s": ""}, {"n": "ريزول () ۲۰منظف رشاشات مل١٥٠", "p": 470.0, "u": "قطعة", "c": "ريزول", "s": ""}, {"n": "ريزول () ۲۰منظف رشاشات ۳۰۰ مل", "p": 720.0, "u": "قطعة", "c": "ريزول", "s": ""}, {"n": "ریزول (۲۰) حماية باور", "p": 400.0, "u": "قطعة", "c": "ريزول", "s": ""}, {"n": "ریزول () ۲۰مانع تسريب الرياتير", "p": 1400.0, "u": "قطعة", "c": "ريزول", "s": ""}, {"n": "ریزول () ۲۱منظف دورة بنزين", "p": 600.0, "u": "قطعة", "c": "ريزول", "s": ""}, {"n": "ریزول () ۲۲منظف دورة ديزل", "p": 480.0, "u": "قطعة", "c": "ريزول", "s": ""}, {"n": "ريزول $(r\\circ G)$ رفع كفاءة البنزين", "p": 380.0, "u": "قطعة", "c": "ريزول", "s": ""}, {"n": "ریزول () ٥٩حماية سيراميك", "p": 775.0, "u": "قطعة", "c": "ريزول", "s": ""}, {"n": "ریزول () ٦٤٤فوم كربون", "p": 600.0, "u": "قطعة", "c": "ريزول", "s": ""}, {"n": "ريزول () PS10فلاش باور", "p": 1400.0, "u": "قطعة", "c": "ريزول", "s": ""}, {"n": "ریزول ۲۱ متور فلاش عالي", "p": 550.0, "u": "قطعة", "c": "ريزول", "s": ""}, {"n": "ريزول ٥٠ اضافة مرمم وحماية للموتور", "p": 550.0, "u": "قطعة", "c": "ريزول", "s": ""}, {"n": "ريزول ٥٧ اضافة موس", "p": 460.0, "u": "قطعة", "c": "ريزول", "s": ""}, {"n": "ریزول ۷۰ مانع تسريب الزيت", "p": 450.0, "u": "قطعة", "c": "ريزول", "s": ""}, {"n": "ریزول ۱۵/۳۰۸۰۰ لتر", "p": 575.0, "u": "جالون", "c": "ريزول", "s": "1لتر"}, {"n": "ريزول احمر ٤ ١٠/٤٠ لتر", "p": 1475.0, "u": "جالون", "c": "ريزول", "s": "4لتر"}, {"n": "ريزول ازرق تخليقي ٤ ٥/٤٠ لتر", "p": 2150.0, "u": "جالون", "c": "ريزول", "s": "5لتر"}, {"n": "ريزول الاسود ١٠/٤٠ تخليقي : لتر", "p": 1875.0, "u": "جالون", "c": "ريزول", "s": "4لتر"}, {"n": "ريزول تخليقي ٤ ٥/٣٠ لتر", "p": 2150.0, "u": "جالون", "c": "ريزول", "s": "5لتر"}, {"n": "ريزول منظف تكييف ۲۰AC", "p": 460.0, "u": "قطعة", "c": "ريزول", "s": ""}, {"n": "ریزول () G31منظف بيئة تنك", "p": 485.0, "u": "قطعة", "c": "ريزول", "s": ""}, {"n": "ريزويل ٥۰/۳۰ لتر", "p": 2500.0, "u": "جالون", "c": "ريزول", "s": "4لتر"}, {"n": "ريش مساحات تايلاندي", "p": 120.0, "u": "قطعة", "c": "ريزول", "s": ""}, {"n": "ريش مساحات ديمكس باور ماکس ()۱۸-۲۲", "p": 65.0, "u": "قطعة", "c": "ريزول", "s": ""}, {"n": "ريش مساحات فرنساوي ۲۲", "p": 270.0, "u": "قطعة", "c": "ريزول", "s": ""}, {"n": "زيت تويوتا ٥/٣٠ () ٤ ١٠٠٠٠لتر", "p": 1640.0, "u": "جالون", "c": "تويوتا", "s": "4لتر"}, {"n": "زيت تويوتا احمر ۳۰۰۰ كيلو 4 لتر", "p": 520.0, "u": "جالون", "c": "تويوتا", "s": "4لتر"}, {"n": "زيت تويوتا احمر 6 لتر ٢٠/٥٠", "p": 877.5, "u": "جالون", "c": "تويوتا", "s": "6لتر"}, {"n": "زيت تويوتا اخضر ٦ لتر ١٥/٤٠", "p": 925.0, "u": "جالون", "c": "تويوتا", "s": "6لتر"}, {"n": "زيت تويوتا اسمر ٥٠ كيلو 4 لتر", "p": 800.0, "u": "جالون", "c": "تويوتا", "s": "4لتر"}, {"n": "زيت تويوتا لاكزس ۱۰۰۰۰ ك 4 لتر", "p": 1670.0, "u": "جالون", "c": "تويوتا", "s": "4لتر"}, {"n": "زيت شمبر DRIVOL الماني", "p": 115.0, "u": "قطعة", "c": "تويوتا", "s": ""}, {"n": "زيت شمبر ابرو امريكي", "p": 175.0, "u": "قطعة", "c": "تويوتا", "s": ""}, {"n": "زيت شمبر ابرو امريكي شفاف مانع دخنة", "p": 200.0, "u": "قطعة", "c": "تويوتا", "s": ""}, {"n": "زيت فتيس IV تويوتا ياباني اصلي - 1", "p": 2500.0, "u": "قطعة", "c": "فتيس", "s": ""}, {"n": "زيت فتيس اتوماتك نيسان اصلي", "p": 2200.0, "u": "جالون", "c": "فتيس", "s": ""}, {"n": "زيت فتيس توسان تربو 1 لتر", "p": 780.0, "u": "جالون", "c": "فتيس", "s": "1لتر"}, {"n": "زيت فتيس تويوتا ياباني CVT اصلي", "p": 2750.0, "u": "جالون", "c": "فتيس", "s": ""}, {"n": "زيت فتيس تويوتا ws اصلي", "p": 2700.0, "u": "قطعة", "c": "فتيس", "s": ""}, {"n": "زيت فتيس کیا 4 سرعات 4 لتر اصلي", "p": 1650.0, "u": "جالون", "c": "فتيس", "s": "4لتر"}, {"n": "زيت فتيس لانسر اصلي 5 لتر", "p": 1650.0, "u": "جالون", "c": "فتيس", "s": "5لتر"}, {"n": "زيت فتيس هيونداي 4 سرعات 1 لتر", "p": 400.0, "u": "جالون", "c": "فتيس", "s": "1لتر"}, {"n": "زيت فتيس هيونداي 6 سرعات اصلي 1 IV لتر", "p": 420.0, "u": "جالون", "c": "فتيس", "s": "1لتر"}, {"n": "زيت كلاتش ماليزي", "p": 25.0, "u": "قطعة", "c": "أخرى", "s": ""}, {"n": "سوستة مصفة طلمبة جاز ديمكس", "p": 20.0, "u": "قطعة", "c": "أخرى", "s": ""}, {"n": "سيلكون حراري سلوك ماليزي", "p": 43.33, "u": "قطعة", "c": "أخرى", "s": ""}, {"n": "سيلكون عضم اسمر تركي DBADR", "p": 110.0, "u": "قطعة", "c": "أخرى", "s": ""}, {"n": "سيلكون عضم بولير رصاصي PROFIX", "p": 100.0, "u": "قطعة", "c": "أخرى", "s": ""}, {"n": "سيليكون رينزوسيل الماني حراري", "p": 98.0, "u": "قطعة", "c": "أخرى", "s": ""}, {"n": "شحم ٢.٥ كيلو الماني", "p": 970.0, "u": "قطعة", "c": "شحم", "s": "2.5ك"}, {"n": "شحم اس کا اف الماني", "p": 555.0, "u": "قطعة", "c": "شحم", "s": "1ك"}, {"n": "شحم اسبراي تركي جنزير", "p": 130.0, "u": "قطعة", "c": "شحم", "s": ""}, {"n": "شحم انبوبة ۲۰۰ جرام الماني", "p": 90.0, "u": "قطعة", "c": "شحم", "s": ""}, {"n": "شل احمر احادي 1 لتر", "p": 160.0, "u": "جالون", "c": "شل", "s": "1لتر"}, {"n": "شل احمر احادي 4 لتر", "p": 575.0, "u": "جالون", "c": "شل", "s": "4لتر"}, {"n": "شل احمر ادفانس 1 لتر", "p": 160.0, "u": "جالون", "c": "شل", "s": "1لتر"}, {"n": "شل احمر متعدد 1 لتر", "p": 160.0, "u": "جالون", "c": "شل", "s": "1لتر"}, {"n": "شل احمر متعدد 4 لتر", "p": 595.0, "u": "جالون", "c": "شل", "s": "4لتر"}, {"n": "شل از فور ١ ١٥/٤٠ لتر", "p": 250.0, "u": "جالون", "c": "شل", "s": "1لتر"}, {"n": "شل از فور ۲۲ لتر بسعر ۲۰", "p": 4070.0, "u": "جركن", "c": "شل", "s": "22لتر"}, {"n": "شل از فور 5 لتر بسعر 4", "p": 1060.0, "u": "جالون", "c": "شل", "s": "5لتر"}, {"n": "شل اصفر () ١ ٥٠٠٠لتر", "p": 250.0, "u": "جالون", "c": "شل", "s": "1لتر"}, {"n": "شل اصفر ( ) ٤ ٥٠۰۰لتر بالخصم", "p": 940.0, "u": "جالون", "c": "شل", "s": "4لتر"}, {"n": "شل اصفر () 5 ٥٠٠٠لتر بسعر 4", "p": 1140.0, "u": "جالون", "c": "شل", "s": "5لتر"}, {"n": "شل اصفر () ١ ٦٠٠٠لتر", "p": 1.0, "u": "جالون", "c": "شل", "s": "1لتر"}, {"n": "شل اصفر ( ) ٤ ٦٠٠٠لتر بالهدية", "p": 1240.0, "u": "جالون", "c": "شل", "s": "4لتر"}, {"n": "شل اصفر ۵۰۰۰ (بلاس الجديد ) 5 لتر", "p": 1140.0, "u": "جركن", "c": "شل", "s": "5لتر"}, {"n": "۱ ۱۰۰ لتر شل التر", "p": 500.0, "u": "جالون", "c": "شل", "s": "1لتر"}, {"n": "شل الترا () ٤ ١٠٠٠٠لتر ٥/٤٠", "p": 1850.0, "u": "جالون", "c": "شل", "s": "4لتر"}, {"n": "شل الترا ( ) ٥ ۱۰۰۰۰لتر ٥/٣٠", "p": 2270.0, "u": "جالون", "c": "شل", "s": "5لتر"}, {"n": "شل الترا () ٥ ۱۰۰۰۰لتر ٥/٤٠", "p": 2270.0, "u": "جالون", "c": "شل", "s": "5لتر"}, {"n": "شل الترا 4 ۵/۳۰ ۱۰۰۰۰ لتر", "p": 1925.0, "u": "جالون", "c": "شل", "s": "4لتر"}, {"n": "شل باور", "p": 245.0, "u": "قطعة", "c": "شل", "s": "1لتر"}, {"n": "شل تروس ۱۸۰/۹۰ لتر", "p": 203.0, "u": "جالون", "c": "شل", "s": "1لتر"}, {"n": "شل دراجات رصاصي تخليقي ايطالي", "p": 400.0, "u": "جالون", "c": "شل", "s": "1لتر"}, {"n": "شل درجات ازرق نصف تخليقي الماني", "p": 360.0, "u": "جالون", "c": "شل", "s": "1لتر"}, {"n": "شل ريمولا ابيض ۲۰ لتر", "p": 3130.0, "u": "جركن", "c": "شل", "s": "20لتر"}, {"n": "شل ريمولا ابيض 5 لتر", "p": 805.0, "u": "جالون", "c": "شل", "s": "5لتر"}, {"n": "شل ريمولا اسود ۲۰ لتر", "p": 3800.0, "u": "جركن", "c": "شل", "s": "20لتر"}, {"n": "شل ريمولا اسود 5 لتر", "p": 975.0, "u": "جالون", "c": "شل", "s": "5لتر"}, {"n": "شل سيتي ازرق ٤ ١٠/٤٠ لتر", "p": 1150.0, "u": "جالون", "c": "شل", "s": "4لتر"}, {"n": "شل سيتي ازرق ٥ ١٠/٤٠ لتر", "p": 1345.0, "u": "جالون", "c": "شل", "s": "5لتر"}, {"n": "شل مياه خضراء 4 لتر", "p": 420.0, "u": "جالون", "c": "شل", "s": "4لتر"}, {"n": "شل هيدروليك ١٦ ٦٨ لتر", "p": 1750.0, "u": "جركن", "c": "شل", "s": "16لتر"}, {"n": "شل هيدروليك ٢٠ ٦٨ لتر", "p": 2650.0, "u": "جركن", "c": "شل", "s": "20لتر"}, {"n": "شيلد احمر ٤ لتر ٢٠/٥٠", "p": 360.0, "u": "جالون", "c": "شيلد", "s": "4لتر"}, {"n": "شيلد ازرق 1 لتر", "p": 95.0, "u": "جالون", "c": "شيلد", "s": "1لتر"}, {"n": "شيلد ازرق 4 لتر", "p": 362.5, "u": "جالون", "c": "شيلد", "s": "4لتر"}, {"n": "شيلد اسمر ٢٥ لتر", "p": 2790.0, "u": "جركن", "c": "شيلد", "s": "25لتر"}, {"n": "شيلد شحم ۱/۲ كيلو", "p": 88.0, "u": "قطعة", "c": "شيلد", "s": "1/2ك"}, {"n": "شيلد شحم اصفر ۱۲ كيلو اقتصادي", "p": 950.0, "u": "قطعة", "c": "شيلد", "s": "12ك"}, {"n": "شيلد شحم ام بي ۲ / ۱۲ كيلو", "p": 1390.0, "u": "بستلة", "c": "شيلد", "s": "12ك"}, {"n": "صابون نيون 1 لتر", "p": 20.0, "u": "قطعة", "c": "صابون", "s": "1لتر"}, {"n": "صابون ووتش ١٤ لتر", "p": 270.0, "u": "جالون", "c": "صابون", "s": "14لتر"}, {"n": "صابون ووتش ۲۰ لتر", "p": 370.0, "u": "جركن", "c": "صابون", "s": "20لتر"}, {"n": "صابون ووتش 5 لتر", "p": 120.0, "u": "جالون", "c": "صابون", "s": "5لتر"}, {"n": "طقم اوطاش بطارية المضني نحاس", "p": 60.0, "u": "قطعة", "c": "أخرى", "s": ""}, {"n": "طقم اوطاش تقيل AKM", "p": 63.0, "u": "قطعة", "c": "أخرى", "s": ""}, {"n": "طقم جاز وزيت اکتورز هنجست وکیل", "p": 1050.0, "u": "قطعة", "c": "أخرى", "s": ""}, {"n": "طقم جاز وزيت هنجست استيراد", "p": 1000.0, "u": "قطعة", "c": "أخرى", "s": ""}, {"n": "طقم جازوزيت افيكو ۲۰۱۷ ايطالي", "p": 1300.0, "u": "قطعة", "c": "أخرى", "s": ""}, {"n": "طقم ريش رابر جلد ۱۸", "p": 70.0, "u": "قطعة", "c": "أخرى", "s": ""}, {"n": "طقم ريش رابر جلد ۲۲", "p": 80.0, "u": "قطعة", "c": "أخرى", "s": ""}, {"n": "طقم ريش مساحات روبر جلد ۲۰", "p": 70.0, "u": "قطعة", "c": "أخرى", "s": ""}, {"n": "طقم ريش مساحات رابر جلد ٢٤", "p": 80.0, "u": "قطعة", "c": "أخرى", "s": ""}, {"n": "طقم زيت مرسيدس ٤٤ وولد فيل ٢٣", "p": 360.0, "u": "قطعة", "c": "أخرى", "s": ""}, {"n": "طقم فلاتر زيت جامبو ٩٦ باور ماكس", "p": 215.0, "u": "قطعة", "c": "أخرى", "s": ""}, {"n": "طقم فلترزيت جامبو الفيل ٩٦", "p": 215.0, "u": "قطعة", "c": "أخرى", "s": ""}, {"n": "عجينة سحرية سوبر كويك", "p": 32.5, "u": "قطعة", "c": "أخرى", "s": ""}, {"n": "عرض اسفنجة تلميع طابلوه ب ١٥ ج", "p": 13.5, "u": "قطعة", "c": "أخرى", "s": ""}, {"n": "عرض باندل سفاري ٢٠/٥٠ هدية دكتور", "p": 830.0, "u": "قطعة", "c": "أخرى", "s": ""}, {"n": "عرض باندل مانول ايليت ٤ ٥/٤٠ لتر", "p": 2160.0, "u": "كرتونه", "c": "أخرى", "s": ""}, {"n": "عرض تلميع طابلوه رابيدو", "p": 65.0, "u": "قطعة", "c": "أخرى", "s": ""}, {"n": "عرض فبريكا تلميع ومعطر", "p": 90.0, "u": "قطعة", "c": "أخرى", "s": ""}, {"n": "عرض فوط جلد طبيعي صغيرة", "p": 45.0, "u": "قطعة", "c": "أخرى", "s": ""}, {"n": "عرض معطر اسمایل تصفيات ٢٥ ج", "p": 25.0, "u": "قطعة", "c": "أخرى", "s": ""}, {"n": "عرض معطر اكس ١٥ ج", "p": 15.0, "u": "قطعة", "c": "أخرى", "s": ""}, {"n": "عرض معطر جو رابيدو", "p": 55.0, "u": "قطعة", "c": "أخرى", "s": ""}, {"n": "عرض معطر شجرة ب ١٥ ج", "p": 15.0, "u": "قطعة", "c": "أخرى", "s": ""}, {"n": "عرض معطر شجرة صغير روزير", "p": 11.5, "u": "قطعة", "c": "أخرى", "s": ""}, {"n": "عرض مناديل زينة معطرة 3 قطعة", "p": 115.0, "u": "قطعة", "c": "أخرى", "s": ""}, {"n": "عرض مناديل فاين | وايت 3 علبة", "p": 85.0, "u": "قطعة", "c": "أخرى", "s": ""}, {"n": "عرض منظف بنزين مع اوكتان رابيدو", "p": 140.0, "u": "قطعة", "c": "أخرى", "s": ""}, {"n": "عرض منظف سيارات واتش رابيدو", "p": 60.0, "u": "قطعة", "c": "أخرى", "s": ""}, {"n": "عروض معطر كريستال دمعة كبير تصفياات", "p": 25.0, "u": "قطعة", "c": "أخرى", "s": ""}, {"n": "غطاء ردياتير كوري", "p": 70.0, "u": "قطعة", "c": "أخرى", "s": ""}, {"n": "فاكسول بسئلة شحم ام بي ١٢ ك", "p": 1400.0, "u": "بسئلة", "c": "فاكسول", "s": "12ك"}, {"n": "فالي احمر ١٦ لتر", "p": 845.0, "u": "جركن", "c": "فالي", "s": "16لتر"}, {"n": "فالي أحمر 4 لتر", "p": 217.5, "u": "جالون", "c": "فالي", "s": "4لتر"}, {"n": "فالي احمر بترو وان ۲۰ لتر", "p": 850.0, "u": "جركن", "c": "فالي", "s": "20لتر"}, {"n": "فالي ازرق ۲۰ لتر", "p": 1000.0, "u": "جركن", "c": "فالي", "s": "20لتر"}, {"n": "فالي اسمر ۲۰ لتر", "p": 985.0, "u": "جركن", "c": "فالي", "s": "20لتر"}, {"n": "فالي اوماكس احمر 1 لتر", "p": 60.83, "u": "جالون", "c": "فالي", "s": "1لتر"}, {"n": "فالي تروس ١٦ ١٤٠ لتر", "p": 850.0, "u": "جركن", "c": "فالي", "s": "16لتر"}, {"n": "فالي تروس ٤ ١٤٠ لتر", "p": 237.5, "u": "جالون", "c": "فالي", "s": "4لتر"}, {"n": "فالي توك توك ١.٦ لتر", "p": 97.5, "u": "جالون", "c": "فالي", "s": "1.6ك"}, {"n": "فالي موديل 1 لتر", "p": 60.0, "u": "جالون", "c": "فالي", "s": "1لتر"}, {"n": "فالي هيدروليك ١٦ لتر HR", "p": 780.0, "u": "جركن", "c": "فالي", "s": "16لتر"}, {"n": "فالي هيدروليك 4 لتر", "p": 241.67, "u": "جالون", "c": "فالي", "s": "4لتر"}, {"n": "فلتر اکتورز جاز وورلد فيل ٣٦", "p": 300.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر اکتورز زيت وورلد فيل ۱۲۹", "p": 300.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر بنزين اكسنت وسوزوكي", "p": 60.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر بنزين بلاستيك", "p": 25.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر بنزين دايو باور ماكس ٤٤٤٦٤٩", "p": 70.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر بنزين فيرنا", "p": 70.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر تكيف اسكودا 25", "p": 175.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر تكيف اسكودا A7", "p": 210.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر تكيف توسان حديث", "p": 150.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر تكيف تویوتا کرولا ۲۰۰۷", "p": 120.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر تكيف تويوتا كرولا حديث", "p": 100.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر تكيف سبورتاج ٢٠١٤/٣٩٢٠", "p": 140.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر تكيف سيراتو ام دي", "p": 110.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر تكيف كيا سيراتو - ۲۰۱۱ النترا - سول", "p": 120.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر تكيف كيا صول", "p": 135.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر تكيف كيا كارنز", "p": 120.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر تكيف لانسر ۲۰۰۷", "p": 110.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر تكيف لانسر شارك", "p": 130.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر تكيف ماتركس", "p": 110.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر تكيف مرسيدس اكتروس ۳۲", "p": 375.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر تكيف نيسان صني N16", "p": 135.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر تكيف نيسان قشقاي ورينو ميجان", "p": 200.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر تكيف هيونداي فيرنا", "p": 120.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر جاز ۱۰۱ - ۸۷۱", "p": 125.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر جاز ٢٠٨ - بي ٨٤٠ اف", "p": 65.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر جاز ۲۰۸ اسمر باور ماكس / رايت", "p": 80.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر جاز ۲۰۸ ال اف", "p": 60.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر جاز ٢١٤ - ٨٥٠ باور ماكس", "p": 80.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر جاز ٥٤٨٥ افيكو حديث", "p": 210.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر جاز ٧٣٤ - ٨٢٥", "p": 92.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر جاز ۸۳۱", "p": 130.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر جاز ٨٧٦ برتقالي بي اف", "p": 100.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر جاز ۹۰۱", "p": 240.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر جاز ابيض ٥٠٥٨", "p": 85.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر جاز اسكانيا ۸۱۰ / ٥٠١٨", "p": 75.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر جاز اسكانيا اتش الماني ٦٠", "p": 245.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر جاز اسكانيا وورلد فيل ٦٠ / دولفن", "p": 115.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر جاز اسمر ياور ماكس / TO", "p": 80.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر جاز اصفر ال اف / باور ماكس", "p": 65.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر جاز اصفر بي اف ٨٦٤", "p": 80.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر جاز افيكو ۹۳۲ برتقالي", "p": 205.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر جاز افيكو حديث بحنفية ٩٠٣", "p": 250.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر جاز الفيل ۲۰۸", "p": 82.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر جاز براد ۱۹۵۸۰", "p": 230.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر جاز تويوتا ۱۵۸ بی اف", "p": 110.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر جاز جرار صيني ٨٥٣", "p": 95.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر جاز حفار ١٨٥", "p": 130.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر جاز ديمكس تايلاندي", "p": 100.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر جاز ديهاتسو ۷۰۷ / ٨٠٥", "p": 100.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر جاز روماني ۸۳۸ باور ماكس", "p": 60.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر جاز فاصل فولفو ۱۱۰۰۱", "p": 1375.0, "u": "جالون", "c": "فلتر", "s": ""}, {"n": "فلتر جاز فاصل فولفو 1×۱۱۰۰۱", "p": 1350.0, "u": "جالون", "c": "فلتر", "s": ""}, {"n": "فلتر جاز فضي الفيل", "p": 99.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر جاز فضي تايلاندي", "p": 125.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر جاز فولفو ۱۱۰۵۱", "p": 1500.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر جاز کامنز ۱۲۱۲ / ۱۲۸۰", "p": 145.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر جاز متسوبشي ٣١٩ - ٨٤٥", "p": 125.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر جاز نيسان ٢٣٤ مقفول ۸۱۳ - ۵۱۵۹", "p": 110.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر جاز نيسان ۲۳۵ بفيشة ٨٣٩ - ٥١٥٩", "p": 120.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر جاز هيونداي ۸۳۰ / ۳۲۱ بي اف", "p": 115.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت ۳۰۱ / ۸۲۱", "p": 115.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت ۳۳۲۸ کامنز", "p": 235.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت ٣٤٨١ جرار فيات ١٣٠", "p": 240.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت ۳۹۹٥", "p": 350.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت ۷۷۷ حفار ۱۲۰", "p": 390.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت اسكانيا وورلد فيل 1.", "p": 130.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت اسكودا ٧ / سيات ليون فضي الماني", "p": 185.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت اسكودا الماني علية بيضاء", "p": 135.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت اسكودا باور ماكس", "p": 120.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت اسكودا بوش ۳۰۳۳", "p": 265.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت اسكودا فضي (صيني)", "p": 115.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت افيكو ٣٥٩٤", "p": 265.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت ام جي / كابتيفا ۷۱۳۲۸", "p": 110.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت ام جي ۷۰۰۸", "p": 120.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت ام جي ٧٠٥٦ سن واسع", "p": 120.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت باسات واسكودا حديث بقبرة", "p": 200.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت براد ۹۰۳۰", "p": 250.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت بولو الماني", "p": 180.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت بولو بطبة باور ماكس", "p": 115.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت بيجو ٥٠٤ - سن ضيق - ١٥٢", "p": 85.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت بيجو ٥٠٥ - ٨٥٢", "p": 105.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت بيكانتو تايلاندي", "p": 100.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت ترانسمیشن ۳۰۰۰", "p": 560.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت توك توك ٨٦٦", "p": 50.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت تويوتا ۱۰۱ باور ماكس", "p": 100.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت تويوتا ۱۰۲ - ۸۵۰", "p": 85.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت تويوتا ۱۰۲ ال اف", "p": 75.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت تويوتا ۱۱۵ - ۸۰۲", "p": 125.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت تويوتا ۱۱۵ باور ماكس", "p": 125.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت تويوتا بخاخة بروفاندر", "p": 150.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت تويوتا بخاخة طويل", "p": 125.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت تويوتا بخاخة ميكروباص -VMAX", "p": 100.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت تويوتا كرولا MO", "p": 60.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت تويوتا كرولا GBM", "p": 60.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت تويوتا كرولا لاكزس اصلي", "p": 300.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت تويوتا كوري ۱۵۰", "p": 100.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت تويوتا ملاكي تايلاندي", "p": 100.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت جامبو 1 مرحلة -VMAX", "p": 300.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت جامبو ۲ مرحلة -VMAX", "p": 310.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت جامبو ۲ مرحلة جي اف + d max", "p": 350.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت جامبو الفيل ۲۰۱", "p": 195.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت جرار ٦٧٨", "p": 120.0, "u": "جالون", "c": "فلتر", "s": ""}, {"n": "فلتر زيت جرار فيات ٨٥٥ - ٢٥٧٥", "p": 185.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت جيب ۲۰۱۰", "p": 200.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت دايو باور ماكس", "p": 60.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت دايو كوري ۷۱۰", "p": 105.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت دبابة ٥١٢ الفيل", "p": 105.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت دبابة حتي ٥۱۲-٨١٦۲۰۰۵", "p": 100.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت ديمكس الفيل ۹۲۷", "p": 82.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت ديمكس باور ماكس", "p": 75.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت ديمكس بعد ۲۰۰۵ تايلاندي", "p": 100.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت ديمكس رايت تايلاندي", "p": 80.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت ديمكس من واسع تايلاندي", "p": 115.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت ديهاتسو ٣٠٢ - ٨٤٥", "p": 120.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت روماني M", "p": 135.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت روماني ٣٦", "p": 165.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت ريس ٥٩٥", "p": 200.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت رينو - تيفولي - سانج يونج ٨٤٣", "p": 105.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت رينو نقل ٦٦٧", "p": 275.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت سوزوكي فان ماروتي M", "p": 58.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت سوزوكي فان ماروتي بي اف", "p": 65.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت سوزوكي فان يوني فيرسل تايلاندي", "p": 115.0, "u": "جالون", "c": "فلتر", "s": ""}, {"n": "فلتر زيت سيزوكي سويفت بي اف ٨٤٤", "p": 85.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت شاهين ۸۰۳ / اونو - سانج يونج", "p": 75.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت شيفروليه ٥٠٣ - ٨٠٤ حفار ١٠٥", "p": 135.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت شيفوليه ۱/۸ بي اف", "p": 68.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت فولفو ۱۱۱۰۲/۳٦", "p": 625.0, "u": "جالون", "c": "فلتر", "s": ""}, {"n": "فلتر زيت فولفو ۱۱۱۰۲/۳", "p": 775.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت فيات ٤٠٢ - ۸۰۱ اسبرانزا ۱۱۳", "p": 70.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت فيات ٤٠٧ - ٨٤٢", "p": 90.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت كامنز ۳۳۱۳ حفار ٦٠", "p": 130.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت كمنز ٣٣٤٩ مكنة ١٠٢", "p": 160.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت كمنز وكوماتسو ٦٧٠", "p": 320.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت كوماتسو واسع ٤٠٥٦ - ٦٥٤", "p": 120.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت كيا بيكانتو باور ماكس", "p": 60.0, "u": "جالون", "c": "فلتر", "s": ""}, {"n": "فلتر زيت كيا وهيونداي اصلي", "p": 240.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت لادا برتقالي ٨٦١ - ٥٦١", "p": 100.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت لانسر باور ماكس / TO", "p": 60.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت لانسر بوش ٢٠٤١", "p": 160.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت لانسر تايلاندي", "p": 100.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت لانسر كوري ٥١١", "p": 100.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت ماجروس ٤٤٢٧ - ٤٠٥٤ - ٨١٨", "p": 140.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت مازدا ٤٠١", "p": 140.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت مازدا ٤٠٤ - ٣٦٦٦ - ۸۰۷ حفار ۱۰۵", "p": 190.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت مازدا ۱۰۹ - ۸۳۳", "p": 180.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "2000D47 فلتر زيت مان", "p": 200.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت مكنة هندي ٤٠٥٦/٨٤٦٢٠٢٠", "p": 120.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت ميتسوبشي ٣٠٦ - ٨٣٤", "p": 150.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت ميتسوبشي ۳۱۰ - ۸۱۵", "p": 180.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت نيسان ۲۰٦ ٢٠١٤ - ۸۱۱", "p": 120.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت نيسان اسديلكو منصور", "p": 100.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت نيسان باور ماكس / TO65F", "p": 58.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت نيسان کوری ۲۲۲۳", "p": 10.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت نيسان مكسيكي اصلي", "p": 230.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت هوندا سيفك ياباني", "p": 200.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت هيونداي GBM", "p": 70.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت هيونداي اسديلكو منصور", "p": 65.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت هيونداي اتش وان ۸۷۳", "p": 150.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت هيونداي باور ماكس", "p": 60.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت هيونداي بوش ٣٣١٦", "p": 150.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت هيونداي بي اف ۸۱۹", "p": 73.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت هيونداي تايلاندي", "p": 100.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت هيونداي كوري ٤٢٩", "p": 100.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر زيت جرار ٣٤٨١ فيات ١٣٠", "p": 240.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر عطاس دولفن من عكس ۳۸۰", "p": 550.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر عطاس كنور اصلي", "p": 750.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر عطاس کنور اصلي من خشن", "p": 1250.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر فتيس شارك ٢٨٢٤A007", "p": 270.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر فتيس فيرنا / ماتريكس ۲۲۷۳۱", "p": 250.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر فتيس لانسر ٧٥٨٦٨٤۱۳۰۰", "p": 320.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر فتيس لانسر بومة ٥١٥٠٦٤١٦٠٠", "p": 330.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر فتيس نيسان N17_3MXOA3", "p": 370.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر فتيس نيسان قشقاي JXOA", "p": 350.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر فتيس هيونداي /AD2F000", "p": 350.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر فتيس هيونداي /MD26000", "p": 350.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر كوباية جاز ديمكس باور ماكس ٩٤٧", "p": 90.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر هواء اتوبيس الفيل ۱۰۳", "p": 180.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر هواء اسكودا :", "p": 140.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر هواء اسكودا A5", "p": 185.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر هواء اسكودا A7", "p": 220.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر هواء افيكو استرلز ۲۰۱۲ طويل", "p": 1000.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر هواء افيو ۹۲۸ كوري", "p": 140.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر هواء ام بي تو تركي البحار", "p": 1900.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر هواء ام بي فور 5 شباك دولفين", "p": 3700.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر هواء ام بي وان ٦ سلندر", "p": 1050.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر هواء ام بي وان اكتورز ۸", "p": 1200.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر هواء ام ي ب فور 4 شباك دولفن", "p": 2400.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر هواء توسان ۲۰۱۲ - ۲۰۱۵", "p": 170.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر هواء توسان ۲۰۲۱/۲۰۲۵", "p": 160.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر هواء توسان من ۲۰۱۷ جتي ۲۰۲۲", "p": 150.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر هواء توك توك مدور", "p": 90.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر هواء توك توك مربع", "p": 75.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر هواء تويوتا بخاخة الفيل ٢٠٠٦", "p": 370.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر هواء تويوتا بخاخة بروفاندر", "p": 700.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر هواء تويوتا بخاخة مربع ۲۰۱۷/۲۰۱۵", "p": 270.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر هواء تويوتا كرولا ۲۰۰۷", "p": 120.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر هواء تويوتا كرولا ۲۰۱۳", "p": 135.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر هواء تويوتا كرولا ۲۰۲۰", "p": 165.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر هواء تويوتا مسطرة مدور", "p": 150.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر هواء تويوتا ميكرباص بي اف", "p": 130.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر هواء تويوتا ميكروباص عادي", "p": 90.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر هواء تويوتا ميكروباص یو بی اس", "p": 135.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر هواء تويوتا هاي لوكس فيجو", "p": 265.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر هواء جامبو اكتروس الفيل", "p": 400.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر هواء جامبو اكتورس ٢٩٤-٢", "p": 380.0, "u": "جالون", "c": "فلتر", "s": ""}, {"n": "فلتر هواء جامبو اکتورس ۲۰۲۰", "p": 460.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر هواء جامبو جولد تايلاندي", "p": 190.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر هواء جامبو طاهي تايلاندي", "p": 500.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر هواء جامبو موس", "p": 250.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر هواء حفار ۱۲۰ مكنة ۱۰۲", "p": 210.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر هواء دايو لانوس", "p": 110.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر هواء دبابة  ", "p": 115.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر هواء دبابة ۸۰ بي اف ۱۰۹", "p": 90.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر هواء دبابة ٩٤ الفيل نص ونص", "p": 150.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر هواء ديمكس الفيل مدور", "p": 125.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر هواء ديمكس دي ماكس مدور", "p": 235.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر هواء ديمكس مدور GL MAX", "p": 140.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر هواء ديمكس مربع بالشبكة GBM", "p": 155.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر هواء ديمكس مربع بالشبكة الفيل", "p": 200.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر هواء ديمكس مربع بدون JBN", "p": 250.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر هواء ديمكس مربع بدون تيلاندي", "p": 230.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر هواء ديمكس مربع بدون ورلد فيل", "p": 145.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر هواء رينو ميجان", "p": 220.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر هواء سوزوكي ۱/۸", "p": 110.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر هواء سوزوكي سويفت", "p": 165.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر هواء سيراتو وكيا صول ۲۰۱۲", "p": 120.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر هواء شاهين مدور", "p": 100.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر هواء شيفوليه ۱/۸ يو اس بي", "p": 125.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر هواء غبور طويل PLOIN", "p": 770.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر هواء غبور طويل دولفن", "p": 1100.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر هواء غبور قصير البحار", "p": 1100.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر هواء غبور قصير ومان تيجا ploin", "p": 830.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر هواء فيات ۱۲۸", "p": 90.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر هواء فيات تيبو", "p": 170.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر هواء كاريتا وكيا صول ٢٠١٦", "p": 145.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر هواء كوبوتا صغير ولودر صغير", "p": 85.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر هواء كوبوتا كبير", "p": 100.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر هواء كيا بيكانتو حديث", "p": 120.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر هواء كيا بيكانتوا ۲۰۱۰", "p": 120.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر هواء كيا سيراتو والنترا ۲۰۰۷", "p": 135.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "هواء كیا کارنز فلتر", "p": 135.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر هواء لانسر بومة ٢٠٠٧", "p": 135.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر هواء لانسر شارك", "p": 130.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "هواء لانسر كريستالة فلتر", "p": 155.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر هواء مرسيدس ٣٥ تركي", "p": 700.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر هواء مرسيدس ٤٤ تركي", "p": 700.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر هواء ميتسوبيشي الفيل كانتر ۷۰۰۷", "p": 215.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر هواء ميكروباص بخاخة ۲۰۲۰", "p": 290.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر هواء نوبيرا", "p": 135.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر هواء نوسان حدیث ۲۰۲۰", "p": 170.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر هواء نيسان ١٤١ سلعوة ٢٠١٤", "p": 150.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر هواء نيسان ان ١٦", "p": 135.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر هواء نيسان آن ۱۷", "p": 135.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر هواء نیسان بزور ۲۰۱۱", "p": 160.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر هواء نيسان سنترا", "p": 145.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر هواء نيسان قشقاي", "p": 185.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر هواء نيسان نيو قشقاي", "p": 200.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر هواء هتاشي حفار ٦٠ - ١٥٥", "p": 155.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "هواء هيونداي اتش دي 2000 فلتر", "p": 135.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر هواء هيونداي اكسنت ۱۳۰۰", "p": 120.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر هواء هيونداي اكسنت ١٥٠٠ - ٠٥١", "p": 120.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر هواء هيونداي اكسنت ۲۰۱۰", "p": 150.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر هواء هيونداي ام دي", "p": 130.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر هواء هيونداي اي دي", "p": 120.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر هواء هيونداي فيرنا", "p": 85.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر هواء هيونداي ماتركس", "p": 110.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر هيدروليك ٦٦١٠", "p": 200.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فلتر جاز مرسيدس قدیم ٨٥١", "p": 80.0, "u": "جالون", "c": "فلتر", "s": ""}, {"n": "فلنتر تكيف ديمكس ٤٢٨-٠ باور مکس", "p": 140.0, "u": "قطعة", "c": "فلتر", "s": ""}, {"n": "فورما توك توك ١.٦ ك", "p": 168.75, "u": "جالون", "c": "فورما", "s": "1.6ك"}, {"n": "فوطة جلد غزال ٤٠٣٠ كبيرة", "p": 88.0, "u": "قطعة", "c": "فوطة", "s": ""}, {"n": "فوطة دبدوب مستوردة", "p": 30.0, "u": "قطعة", "c": "فوطة", "s": ""}, {"n": "فوطة ستان حمراء كبيرة", "p": 26.67, "u": "قطعة", "c": "فوطة", "s": ""}, {"n": "فوطة ماركات الوان قطن", "p": 30.0, "u": "قطعة", "c": "فوطة", "s": ""}, {"n": "فوطة مربع صغيرة", "p": 14.17, "u": "قطعة", "c": "فوطة", "s": ""}, {"n": "فوطة مستوردة قطن الوان ٤٠٣٠", "p": 16.67, "u": "قطعة", "c": "فوطة", "s": ""}, {"n": "فوطة وجهين كبيرة ٤٠٠٤٠", "p": 21.67, "u": "قطعة", "c": "فوطة", "s": ""}, {"n": "فوم فرش المضتي", "p": 75.0, "u": "قطعة", "c": "فوم", "s": ""}, {"n": "قوم كاوتش جليتور", "p": 105.0, "u": "قطعة", "c": "فوم", "s": ""}, {"n": "قوم مكنة المضني / AKM", "p": 95.0, "u": "قطعة", "c": "فوم", "s": ""}, {"n": "فوم مكنة جليداتور", "p": 115.0, "u": "جالون", "c": "فوم", "s": ""}, {"n": "فيسكو هيدروليك بي بي ١٦ ٦٨ لتر", "p": 1250.0, "u": "جركن", "c": "فيسكو", "s": "16لتر"}, {"n": "فيشة كوباية ديمكس تايلاندي", "p": 105.0, "u": "قطعة", "c": "أخرى", "s": ""}, {"n": "قاعدة فاصل مياه نقل كبير", "p": 570.0, "u": "قطعة", "c": "أخرى", "s": ""}, {"n": "قاعدة مرسب ديمكس صيني", "p": 200.0, "u": "قطعة", "c": "أخرى", "s": ""}, {"n": "كاركة تويوت صيني", "p": 265.0, "u": "قطعة", "c": "أخرى", "s": ""}, {"n": "كاركة دبابة شفاف زجاج المضني", "p": 380.0, "u": "قطعة", "c": "أخرى", "s": ""}, {"n": "كاركة ديمكس صيني", "p": 225.0, "u": "قطعة", "c": "أخرى", "s": ""}, {"n": "كاركة مازدا", "p": 280.0, "u": "قطعة", "c": "أخرى", "s": ""}, {"n": "كاسترول ۵۰۰۰ کيلو 5 لتر ()١٥/٥٠", "p": 1000.0, "u": "جالون", "c": "كاسترول", "s": "5لتر"}, {"n": "کاسترول اخضر ماجنتك ٤ ۷۰۰۰ لتر", "p": 925.0, "u": "جالون", "c": "كاسترول", "s": "4لتر"}, {"n": "كاسترول ايدج دهبي ٤ ٥/٣٠ لتر", "p": 1900.0, "u": "جالون", "c": "كاسترول", "s": "4لتر"}, {"n": "کاسترول ايدج دهبي ٤ ٥/٤٠ لتر", "p": 1900.0, "u": "جالون", "c": "كاسترول", "s": "4لتر"}, {"n": "كرتونة مياه مقطرة السلام", "p": 240.0, "u": "كرتونه", "c": "أخرى", "s": ""}, {"n": "كرتونة مياه مقطرة مركزه ١.٥ لتر", "p": 270.0, "u": "كرتونه", "c": "أخرى", "s": ""}, {"n": "كرتونة مياه نار السلام %۳۰", "p": 300.0, "u": "كرتونه", "c": "أخرى", "s": ""}, {"n": "لحام حديد اببوكسي صيني", "p": 29.0, "u": "قطعة", "c": "أخرى", "s": ""}, {"n": "لحام حديد ابرو امريكي", "p": 135.0, "u": "قطعة", "c": "أخرى", "s": ""}, {"n": "لحام حديد سلوك ماليزي", "p": 46.67, "u": "قطعة", "c": "أخرى", "s": ""}, {"n": "لحام حديد شفاف () ۲۰قطعة", "p": 14.0, "u": "قطعة", "c": "أخرى", "s": ""}, {"n": "لغة شكرتون ١٠ بكرة تايوان غريب", "p": 107.5, "u": "بلتة", "c": "أخرى", "s": ""}, {"n": "ليكوي مولي رصاصي ۵۰/۲۰ لتر", "p": 2500.0, "u": "جالون", "c": "ليكوي مولي", "s": ""}, {"n": "ليكوي مولي سيلفر زيت شمبر الماني", "p": 400.0, "u": "قطعة", "c": "ليكوي مولي", "s": ""}, {"n": "ليكوي مولي منظف انجكشن", "p": 420.0, "u": "قطعة", "c": "ليكوي مولي", "s": ""}, {"n": "ليكوي مولي منظف بيئة بوابة الماني", "p": 420.0, "u": "قطعة", "c": "ليكوي مولي", "s": ""}, {"n": "ليكوي مولي موف ٤ ٥/٤٠ لتر", "p": 1850.0, "u": "جالون", "c": "ليكوي مولي", "s": "4لتر"}, {"n": "ليكوي مولي هيدروليك مانع صوت التكاهات", "p": 420.0, "u": "قطعة", "c": "ليكوي مولي", "s": ""}, {"n": "ليوكي مولي زيت فتيس اسكوتر", "p": 300.0, "u": "قطعة", "c": "ليكوي مولي", "s": ""}, {"n": "ليوكي مولي منظف بيئة تنك الماني", "p": 420.0, "u": "قطعة", "c": "ليكوي مولي", "s": ""}, {"n": "مانع تسريب زيت الباور سترينج ۹۹۲۳", "p": 300.0, "u": "قطعة", "c": "أخرى", "s": ""}, {"n": "مانول اضافة زيت شنمبر ومانع تسريب ٩٩٤٣", "p": 280.0, "u": "قطعة", "c": "مانول", "s": ""}, {"n": "مانول انبوبة شحم كوبلن", "p": 100.0, "u": "قطعة", "c": "مانول", "s": ""}, {"n": "مانول انيرجي ٤ ٥/٣٠ لتر اروبي", "p": 2180.0, "u": "جالون", "c": "مانول", "s": "4لتر"}, {"n": "مانول ايليت ٤ ٥/٤٠ لتر اروبي", "p": 2000.0, "u": "جالون", "c": "مانول", "s": "4لتر"}, {"n": "مانول حماية سيراميك ۹۸۲۹", "p": 380.0, "u": "قطعة", "c": "مانول", "s": ""}, {"n": "مانول ديفندر + حماية سيراميك", "p": 1150.0, "u": "قطعة", "c": "مانول", "s": ""}, {"n": "مانول ديفندر ۱۰ / ٥ ٤٠ لتر اوروبي", "p": 1250.0, "u": "جالون", "c": "مانول", "s": "4لتر"}, {"n": "مانول رافع كفاءة الاوكتين ۹۹۳۹", "p": 260.0, "u": "قطعة", "c": "مانول", "s": ""}, {"n": "مانول زيت درجات ١٠/٤٠ ألماني", "p": 360.0, "u": "جالون", "c": "مانول", "s": "1لتر"}, {"n": "مانول زيت فتيس () WS1) أروبي", "p": 730.0, "u": "جالون", "c": "مانول", "s": "1لتر"}, {"n": "مانول زيت فتيس / W MTF3", "p": 600.0, "u": "جالون", "c": "مانول", "s": "1لتر"}, {"n": "مانول زيت فتيس AG 52 أروبي", "p": 575.0, "u": "جالون", "c": "مانول", "s": "1لتر"}, {"n": "مانول زيت فتيس CVT NS3", "p": 680.0, "u": "جالون", "c": "مانول", "s": "1لتر"}, {"n": "مانول زيت فتيس DCT", "p": 685.0, "u": "قطعة", "c": "مانول", "s": "1لتر"}, {"n": "مانول زيت فتيس DEXRON 3 اروبي", "p": 360.0, "u": "جالون", "c": "مانول", "s": "1لتر"}, {"n": "مانول زيت فتيس DEXRON_VI أروبي", "p": 600.0, "u": "جالون", "c": "مانول", "s": "1لتر"}, {"n": "مانول زيت فتيس SP_IV 6 سرعات", "p": 600.0, "u": "جالون", "c": "مانول", "s": "1لتر"}, {"n": "مانول زيت فتيس SP3 اروبي", "p": 385.0, "u": "جالون", "c": "مانول", "s": "1لتر"}, {"n": "مانول زيت فتيس عادي تخليقي ٧٥-٩٠", "p": 560.0, "u": "جالون", "c": "مانول", "s": "1لتر"}, {"n": "مانول سيراميك الترا ٤ ٥/٤٠ لتر", "p": 2000.0, "u": "جالون", "c": "مانول", "s": "4لتر"}, {"n": "مانول سيراميك برو ٤ ١٠-٤٠ لتر", "p": 1100.0, "u": "جالون", "c": "مانول", "s": "4لتر"}, {"n": "مانول فيفورت ٥ ١٥/٥٠ لتر اروبي", "p": 980.0, "u": "جالون", "c": "مانول", "s": "5لتر"}, {"n": "مانول فيفوريت ١٥/٥٠ عرض 4 لتر", "p": 950.0, "u": "جالون", "c": "مانول", "s": "4لتر"}, {"n": "مانول كفاءة زيت فتيس الاتوماتك ۹۹۰۲", "p": 250.0, "u": "قطعة", "c": "مانول", "s": ""}, {"n": "مانول ليجند اكسترا ۵۰/۳۰ لتر اروبي", "p": 2550.0, "u": "جالون", "c": "مانول", "s": "5لتر"}, {"n": "مانول ليجند فروميلا ٥۰/۲۰ لتر اروبي", "p": 2550.0, "u": "جالون", "c": "مانول", "s": "5لتر"}, {"n": "مانول مانع تسريب زيت ٩٤٢٣", "p": 300.0, "u": "قطعة", "c": "مانول", "s": ""}, {"n": "مانول منظف انجکشن اوروبي", "p": 205.0, "u": "قطعة", "c": "مانول", "s": ""}, {"n": "مانول موتور فلاش أوروبي", "p": 190.0, "u": "قطعة", "c": "مانول", "s": ""}, {"n": "مانول مياة خضراء 1 لتر اوروبي", "p": 160.0, "u": "جالون", "c": "مانول", "s": "1لتر"}, {"n": "مانول مياه اخضر 5 لتر ٤٠١٣ ( %٥٠)", "p": 850.0, "u": "جالون", "c": "مانول", "s": "5لتر"}, {"n": "مانول مياه اصفر متوسيكل", "p": 250.0, "u": "جالون", "c": "مانول", "s": "1لتر"}, {"n": "مانول مياه حمراء 1 لتر", "p": 160.0, "u": "جالون", "c": "مانول", "s": "1لتر"}, {"n": "مانول مياه حمراء 5 لتر ٤٠١٢ (٥٠)", "p": 850.0, "u": "جالون", "c": "مانول", "s": "5لتر"}, {"n": "مانول مياه حمراء 5 لتر ٤٢١٢ (٢٠)", "p": 580.0, "u": "جالون", "c": "مانول", "s": "5لتر"}, {"n": "مانول مياه خضراء 5 لتر ٤٢١٣ (٢٠)", "p": 580.0, "u": "جالون", "c": "مانول", "s": "5لتر"}, {"n": "مايا تروس ١٦ ١٤٠ لتر", "p": 650.0, "u": "جركن", "c": "مايا", "s": "16لتر"}, {"n": "متور فلاش فاکسول", "p": 110.0, "u": "قطعة", "c": "أخرى", "s": ""}, {"n": "مرسب ميتسوبيشي شفاف الفيل", "p": 335.0, "u": "قطعة", "c": "أخرى", "s": ""}, {"n": "مزيل صدأ ۱۱۰ مل المضني", "p": 35.0, "u": "قطعة", "c": "أخرى", "s": ""}, {"n": "مزيل صدا ۲۲۰ مل المضني", "p": 48.0, "u": "قطعة", "c": "أخرى", "s": ""}, {"n": "مزيل صدا ٤٥٠ مل المضني /AKM", "p": 60.0, "u": "قطعة", "c": "أخرى", "s": ""}, {"n": "مزيل صدا ردياتير رابيدو", "p": 80.0, "u": "قطعة", "c": "أخرى", "s": ""}, {"n": "مزيل صداً ردياتير كريستال", "p": 80.0, "u": "قطعة", "c": "أخرى", "s": ""}, {"n": "مصر اوتوماكس 4 لتر", "p": 600.0, "u": "جالون", "c": "مصر للبترول", "s": "4لتر"}, {"n": "مصر للبترول ٤٧٥٠٠ لتر", "p": 415.0, "u": "جالون", "c": "مصر للبترول", "s": "4لتر"}, {"n": "مصر للبترول احمر 1 لتر", "p": 95.0, "u": "جالون", "c": "مصر للبترول", "s": "1لتر"}, {"n": "مصر للبترول أحمر 4 لتر", "p": 350.0, "u": "جالون", "c": "مصر للبترول", "s": "4لتر"}, {"n": "مصر للبترول اس ال ٤ ٥٠٠٠ لتر", "p": 487.5, "u": "جالون", "c": "مصر للبترول", "s": "4لتر"}, {"n": "مصر للبترول ام اكس اكسترا ۲۰ تر", "p": 2750.0, "u": "جركن", "c": "مصر للبترول", "s": "20لتر"}, {"n": "مصر للبترول دهبي 4 لتر", "p": 477.5, "u": "جالون", "c": "مصر للبترول", "s": "4لتر"}, {"n": "مصر للبترول سوبر احمر ١٦ لتر", "p": 1340.0, "u": "جركن", "c": "مصر للبترول", "s": "16لتر"}, {"n": "مصر للبترول مخصوص ۲۰ لتر", "p": 2030.0, "u": "جركن", "c": "مصر للبترول", "s": "20لتر"}, {"n": "مصر للبترول مخصوص 5 لتر", "p": 515.0, "u": "جالون", "c": "مصر للبترول", "s": "5لتر"}, {"n": "مصر للبترول هيدروليك ١٦ ٦٨ لتر", "p": 1035.0, "u": "جركن", "c": "مصر للبترول", "s": "16لتر"}, {"n": "معطر اسبرای جولدن ایر", "p": 68.0, "u": "جالون", "c": "معطر", "s": ""}, {"n": "معطر اریون اكس اسمر", "p": 47.0, "u": "قطعة", "c": "معطر", "s": ""}, {"n": "معطر اريون اكس لارج", "p": 75.0, "u": "قطعة", "c": "معطر", "s": ""}, {"n": "معطر اریون اموجي", "p": 48.0, "u": "قطعة", "c": "معطر", "s": ""}, {"n": "معطر اريون تكيف", "p": 240.0, "u": "قطعة", "c": "معطر", "s": ""}, {"n": "معطر اريون موزيكا", "p": 29.0, "u": "قطعة", "c": "معطر", "s": ""}, {"n": "معطر اسبراي روزير ۵۰۰ ملي", "p": 130.0, "u": "جالون", "c": "معطر", "s": ""}, {"n": "معطر داس ستامب ۱۲", "p": 75.0, "u": "قطعة", "c": "معطر", "s": ""}, {"n": "معطر دريم ماركات", "p": 55.0, "u": "قطعة", "c": "معطر", "s": ""}, {"n": "معطر سمارت سنت زجاج", "p": 65.0, "u": "قطعة", "c": "معطر", "s": ""}, {"n": "معطر شجرة سنت كبير", "p": 30.0, "u": "قطعة", "c": "معطر", "s": ""}, {"n": "معطر فبريكا اسبراي بيضاء", "p": 50.0, "u": "قطعة", "c": "معطر", "s": ""}, {"n": "معطر فبريكا اسبراي شفافه", "p": 58.0, "u": "قطعة", "c": "معطر", "s": ""}, {"n": "معطر فبريكا خشب", "p": 35.0, "u": "قطعة", "c": "معطر", "s": ""}, {"n": "معطر فبريكا زجاج دلاية", "p": 39.0, "u": "قطعة", "c": "معطر", "s": ""}, {"n": "معطر فبريكا سيليكون", "p": 35.0, "u": "قطعة", "c": "معطر", "s": ""}, {"n": "معطر فبريكا شجره", "p": 16.5, "u": "قطعة", "c": "معطر", "s": ""}, {"n": "معطر فبريكا غزالة كبير", "p": 24.5, "u": "قطعة", "c": "معطر", "s": ""}, {"n": "معطر فبريكا مركب", "p": 16.5, "u": "قطعة", "c": "معطر", "s": ""}, {"n": "معطر فلوري اسبراي", "p": 60.0, "u": "قطعة", "c": "معطر", "s": ""}, {"n": "معطر فلوري برفانات نيو", "p": 68.5, "u": "قطعة", "c": "معطر", "s": ""}, {"n": "معطر مركب ياباني", "p": 47.5, "u": "قطعة", "c": "معطر", "s": ""}, {"n": "معطر ميلفا شجرة", "p": 24.5, "u": "قطعة", "c": "معطر", "s": ""}, {"n": "مفحم اطارات را بيدو", "p": 110.0, "u": "قطعة", "c": "أخرى", "s": ""}, {"n": "مكثف دولفن اكتوروس نقل ٤٢٠ ابيض", "p": 300.0, "u": "قطعة", "c": "أخرى", "s": ""}, {"n": "مكثف دولفن نقل ۹۰ رصاصي بفيشة", "p": 300.0, "u": "قطعة", "c": "أخرى", "s": ""}, {"n": "مكثف وورلد فيل اكتوروس نقل ٤٢٠", "p": 320.0, "u": "قطعة", "c": "أخرى", "s": ""}, {"n": "ملمع كاوتش موتور اکستریم", "p": 80.0, "u": "قطعة", "c": "أخرى", "s": ""}, {"n": "مناديل فاين ۱۲۰ منديل", "p": 8.5, "u": "قطعة", "c": "أخرى", "s": ""}, {"n": "مناديل مبللة ملمع طابلوه", "p": 32.5, "u": "قطعة", "c": "أخرى", "s": ""}, {"n": "مناديل معطرة ٥٥٠ منديل", "p": 25.5, "u": "قطعة", "c": "أخرى", "s": ""}, {"n": "منظف انجكشن AKM", "p": 55.0, "u": "قطعة", "c": "أخرى", "s": ""}, {"n": "منظف انجکشن خارجي المضني", "p": 55.0, "u": "قطعة", "c": "أخرى", "s": ""}, {"n": "منظف تكيف كرستال", "p": 120.0, "u": "قطعة", "c": "أخرى", "s": ""}, {"n": "منظف رشاشات ابرو داخل التنك", "p": 175.0, "u": "قطعة", "c": "أخرى", "s": ""}, {"n": "منظف رشاشات ديزل رابيدو", "p": 90.0, "u": "قطعة", "c": "أخرى", "s": ""}, {"n": "منظف سيارة ووش رابيدو", "p": 47.0, "u": "قطعة", "c": "أخرى", "s": ""}, {"n": "منظف فيش جاف المضني", "p": 47.0, "u": "قطعة", "c": "أخرى", "s": ""}, {"n": "منظف كربراتير AKM", "p": 52.0, "u": "قطعة", "c": "أخرى", "s": ""}, {"n": "منظف كربراتير خارجي", "p": 52.0, "u": "قطعة", "c": "أخرى", "s": ""}, {"n": "منقي بنزين رشاشات رابيدو", "p": 85.0, "u": "قطعة", "c": "أخرى", "s": ""}, {"n": "موبيل () HD 50) احمر 4 لتر", "p": 562.5, "u": "جالون", "c": "موبيل", "s": "4لتر"}, {"n": "موبيل () HD50) احمر 1 لتر", "p": 146.25, "u": "جالون", "c": "موبيل", "s": "1لتر"}, {"n": "موبيل اسو اكس ۲۰۳ لتر", "p": 2430.0, "u": "جركن", "c": "موبيل", "s": "20لتر"}, {"n": "موبيل اسو اكس 53 لتر", "p": 630.0, "u": "جالون", "c": "موبيل", "s": "5لتر"}, {"n": "موبيل ام اكس ۲۰ لتر", "p": 4020.0, "u": "جركن", "c": "موبيل", "s": "20لتر"}, {"n": "موبيل ام اكس 5 لتر", "p": 1032.5, "u": "جالون", "c": "موبيل", "s": "5لتر"}, {"n": "موبيل باور ۱ ۲۲۰ لتر", "p": 245.0, "u": "جالون", "c": "موبيل", "s": "1لتر"}, {"n": "موبيل باور ۱۳۲۰ لتر", "p": 369.58, "u": "جالون", "c": "موبيل", "s": "1لتر"}, {"n": "موبيل برميل دلفاك", "p": 34300.0, "u": "برميل", "c": "موبيل", "s": ""}, {"n": "موبيل بستلة شحم ١٨ كجم", "p": 3810.0, "u": "بستلة", "c": "موبيل", "s": "18ك"}, {"n": "موبيل تروس 4 لتر ١٤٠", "p": 875.0, "u": "جالون", "c": "موبيل", "s": "4لتر"}, {"n": "موبيل تروس 4 لتر ۹۰", "p": 875.0, "u": "جالون", "c": "موبيل", "s": "4لتر"}, {"n": "موبيل جير (تروس ) 1 ۹۰ لتر", "p": 240.0, "u": "جالون", "c": "موبيل", "s": "1لتر"}, {"n": "موبيل دلفاك 1 لتر", "p": 188.33, "u": "جالون", "c": "موبيل", "s": "1لتر"}, {"n": "موبيل دلفاك ۲۰ لتر", "p": 3235.0, "u": "جركن", "c": "موبيل", "s": "20لتر"}, {"n": "موبيل دلفاك 5 لتر", "p": 840.0, "u": "جالون", "c": "موبيل", "s": "5لتر"}, {"n": "موبيل دلفاك وان ۲۰ لتر", "p": 6800.0, "u": "جركن", "c": "موبيل", "s": "20لتر"}, {"n": "موبيل دلفاك وان 5 لتر", "p": 1750.0, "u": "جالون", "c": "موبيل", "s": "5لتر"}, {"n": "موبيل سوبر 1 لتر", "p": 177.5, "u": "جالون", "c": "موبيل", "s": "1لتر"}, {"n": "موبيل سوبر ابيض 4 لتر", "p": 625.0, "u": "جالون", "c": "موبيل", "s": "4لتر"}, {"n": "موبيل شحم فابيركس ١/٢ ك", "p": 144.17, "u": "قطعة", "c": "موبيل", "s": "1/2ك"}, {"n": "موبيل فورتي 1 لتر", "p": 165.0, "u": "جالون", "c": "موبيل", "s": "1لتر"}, {"n": "موبيل مالتي جريد 1 لتر", "p": 150.0, "u": "جالون", "c": "موبيل", "s": "1لتر"}, {"n": "موبيل مالتي جريد 4 لتر", "p": 575.0, "u": "جالون", "c": "موبيل", "s": "4لتر"}, {"n": "موبيل مودرن ام اكس ۲۰ لتر", "p": 4180.0, "u": "جركن", "c": "موبيل", "s": "20لتر"}, {"n": "موبيل مودرن ام اكس 5 لتر", "p": 1075.0, "u": "جالون", "c": "موبيل", "s": "5لتر"}, {"n": "موبيل مياه حمراء 1 لتر", "p": 163.75, "u": "جالون", "c": "موبيل", "s": "1لتر"}, {"n": "موبيل مياه حمراء 4 لتر", "p": 600.0, "u": "جالون", "c": "موبيل", "s": "4لتر"}, {"n": "موبيل مياه زرقاء 1 لتر", "p": 162.5, "u": "جالون", "c": "موبيل", "s": "1لتر"}, {"n": "موبيل مياه زرقاء 4 لتر", "p": 600.0, "u": "جالون", "c": "موبيل", "s": "4لتر"}, {"n": "موبيل هيدروليك ١٦ ٢٦ لتر", "p": 2210.0, "u": "جركن", "c": "موبيل", "s": "16لتر"}, {"n": "موبيل هيدروليك ١٦ ٦٨ لتر", "p": 1500.0, "u": "جركن", "c": "موبيل", "s": "16لتر"}, {"n": "موبيل وان () ٤ ۸۰۰۰لتر ١٠/٤٠", "p": 1225.0, "u": "جالون", "c": "موبيل", "s": "4لتر"}, {"n": "موبيل وان ١٠/٤٠ التر", "p": 350.0, "u": "جالون", "c": "موبيل", "s": "1لتر"}, {"n": "موبيل وان 4 لتر () ٥/٤٠١٠٠٠٠", "p": 2016.25, "u": "جالون", "c": "موبيل", "s": "4لتر"}, {"n": "موبيل وان لتر () ٥/٣٠١٠٠٠٠", "p": 2016.25, "u": "جالون", "c": "موبيل", "s": "4لتر"}, {"n": "موبيل وان ٥/٣٠ عرض 5 لتر", "p": 2475.0, "u": "جالون", "c": "موبيل", "s": "5لتر"}, {"n": "موبيل وان ١ ٥/٤٠ لتر", "p": 550.0, "u": "جالون", "c": "موبيل", "s": "1لتر"}, {"n": "موبيل وان ٥/٤٠ عرض 5 لتر", "p": 2475.0, "u": "جالون", "c": "موبيل", "s": "5لتر"}, {"n": "موتول ۱ ۵۱۰۰ ١٠/٤٠ لتر", "p": 490.0, "u": "جالون", "c": "موتول", "s": "1لتر"}, {"n": "موتول ۱ ۷۱۰۰ ١٠/٤٠ لتر", "p": 580.0, "u": "جالون", "c": "موتول", "s": "1لتر"}, {"n": "موتول اسکوتر ١ ١٠/٤٠ لتر", "p": 355.0, "u": "قطعة", "c": "موتول", "s": "1لتر"}, {"n": "موتول زيت فتيس 6 سرعات CVT", "p": 535.0, "u": "جالون", "c": "موتول", "s": "ل"}, {"n": "موتول مانع تسريب المحرك", "p": 255.0, "u": "قطعة", "c": "موتول", "s": "ل"}, {"n": "مياة بيئة ٢٠ لتر", "p": 290.0, "u": "جركن", "c": "أخرى", "s": "20لتر"}, {"n": "مياة تويوتا حمراء ؛ لتر ألماني اصلي", "p": 880.0, "u": "جالون", "c": "أخرى", "s": "4لتر"}, {"n": "مياة حمراء ابرو ٣.٥ لتر", "p": 360.0, "u": "جالون", "c": "أخرى", "s": "3.5لتر"}, {"n": "مياة حمراء التربو 4 لتر", "p": 55.0, "u": "جالون", "c": "أخرى", "s": "4لتر"}, {"n": "مياة حمراء جينيس 1 لتر", "p": 30.83, "u": "جالون", "c": "أخرى", "s": "1لتر"}, {"n": "مياة حمراء جينيس 5 لتر", "p": 87.5, "u": "جالون", "c": "أخرى", "s": "5لتر"}, {"n": "مياة حمراء وتبريد ۲۰ لتر", "p": 360.0, "u": "جركن", "c": "أخرى", "s": "20لتر"}, {"n": "مياة خضراء ابرو امريكي كانز", "p": 150.0, "u": "قطعة", "c": "أخرى", "s": "1لتر"}, {"n": "مياة خضراء السلام 4 لتر", "p": 55.0, "u": "جالون", "c": "أخرى", "s": "4لتر"}, {"n": "مياة خضراء جينيس 1 لتر", "p": 30.83, "u": "جالون", "c": "أخرى", "s": "1لتر"}, {"n": "مياة خضراء جينيس 5 لتر", "p": 87.5, "u": "جالون", "c": "أخرى", "s": "5لتر"}, {"n": "مياة خضراء وتبريد ۲۰ لتر", "p": 380.0, "u": "جركن", "c": "أخرى", "s": "20لتر"}, {"n": "مياة رابيدو حمراء 1 لتر", "p": 45.0, "u": "جالون", "c": "أخرى", "s": "1لتر"}, {"n": "مياة رابيدو حمراء 5 لتر", "p": 130.0, "u": "جالون", "c": "أخرى", "s": "5لتر"}, {"n": "مياة رابيد و خضراء 1 لتر", "p": 45.0, "u": "جالون", "c": "أخرى", "s": "1لتر"}, {"n": "مياة رابيد و خضراء 5 لتر", "p": 130.0, "u": "جالون", "c": "أخرى", "s": "5لتر"}, {"n": "مياة مساحات رابيد و ۳۰۰ مل", "p": 40.0, "u": "قطعة", "c": "أخرى", "s": ""}, {"n": "مياة مقطرة رابيدو جوده عالية", "p": 22.5, "u": "قطعة", "c": "أخرى", "s": ""}, {"n": "مياه بينة مركزي 1 لتر", "p": 150.0, "u": "جالون", "c": "أخرى", "s": ""}, {"n": "مياه بيئة 1 لتر مركزة", "p": 150.0, "u": "قطعة", "c": "أخرى", "s": ""}, {"n": "مياه حمراء التربو 1 لتر", "p": 20.83, "u": "قطعة", "c": "أخرى", "s": ""}, {"n": "مياه خضراء التربو 1 لتر", "p": 20.83, "u": "قطعة", "c": "أخرى", "s": ""}, {"n": "مياه رياتير كانز ماكسويل مركز", "p": 95.0, "u": "قطعة", "c": "أخرى", "s": ""}, {"n": "مياه مساحات رابيد و 1 لتر", "p": 40.0, "u": "جالون", "c": "أخرى", "s": ""}, {"n": "نجمة ١ ٥٠٠٠ لتر", "p": 1180.0, "u": "جالون", "c": "نجمة", "s": "5لتر"}, {"n": "نجمة اس ال () 5000ك) 5 لتر", "p": 662.5, "u": "جالون", "c": "نجمة", "s": "5لتر"}, {"n": "نجمة اس جي 5 ۳۰۰۰ لتر بسعر :", "p": 557.5, "u": "جالون", "c": "نجمة", "s": "5لتر"}, {"n": "نجمة اسكوتر ١٠/٤٠ دهبي 1 لتر", "p": 225.0, "u": "جالون", "c": "نجمة", "s": "1لتر"}, {"n": "نجمة اسكوتر ١٠/٤٠ فضي 1 لتر", "p": 225.0, "u": "جالون", "c": "نجمة", "s": "1لتر"}, {"n": "نجمة ام جي ديلو ۲۰ ٢٠/٥٠ لتر", "p": 2700.0, "u": "جركن", "c": "نجمة", "s": "20لتر"}, {"n": "نجمة ام جي ديلو ٥ ٢٠/٥٠ لتر", "p": 725.0, "u": "جالون", "c": "نجمة", "s": "5لتر"}, {"n": "نجمة تخليقي : لتر () ۱۰۰۰۰٥/٤٠", "p": 1200.0, "u": "جالون", "c": "نجمة", "s": "5لتر"}, {"n": "نجمة ديلو فضي ٢٢ لتر", "p": 2550.0, "u": "جركن", "c": "نجمة", "s": "22لتر"}, {"n": "نجمة ديلو فضي 5 لتر", "p": 662.5, "u": "جالون", "c": "نجمة", "s": "5لتر"}, {"n": "نجمة فلور () ٤ ٤٠لتر", "p": 412.5, "u": "جالون", "c": "نجمة", "s": "4لتر"}, {"n": "نجمة فلور ٤٠ درجة ٢٠ لتر", "p": 1780.0, "u": "جالون", "c": "نجمة", "s": "20لتر"}, {"n": "نجمة فورتي 1 لتر بالخصم", "p": 118.33, "u": "جالون", "c": "نجمة", "s": "1لتر"}, {"n": "نجمة هيدروليك ٤٦ / ١٦ لتر", "p": 1225.0, "u": "جركن", "c": "نجمة", "s": "16لتر"}, {"n": "نجمة هيدروليك ٦٨ / ١٦ لتر", "p": 1300.0, "u": "جركن", "c": "نجمة", "s": "16لتر"}, {"n": "هدية شنطة", "p": 1.0, "u": "قطعة", "c": "أخرى", "s": ""}, {"n": "هواء جامبو الفيل A104", "p": 300.0, "u": "قطعة", "c": "أخرى", "s": ""}, {"n": "وولف موتو فورتي ١٠/٤٠ نصف تخليقي", "p": 325.0, "u": "قطعة", "c": "وولف موتو فورتي", "s": ""}]
+;
+
+const COMPANIES = ['فلتر','موبيل','مانول','شل','ريزول','توتال','تام (اولي انرجي)','معطر','بترومين','تعاون','نجمة','فالي','حشوة','ابيسكو','باكم','مصر للبترول','تويوتا','فتيس'];
+
+/* ═══════════════════════════════════════════════
+   DATA MODULE
+   ═══════════════════════════════════════════════ */
+const DataModule = (() => {
+  function normalize(raw) {
+    return raw
+      .filter(p => p && p.n && typeof p.p === 'number' && !isNaN(p.p) && p.p > 0)
+      .map((p, i) => {
+        const size = (typeof p.s === 'number' ? String(p.s) + 'لتر' : (p.s || '')).trim();
+        const company = (p.c || 'أخرى').trim();
+        const unit = (p.u || 'قطعة').trim();
+        const name = p.n.trim();
+        let h = 0;
+        for (let j = 0; j < name.length; j++) h = (h * 31 + name.charCodeAt(j)) >>> 0;
+        const popularity = (h % 100);
+        return {
+          id: i, name, price: Math.round(p.p * 100) / 100,
+          company, unit, size, popularity,
+          searchText: (name + ' ' + company + ' ' + unit + ' ' + size).toLowerCase()
+        };
+      });
+  }
+  function computeGlobalStats(products) {
+    if (!products.length) return { count: 0, avg: 0, min: 0, max: 0 };
+    let sum = 0, min = Infinity, max = -Infinity;
+    for (const p of products) { sum += p.price; if (p.price < min) min = p.price; if (p.price > max) max = p.price; }
+    return { count: products.length, avg: sum / products.length, min, max };
+  }
+  function getCompanies(products) {
+    const map = new Map();
+    for (const p of products) map.set(p.company, (map.get(p.company) || 0) + 1);
+    return Array.from(map.entries()).map(([name, count]) => ({ name, count })).sort((a, b) => b.count - a.count);
+  }
+  function getUnits(products) {
+    const s = new Set();
+    for (const p of products) s.add(p.unit);
+    return Array.from(s).sort();
+  }
+  function computeCompanyAvg(products) {
+    const map = new Map();
+    for (const p of products) {
+      if (!map.has(p.company)) map.set(p.company, { sum: 0, n: 0 });
+      const e = map.get(p.company); e.sum += p.price; e.n++;
+    }
+    const out = {};
+    for (const [k, v] of map) out[k] = v.sum / v.n;
+    return out;
+  }
+  return { normalize, computeGlobalStats, getCompanies, getUnits, computeCompanyAvg };
+})();
+
+/* ═══════════════════════════════════════════════
+   FILTER / SORT
+   ═══════════════════════════════════════════════ */
+const FilterModule = (() => {
+  function applyFilters(products, state) {
+    const q = state.query.trim().toLowerCase();
+    const tokens = q ? q.split(/\s+/).filter(Boolean) : [];
+    const { company, unit, maxPrice } = state;
+    return products.filter(p => {
+      if (company && p.company !== company) return false;
+      if (unit && p.unit !== unit) return false;
+      if (p.price > maxPrice) return false;
+      if (tokens.length) for (const t of tokens) if (!p.searchText.includes(t)) return false;
+      return true;
+    });
+  }
+  function applySort(list, sortBy) {
+    const arr = list.slice();
+    switch (sortBy) {
+      case 'cheap': arr.sort((a, b) => a.price - b.price); break;
+      case 'expensive': arr.sort((a, b) => b.price - a.price); break;
+      case 'name': arr.sort((a, b) => a.name.localeCompare(b.name, 'ar')); break;
+      default: arr.sort((a, b) => b.popularity - a.popularity || a.price - b.price); break;
+    }
+    return arr;
+  }
+  return { applyFilters, applySort };
+})();
+
+/* ═══════════════════════════════════════════════
+   CART MODULE (localStorage-backed)
+   ═══════════════════════════════════════════════ */
+const CartModule = (() => {
+  let items = [];     // [{id, qty}]
+  let productById = new Map();
+  const listeners = new Set();
+
+  function load() {
+    try {
+      const raw = localStorage.getItem(CONFIG.CART_STORAGE_KEY);
+      if (raw) {
+        const parsed = JSON.parse(raw);
+        if (Array.isArray(parsed)) {
+          // Ensure product still exists (data changes may drop items)
+          items = parsed
+            .filter(it => it && typeof it.id === 'number' && productById.has(it.id))
+            .map(it => ({ id: it.id, qty: Math.max(1, Math.min(999, parseInt(it.qty, 10) || 1)) }));
+        }
+      }
+    } catch (e) { items = []; }
+  }
+
+  function persist() {
+    try { localStorage.setItem(CONFIG.CART_STORAGE_KEY, JSON.stringify(items)); }
+    catch (e) { /* quota or disabled */ }
+  }
+
+  function setProducts(allProducts) {
+    productById = new Map(allProducts.map(p => [p.id, p]));
+    load(); // reload to reconcile
+    emit();
+  }
+
+  function has(id) { return items.some(it => it.id === id); }
+  function getQty(id) { const it = items.find(x => x.id === id); return it ? it.qty : 0; }
+  function size() { return items.length; }
+  function totalQty() { return items.reduce((s, it) => s + it.qty, 0); }
+  function totalPrice() {
+    return items.reduce((s, it) => {
+      const p = productById.get(it.id);
+      return s + (p ? p.price * it.qty : 0);
+    }, 0);
+  }
+  function list() {
+    return items.map(it => ({ ...productById.get(it.id), qty: it.qty })).filter(x => x && x.name);
+  }
+
+  function add(id, qty = 1) {
+    const it = items.find(x => x.id === id);
+    if (it) it.qty = Math.min(999, it.qty + qty);
+    else items.push({ id, qty: Math.max(1, qty) });
+    persist(); emit();
+  }
+  function remove(id) {
+    items = items.filter(it => it.id !== id);
+    persist(); emit();
+  }
+  function setQty(id, qty) {
+    qty = Math.max(1, Math.min(999, parseInt(qty, 10) || 1));
+    const it = items.find(x => x.id === id);
+    if (it) { it.qty = qty; persist(); emit(); }
+  }
+  function inc(id) { const it = items.find(x => x.id === id); if (it) setQty(id, it.qty + 1); }
+  function dec(id) { const it = items.find(x => x.id === id); if (it && it.qty > 1) setQty(id, it.qty - 1); }
+  function clear() { items = []; persist(); emit(); }
+  function toggle(id) { if (has(id)) { remove(id); return false; } add(id); return true; }
+
+  function subscribe(fn) { listeners.add(fn); return () => listeners.delete(fn); }
+  function emit() { listeners.forEach(fn => { try { fn(); } catch (e) { /* ignore */ } }); }
+
+  return { setProducts, has, getQty, size, totalQty, totalPrice, list,
+           add, remove, setQty, inc, dec, clear, toggle, subscribe };
+})();
+
+/* ═══════════════════════════════════════════════
+   WHATSAPP MODULE
+   ═══════════════════════════════════════════════ */
+const WAModule = (() => {
+  function fmt(n) { return n.toLocaleString('ar-EG', { maximumFractionDigits: 2 }); }
+
+  function buildProductMessage(product) {
+    const sizeStr = product.size ? ` (${product.size})` : '';
+    return (
+      `السلام عليكم ورحمة الله 🌹\n\n` +
+      `أريد الاستفسار عن هذا المنتج:\n\n` +
+      `🛢️ *${product.name}*${sizeStr}\n` +
+      `🏷️ الشركة: ${product.company}\n` +
+      `📏 الوحدة: ${product.unit}\n` +
+      `💰 السعر المعروض: ${fmt(product.price)} ${CONFIG.CURRENCY}\n\n` +
+      `❓ هل المنتج متوفر حاليًا؟ وما أفضل سعر للكميات؟\n\nوشكرًا 🙏`
+    );
+  }
+
+  function buildCartMessage(items, totals) {
+    const lines = [];
+    lines.push(`السلام عليكم ورحمة الله 🌹`);
+    lines.push(``);
+    lines.push(`أرغب في طلب الأصناف التالية من ${CONFIG.BRAND_NAME}:`);
+    lines.push(``);
+    lines.push(`━━━━━━━━━━━━━━━━━━━`);
+    items.forEach((p, i) => {
+      const num = (i + 1).toLocaleString('ar-EG');
+      const sizeStr = p.size ? ` - ${p.size}` : '';
+      const subtotal = p.price * p.qty;
+      lines.push(`${num}. *${p.name}*${sizeStr}`);
+      lines.push(`   🏷️ ${p.company} | 📏 ${p.unit}`);
+      lines.push(`   ✖️ الكمية: ${p.qty.toLocaleString('ar-EG')}  |  💰 ${fmt(p.price)} ${CONFIG.CURRENCY}`);
+      lines.push(`   📊 الإجمالي: ${fmt(subtotal)} ${CONFIG.CURRENCY}`);
+      lines.push(``);
+    });
+    lines.push(`━━━━━━━━━━━━━━━━━━━`);
+    lines.push(`📦 عدد الأصناف: ${totals.itemsCount.toLocaleString('ar-EG')}`);
+    lines.push(`🔢 إجمالي الكميات: ${totals.totalQty.toLocaleString('ar-EG')}`);
+    lines.push(`💵 *الإجمالي التقديري: ${fmt(totals.totalPrice)} ${CONFIG.CURRENCY}*`);
+    lines.push(``);
+    lines.push(`❓ برجاء تأكيد التوفر وأفضل سعر للكميات الكبيرة.`);
+    lines.push(``);
+    lines.push(`وشكرًا 🙏`);
+    return lines.join('\n');
+  }
+
+  function buildGeneralMessage() {
+    return (
+      `السلام عليكم ورحمة الله 🌹\n\n` +
+      `تصفحتُ قائمة الأسعار الخاصة بكم وأرغب في الاستفسار عن توفر بعض المنتجات.\n\n` +
+      `برجاء التواصل معي. شكرًا 🙏`
+    );
+  }
+
+  function buildShareMessage(product) {
+    const sizeStr = product.size ? ` - ${product.size}` : '';
+    return `🛢️ *${product.name}*${sizeStr}\n🏷️ ${product.company}\n💰 ${fmt(product.price)} ${CONFIG.CURRENCY}\n\nمن قائمة أسعار ${CONFIG.BRAND_NAME}`;
+  }
+
+  function link(message) {
+    return `https://wa.me/${CONFIG.WA_NUMBER}?text=${encodeURIComponent(message)}`;
+  }
+
+  return {
+    productLink: (p) => link(buildProductMessage(p)),
+    cartLink: (items, totals) => link(buildCartMessage(items, totals)),
+    generalLink: () => link(buildGeneralMessage()),
+    buildShareMessage,
+  };
+})();
+
+/* ═══════════════════════════════════════════════
+   SHARE MODULE (Web Share API + fallback)
+   ═══════════════════════════════════════════════ */
+const ShareModule = (() => {
+  async function shareProduct(product) {
+    const text = WAModule.buildShareMessage(product);
+    const shareData = {
+      title: product.name,
+      text: text,
+      url: location.href.split('#')[0]
+    };
+
+    // Native Web Share API (mobile + modern desktop)
+    if (navigator.share) {
+      try {
+        await navigator.share(shareData);
+        return { ok: true, method: 'native' };
+      } catch (err) {
+        if (err && err.name === 'AbortError') return { ok: false, method: 'aborted' };
+        // fall through to fallback
+      }
+    }
+
+    // Fallback 1: Clipboard API
+    const fullText = text + '\n\n' + shareData.url;
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      try {
+        await navigator.clipboard.writeText(fullText);
+        return { ok: true, method: 'clipboard' };
+      } catch (e) { /* fall through */ }
+    }
+
+    // Fallback 2: legacy copy via textarea
+    try {
+      const ta = document.createElement('textarea');
+      ta.value = fullText;
+      ta.style.position = 'fixed';
+      ta.style.opacity = '0';
+      document.body.appendChild(ta);
+      ta.select();
+      const ok = document.execCommand('copy');
+      document.body.removeChild(ta);
+      if (ok) return { ok: true, method: 'clipboard-legacy' };
+    } catch (e) { /* ignore */ }
+
+    // Fallback 3: open WhatsApp with product message (forward to contact)
+    window.open(WAModule.productLink(product), '_blank', 'noopener');
+    return { ok: true, method: 'whatsapp' };
+  }
+  return { shareProduct };
+})();
+
+/* ═══════════════════════════════════════════════
+   RENDER MODULE
+   ═══════════════════════════════════════════════ */
+const RenderModule = (() => {
+  const grid = document.getElementById('grid');
+  const loadMoreDiv = document.getElementById('loadMoreDiv');
+  const loadMoreBtn = document.getElementById('loadMoreBtn');
+  const remainingEl = document.getElementById('remaining');
+
+  function escapeHTML(s) {
+    return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+  }
+  function formatPrice(p) { return p.toLocaleString('ar-EG', { maximumFractionDigits: 2 }); }
+
+  function badgeHTML(product, ctx) {
+    const parts = [];
+    if (ctx.hotIds.has(product.id)) parts.push('<span class="ribbon-tag ribbon-hot">🔥 الأكثر طلبًا</span>');
+    if (ctx.dealIds.has(product.id)) parts.push('<span class="ribbon-tag ribbon-deal">⚡ عرض محدود</span>');
+    parts.push('<span class="ribbon-tag ribbon-stock"><span class="pulse"></span>متوفر</span>');
+    return `<div class="pcard-ribbon">${parts.join('')}</div>`;
+  }
+
+  function cardHTML(product, ctx) {
+    const name = escapeHTML(product.name);
+    const company = escapeHTML(product.company);
+    const unit = escapeHTML(product.unit);
+    const size = product.size ? escapeHTML(product.size) : '';
+    const priceStr = formatPrice(product.price);
+    const waHref = WAModule.productLink(product);
+    const inCart = CartModule.has(product.id);
+
+    return `
+<article class="pcard ${inCart ? 'in-cart' : ''}" data-id="${product.id}">
+  ${badgeHTML(product, ctx)}
+  <div class="pcard-body">
+    <div class="pcard-top">
+      <button type="button" class="pcard-co" data-company="${company}" title="عرض منتجات ${company}">${company}</button>
+      <span class="pcard-unit-badge">${unit}</span>
+    </div>
+    <h3 class="pcard-name">${name}</h3>
+    ${size ? `<div class="pcard-size">الحجم: ${size}</div>` : ''}
+  </div>
+  <div class="pcard-footer">
+    <div class="price-group">
+      <span class="price-lbl">سعر الجملة</span>
+      <div><span class="price-num">${priceStr}</span><span class="price-cur"> ${CONFIG.CURRENCY}</span></div>
+    </div>
+    <div class="pcard-actions">
+      <button type="button" class="share-btn" data-action="share" data-id="${product.id}" aria-label="مشاركة المنتج" title="مشاركة">
+        <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+      </button>
+      <button type="button" class="cart-btn ${inCart ? 'in-cart' : ''}" data-action="cart" data-id="${product.id}" aria-label="${inCart ? 'إزالة من السلة' : 'أضف إلى السلة'}" title="${inCart ? 'في السلة — انقر للحذف' : 'أضف إلى السلة'}">
+        ${inCart ? '✓' : '+'}
+      </button>
+      <a class="wa-btn" href="${waHref}" target="_blank" rel="noopener" data-action="order" data-id="${product.id}" aria-label="اطلب عبر واتساب">
+        <svg viewBox="0 0 32 32" fill="currentColor" aria-hidden="true"><path d="M19.11 17.205c-.372 0-1.088 1.39-1.518 1.39a.63.63 0 0 1-.315-.1c-.802-.402-1.504-.817-2.163-1.447-.545-.516-1.146-1.29-1.46-1.963a.426.426 0 0 1-.073-.215c0-.33.99-.945.99-1.49 0-.143-.73-2.09-.832-2.335-.143-.372-.214-.487-.6-.487-.187 0-.36-.043-.53-.043-.302 0-.53.115-.746.315-.688.645-1.032 1.318-1.06 2.264v.114c-.015.99.472 1.977 1.017 2.78 1.23 1.82 2.506 3.41 4.554 4.34.616.287 2.035.888 2.722.888.817 0 2.15-.515 2.48-1.318.114-.257.157-.515.157-.787 0-.228-.057-.643-.242-.768-.57-.4-1.66-.79-2.435-.79zM16.46 4.92c-6.306 0-11.442 5.135-11.442 11.44 0 1.963.515 3.897 1.503 5.59l-1.504 5.373 5.53-1.476a11.39 11.39 0 0 0 5.92 1.63c6.306 0 11.42-5.135 11.42-11.44 0-6.306-5.114-11.44-11.42-11.44z"/></svg>
+        <span>اطلب</span>
+      </a>
+    </div>
+  </div>
+</article>`;
+  }
+
+  function buildContext(filteredList, companyAvg) {
+    const sortedByPop = filteredList.slice().sort((a, b) => b.popularity - a.popularity);
+    const hotCount = Math.max(1, Math.floor(sortedByPop.length * 0.20));
+    const hotIds = new Set(sortedByPop.slice(0, Math.min(hotCount, sortedByPop.length)).map(p => p.id));
+    const deals = filteredList
+      .filter(p => companyAvg[p.company] && p.price < companyAvg[p.company] * CONFIG.DEAL_THRESHOLD)
+      .sort((a, b) => (a.price / companyAvg[a.company]) - (b.price / companyAvg[b.company]));
+    const dealCap = Math.max(1, Math.floor(filteredList.length * 0.15));
+    const dealIds = new Set(deals.slice(0, dealCap).map(p => p.id));
+    return { hotIds, dealIds };
+  }
+
+  function renderPage(list, pageSize, renderedCount, ctx) {
+    const next = Math.min(renderedCount + pageSize, list.length);
+    const wrapper = document.createElement('div');
+    let html = '';
+    for (let i = renderedCount; i < next; i++) html += cardHTML(list[i], ctx);
+    wrapper.innerHTML = html;
+    const frag = document.createDocumentFragment();
+    while (wrapper.firstChild) frag.appendChild(wrapper.firstChild);
+    grid.appendChild(frag);
+    const remaining = list.length - next;
+    if (remaining > 0) { loadMoreDiv.style.display = 'flex'; remainingEl.textContent = remaining.toLocaleString('ar-EG'); }
+    else loadMoreDiv.style.display = 'none';
+    return next;
+  }
+
+  function renderEmpty() {
+    grid.innerHTML = `<div class="empty"><div class="empty-icon">🔍</div><p>لا توجد منتجات مطابقة لبحثك</p><small>جرّب تعديل الفلاتر أو البحث بكلمة مختلفة</small></div>`;
+    loadMoreDiv.style.display = 'none';
+  }
+
+  function clearGrid() { grid.innerHTML = ''; }
+
+  // Update card cart-state without full re-render (for performance)
+  function refreshCardCartState(productId) {
+    const card = grid.querySelector(`.pcard[data-id="${productId}"]`);
+    if (!card) return;
+    const inCart = CartModule.has(productId);
+    card.classList.toggle('in-cart', inCart);
+    const btn = card.querySelector('.cart-btn');
+    if (btn) {
+      btn.classList.toggle('in-cart', inCart);
+      btn.textContent = inCart ? '✓' : '+';
+      btn.setAttribute('aria-label', inCart ? 'إزالة من السلة' : 'أضف إلى السلة');
+      btn.setAttribute('title', inCart ? 'في السلة — انقر للحذف' : 'أضف إلى السلة');
+    }
+  }
+
+  return {
+    buildContext, renderPage, renderEmpty, clearGrid, refreshCardCartState,
+    get gridEl() { return grid; },
+    get loadMoreBtn() { return loadMoreBtn; },
+  };
+})();
+
+/* ═══════════════════════════════════════════════
+   CART UI MODULE
+   ═══════════════════════════════════════════════ */
+const CartUI = (() => {
+  const $ = (id) => document.getElementById(id);
+  const els = {
+    fab: $('fabCart'),
+    fabCount: $('fabCartCount'),
+    fabWA: $('fabWA'),
+    overlay: $('cartOverlay'),
+    drawer: $('cartDrawer'),
+    close: $('cartClose'),
+    body: $('cartBody'),
+    foot: $('cartFoot'),
+    subtitle: $('cartHeadSub'),
+    sumItems: $('sumItems'),
+    sumQty: $('sumQty'),
+    sumTotal: $('sumTotal'),
+    waBtn: $('cartWABtn'),
+    clearBtn: $('cartClearBtn'),
+  };
+
+  function fmt(n) { return n.toLocaleString('ar-EG', { maximumFractionDigits: 2 }); }
+  function escapeHTML(s) {
+    return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+  }
+
+  function open() {
+    els.drawer.classList.add('open');
+    els.overlay.classList.add('open');
+    els.drawer.setAttribute('aria-hidden', 'false');
+    document.body.style.overflow = 'hidden';
+  }
+  function close() {
+    els.drawer.classList.remove('open');
+    els.overlay.classList.remove('open');
+    els.drawer.setAttribute('aria-hidden', 'true');
+    document.body.style.overflow = '';
+  }
+
+  function renderEmpty() {
+    els.body.innerHTML = `
+<div class="cart-empty">
+  <div class="cart-empty-icon">🛒</div>
+  <p>سلتك فارغة</p>
+  <small>اضغط <b>+</b> على أي منتج لإضافته هنا</small>
+</div>`;
+    els.foot.style.display = 'none';
+    els.subtitle.textContent = 'لا توجد منتجات بعد';
+  }
+
+  function itemHTML(p) {
+    const sub = p.price * p.qty;
+    return `
+<div class="cart-item" data-id="${p.id}">
+  <div class="cart-item-top">
+    <div class="cart-item-info">
+      <div class="cart-item-name">${escapeHTML(p.name)}</div>
+      <div class="cart-item-meta">
+        <span class="co">${escapeHTML(p.company)}</span>
+        <span>${escapeHTML(p.unit)}</span>
+        ${p.size ? `<span>📏 ${escapeHTML(p.size)}</span>` : ''}
+        <span>💰 ${fmt(p.price)} ${CONFIG.CURRENCY}</span>
+      </div>
+    </div>
+    <button type="button" class="cart-item-remove" data-action="remove" data-id="${p.id}" aria-label="حذف">✕</button>
+  </div>
+  <div class="cart-item-bottom">
+    <div class="qty-group">
+      <button type="button" class="qty-btn" data-action="dec" data-id="${p.id}" ${p.qty <= 1 ? 'disabled' : ''}>−</button>
+      <span class="qty-val">${p.qty.toLocaleString('ar-EG')}</span>
+      <button type="button" class="qty-btn" data-action="inc" data-id="${p.id}">+</button>
+    </div>
+    <div class="cart-item-total">
+      ${fmt(sub)} <span style="font-size:10px;color:var(--text3)">${CONFIG.CURRENCY}</span>
+      <small>إجمالي الصنف</small>
+    </div>
+  </div>
+</div>`;
+  }
+
+  function renderItems() {
+    const items = CartModule.list();
+    if (!items.length) { renderEmpty(); return; }
+    els.body.innerHTML = items.map(itemHTML).join('');
+    const itemsCount = CartModule.size();
+    const totalQty = CartModule.totalQty();
+    const totalPrice = CartModule.totalPrice();
+    els.sumItems.textContent = itemsCount.toLocaleString('ar-EG');
+    els.sumQty.textContent = totalQty.toLocaleString('ar-EG');
+    els.sumTotal.textContent = fmt(totalPrice) + ' ' + CONFIG.CURRENCY;
+    els.subtitle.textContent = `${itemsCount.toLocaleString('ar-EG')} ${itemsCount === 1 ? 'منتج' : 'منتج'}  •  ${fmt(totalPrice)} ${CONFIG.CURRENCY}`;
+    els.foot.style.display = 'block';
+    // update WA link
+    const totals = { itemsCount, totalQty, totalPrice };
+    els.waBtn.href = WAModule.cartLink(items, totals);
+  }
+
+  function refreshFab() {
+    const n = CartModule.size();
+    els.fabCount.textContent = n.toLocaleString('ar-EG');
+    const wasVisible = els.fab.classList.contains('visible');
+    els.fab.classList.toggle('visible', n > 0);
+    els.fabWA.classList.toggle('with-cart', n > 0);
+    if (n > 0 && !wasVisible) {
+      els.fab.classList.remove('pulse');
+      void els.fab.offsetWidth;
+      els.fab.classList.add('pulse');
+    } else if (n > 0) {
+      els.fab.classList.remove('pulse');
+      void els.fab.offsetWidth;
+      els.fab.classList.add('pulse');
+    }
+  }
+
+  function init() {
+    // Events
+    els.fab.addEventListener('click', () => { renderItems(); open(); });
+    els.close.addEventListener('click', close);
+    els.overlay.addEventListener('click', close);
+
+    els.body.addEventListener('click', (e) => {
+      const btn = e.target.closest('[data-action]');
+      if (!btn) return;
+      const id = parseInt(btn.getAttribute('data-id'), 10);
+      const act = btn.getAttribute('data-action');
+      if (act === 'inc') CartModule.inc(id);
+      else if (act === 'dec') CartModule.dec(id);
+      else if (act === 'remove') CartModule.remove(id);
+    });
+
+    els.clearBtn.addEventListener('click', () => {
+      if (CartModule.size() === 0) return;
+      if (confirm('هل أنت متأكد من مسح جميع المنتجات من السلة؟')) {
+        CartModule.clear();
+      }
+    });
+
+    // Escape key closes drawer
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && els.drawer.classList.contains('open')) close();
+    });
+
+    // Subscribe to cart changes
+    CartModule.subscribe(() => {
+      refreshFab();
+      if (els.drawer.classList.contains('open')) renderItems();
+    });
+
+    refreshFab();
+  }
+
+  return { init, open, close, renderItems };
+})();
+
+/* ═══════════════════════════════════════════════
+   PWA MODULE (inline manifest + inline service worker)
+   ═══════════════════════════════════════════════ */
+const PWAModule = (() => {
+  let deferredPrompt = null;
+  let listeners = { available: [], installed: [], unavailable: [] };
+
+  function setupServiceWorker() {
+    if (!('serviceWorker' in navigator)) {
+      console.info('[PWA] Service Worker not supported in this browser');
+      return;
+    }
+    // Requires HTTPS or localhost
+    if (location.protocol !== 'https:' && location.hostname !== 'localhost' && location.hostname !== '127.0.0.1') {
+      console.warn('[PWA] Service Worker requires HTTPS. Current protocol:', location.protocol);
+      return;
+    }
+    navigator.serviceWorker.register('sw.js', { scope: './' })
+      .then(reg => {
+        console.info('[PWA] Service Worker registered, scope:', reg.scope);
+      })
+      .catch(err => {
+        console.warn('[PWA] Service Worker registration failed:', err);
+      });
+  }
+
+  function setupInstallPrompt() {
+    window.addEventListener('beforeinstallprompt', (e) => {
+      e.preventDefault();
+      deferredPrompt = e;
+      console.info('[PWA] beforeinstallprompt fired — install is READY');
+      listeners.available.forEach(fn => { try { fn(); } catch (err) {} });
+    });
+    window.addEventListener('appinstalled', () => {
+      console.info('[PWA] App installed successfully');
+      deferredPrompt = null;
+      listeners.installed.forEach(fn => { try { fn(); } catch (err) {} });
+    });
+  }
+
+  async function promptInstall() {
+    if (!deferredPrompt) return { status: 'unavailable' };
+    try {
+      deferredPrompt.prompt();
+      const res = await deferredPrompt.userChoice;
+      const outcome = res && res.outcome === 'accepted' ? 'accepted' : 'dismissed';
+      deferredPrompt = null;
+      return { status: outcome };
+    } catch (e) {
+      deferredPrompt = null;
+      return { status: 'error', error: e };
+    }
+  }
+
+  function canPromptInstall() { return deferredPrompt !== null; }
+
+  function isInstalled() {
+    try {
+      return (window.matchMedia && window.matchMedia('(display-mode: standalone)').matches)
+          || window.navigator.standalone === true
+          || document.referrer.includes('android-app://');
+    } catch (e) { return false; }
+  }
+
+  function detectPlatform() {
+    const ua = navigator.userAgent || '';
+    const isIOS = /iPhone|iPad|iPod/i.test(ua) && !window.MSStream;
+    const isAndroid = /Android/i.test(ua);
+    const isSafari = /Safari/i.test(ua) && !/Chrome|CriOS|FxiOS/i.test(ua);
+    const isChrome = /Chrome|CriOS/i.test(ua);
+    const isFirefox = /Firefox|FxiOS/i.test(ua);
+    const isEdge = /Edg/i.test(ua);
+    const isSamsung = /SamsungBrowser/i.test(ua);
+    const isStandalone = isInstalled();
+    const isMobile = isIOS || isAndroid || /Mobile/i.test(ua);
+    return { isIOS, isAndroid, isSafari, isChrome, isFirefox, isEdge, isSamsung, isStandalone, isMobile };
+  }
+
+  function diagnose() {
+    const p = detectPlatform();
+    if (p.isStandalone) return { reason: 'installed', message: 'التطبيق مثبّت بالفعل على جهازك ✅', type: 'info' };
+    if (location.protocol !== 'https:' && location.hostname !== 'localhost' && location.hostname !== '127.0.0.1') {
+      return { reason: 'no-https', message: 'PWA يحتاج إلى HTTPS — قم برفع الموقع على GitHub Pages أو أي استضافة تدعم HTTPS', type: 'warn' };
+    }
+    if (p.isIOS) return { reason: 'ios', message: 'على iPhone استخدم Safari والخطوات اليدوية أدناه', type: 'info' };
+    if (p.isFirefox && !p.isAndroid) return { reason: 'firefox', message: 'Firefox على الكمبيوتر لا يدعم التثبيت التلقائي — اتبع الخطوات اليدوية', type: 'info' };
+    if (canPromptInstall()) return { reason: 'ready', message: null, type: 'ok' };
+    return { reason: 'wait', message: 'جاري إعداد التثبيت... قد يستغرق ذلك بضع ثوانٍ بعد تحميل الصفحة، أو اتبع الخطوات اليدوية', type: 'info' };
+  }
+
+  function on(event, fn) {
+    if (listeners[event]) listeners[event].push(fn);
+  }
+
+  return {
+    setupServiceWorker,
+    setupInstallPrompt,
+    promptInstall,
+    canPromptInstall,
+    isInstalled,
+    detectPlatform,
+    diagnose,
+    on,
+  };
+})();
+
+/* ═══════════════════════════════════════════════
+   PWA MODAL (smart instruction dialog)
+   ═══════════════════════════════════════════════ */
+const PWAModal = (() => {
+  const $ = (id) => document.getElementById(id);
+  let overlay, closeBtn, tabs, stepsEls, reasonBox;
+  let currentTab = 'android';
+
+  function detectDefaultTab() {
+    const p = PWAModule.detectPlatform();
+    if (p.isIOS) return 'ios';
+    if (p.isAndroid) return 'android';
+    return 'desktop';
+  }
+
+  function setTab(tab) {
+    currentTab = tab;
+    tabs.forEach(t => t.classList.toggle('active', t.getAttribute('data-tab') === tab));
+    stepsEls.forEach(s => s.classList.toggle('active', s.getAttribute('data-steps') === tab));
+  }
+
+  function updateReason() {
+    const d = PWAModule.diagnose();
+    if (!d.message) { reasonBox.innerHTML = ''; return; }
+    const cls = d.type === 'warn' ? '' : 'info';
+    const icon = d.type === 'warn' ? '⚠️' : 'ℹ️';
+    reasonBox.innerHTML = `<div class="pwa-reason ${cls}"><span class="ic">${icon}</span><span>${d.message}</span></div>`;
+  }
+
+  function open() {
+    updateReason();
+    setTab(detectDefaultTab());
+    overlay.classList.add('open');
+    overlay.setAttribute('aria-hidden', 'false');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function close() {
+    overlay.classList.remove('open');
+    overlay.setAttribute('aria-hidden', 'true');
+    document.body.style.overflow = '';
+  }
+
+  function init() {
+    overlay = $('pwaModalOverlay');
+    closeBtn = $('pwaModalClose');
+    tabs = Array.from(document.querySelectorAll('#pwaTabs .pwa-tab'));
+    stepsEls = Array.from(document.querySelectorAll('.pwa-steps'));
+    reasonBox = $('pwaReasonBox');
+
+    if (!overlay) return;
+
+    closeBtn.addEventListener('click', close);
+    overlay.addEventListener('click', (e) => { if (e.target === overlay) close(); });
+
+    tabs.forEach(t => {
+      t.addEventListener('click', () => setTab(t.getAttribute('data-tab')));
+    });
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && overlay.classList.contains('open')) close();
+    });
+  }
+
+  return { init, open, close };
+})();
+
+/* ═══════════════════════════════════════════════
+   APP CONTROLLER
+   ═══════════════════════════════════════════════ */
+const App = (() => {
+  const state = { query: '', company: '', unit: '', sort: 'popular', maxPrice: 0, absoluteMax: 0 };
+  let ALL = [];
+  let companyAvg = {};
+  let currentList = [];
+  let renderCtx = { hotIds: new Set(), dealIds: new Set() };
+  let renderedCount = 0;
+
+  const $ = (id) => document.getElementById(id);
+  const els = {
+    search: $('searchInput'), clearSearch: $('clearSearch'),
+    unit: $('unitSelect'), sort: $('sortSelect'),
+    price: $('priceRange'), priceVal: $('priceVal'),
+    reset: $('resetBtn'), pills: $('pills'),
+    headerCount: $('headerCount'), headerWA: $('headerWA'), fabWA: $('fabWA'),
+    st1: $('st1'), st2: $('st2'), st3: $('st3'), st4: $('st4'),
+    shownCount: $('shownCount'), totalCount: $('totalCount'),
+    toast: $('toast'),
+    pwaBanner: $('pwaBanner'), pwaInstall: $('pwaInstall'), pwaDismiss: $('pwaDismiss'),
+  };
+
+  function debounce(fn, ms) { let t; return (...a) => { clearTimeout(t); t = setTimeout(() => fn(...a), ms); }; }
+
+  function showToast(msg, type) {
+    els.toast.textContent = msg;
+    els.toast.className = 'toast' + (type ? ' ' + type : '') + ' show';
+    clearTimeout(showToast._t);
+    showToast._t = setTimeout(() => els.toast.classList.remove('show'), 2400);
+  }
+
+  function formatNum(n) { return Math.round(n).toLocaleString('ar-EG'); }
+
+  function updateGlobalStats() {
+    const s = DataModule.computeGlobalStats(ALL);
+    els.st1.textContent = formatNum(s.count);
+    els.st2.textContent = formatNum(s.avg) + ' ' + CONFIG.CURRENCY;
+    els.st3.textContent = formatNum(s.min) + ' ' + CONFIG.CURRENCY;
+    els.st4.textContent = formatNum(s.max) + ' ' + CONFIG.CURRENCY;
+    els.headerCount.textContent = s.count.toLocaleString('ar-EG') + ' صنف';
+  }
+
+  function buildUnitOptions() {
+    const units = DataModule.getUnits(ALL);
+    els.unit.innerHTML = '<option value="">الكل</option>' + units.map(u => `<option value="${u}">${u}</option>`).join('');
+  }
+
+  function buildPriceRange() {
+    const s = DataModule.computeGlobalStats(ALL);
+    const max = Math.ceil(s.max / 100) * 100;
+    state.absoluteMax = max; state.maxPrice = max;
+    els.price.min = '0'; els.price.max = String(max); els.price.step = '50'; els.price.value = String(max);
+    updatePriceVal();
+  }
+
+  function updatePriceVal() {
+    const v = Number(els.price.value);
+    els.priceVal.textContent = (v >= state.absoluteMax) ? 'بدون حد' : ('≤ ' + formatNum(v) + ' ج.م');
+  }
+
+  function buildPills() {
+    const companies = DataModule.getCompanies(ALL);
+    const html = [`<button class="pill active" data-company="" type="button">الكل <span class="cnt">${ALL.length.toLocaleString('ar-EG')}</span></button>`];
+    for (const c of companies) html.push(`<button class="pill" data-company="${c.name.replace(/"/g, '&quot;')}" type="button">${c.name} <span class="cnt">${c.count.toLocaleString('ar-EG')}</span></button>`);
+    els.pills.innerHTML = html.join('');
+  }
+
+  function refreshPillsActive() {
+    els.pills.querySelectorAll('.pill').forEach(p => {
+      p.classList.toggle('active', (p.getAttribute('data-company') || '') === state.company);
+    });
+  }
+
+  function applyAndRender() {
+    currentList = FilterModule.applyFilters(ALL, state);
+    currentList = FilterModule.applySort(currentList, state.sort);
+    renderCtx = RenderModule.buildContext(currentList, companyAvg);
+    renderedCount = 0;
+    RenderModule.clearGrid();
+    if (!currentList.length) {
+      RenderModule.renderEmpty();
+      els.shownCount.textContent = '0'; els.totalCount.textContent = '0';
+      return;
+    }
+    renderedCount = RenderModule.renderPage(currentList, CONFIG.PAGE_SIZE, 0, renderCtx);
+    els.shownCount.textContent = renderedCount.toLocaleString('ar-EG');
+    els.totalCount.textContent = currentList.length.toLocaleString('ar-EG');
+  }
+
+  function loadMore() {
+    renderedCount = RenderModule.renderPage(currentList, CONFIG.PAGE_SIZE, renderedCount, renderCtx);
+    els.shownCount.textContent = renderedCount.toLocaleString('ar-EG');
+  }
+
+  function resetAll() {
+    state.query = ''; state.company = ''; state.unit = ''; state.sort = 'popular'; state.maxPrice = state.absoluteMax;
+    els.search.value = ''; els.clearSearch.classList.remove('show');
+    els.unit.value = ''; els.sort.value = 'popular';
+    els.price.value = String(state.absoluteMax); updatePriceVal();
+    refreshPillsActive(); applyAndRender();
+    showToast('✅ تم إعادة التعيين', 'success');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
+  async function handleShare(productId) {
+    const product = ALL.find(p => p.id === productId);
+    if (!product) return;
+    const result = await ShareModule.shareProduct(product);
+    if (result.method === 'native') showToast('🔗 تمت المشاركة', 'success');
+    else if (result.method === 'clipboard' || result.method === 'clipboard-legacy') showToast('📋 تم نسخ رابط المنتج', 'success');
+    else if (result.method === 'whatsapp') showToast('📤 فتح واتساب للمشاركة');
+    else if (result.method !== 'aborted') showToast('⚠️ فشلت المشاركة', 'error');
+  }
+
+  function handleCartToggle(productId) {
+    const product = ALL.find(p => p.id === productId);
+    if (!product) return;
+    const added = CartModule.toggle(productId);
+    RenderModule.refreshCardCartState(productId);
+    if (added) showToast(`🛒 أُضيف: ${product.name.slice(0, 40)}${product.name.length > 40 ? '…' : ''}`, 'success');
+    else showToast('🗑️ تم الحذف من السلة');
+  }
+
+  function bindEvents() {
+    // search
+    const onSearch = debounce(() => {
+      state.query = els.search.value;
+      els.clearSearch.classList.toggle('show', els.search.value.length > 0);
+      applyAndRender();
+    }, 180);
+    els.search.addEventListener('input', onSearch);
+    els.clearSearch.addEventListener('click', () => {
+      els.search.value = ''; state.query = '';
+      els.clearSearch.classList.remove('show');
+      applyAndRender(); els.search.focus();
+    });
+
+    els.unit.addEventListener('change', () => { state.unit = els.unit.value; applyAndRender(); });
+    els.sort.addEventListener('change', () => { state.sort = els.sort.value; applyAndRender(); });
+    els.price.addEventListener('input', updatePriceVal);
+    const onPriceChange = debounce(() => { state.maxPrice = Number(els.price.value); applyAndRender(); }, 120);
+    els.price.addEventListener('input', onPriceChange);
+    els.reset.addEventListener('click', resetAll);
+
+    // pills
+    els.pills.addEventListener('click', (e) => {
+      const pill = e.target.closest('.pill');
+      if (!pill) return;
+      state.company = pill.getAttribute('data-company') || '';
+      refreshPillsActive(); applyAndRender();
+      if (window.innerWidth < 640) document.querySelector('.area-header').scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+
+    // load more
+    RenderModule.loadMoreBtn.addEventListener('click', loadMore);
+
+    // grid delegation
+    RenderModule.gridEl.addEventListener('click', (e) => {
+      // Company click
+      const coBtn = e.target.closest('.pcard-co');
+      if (coBtn) {
+        e.preventDefault();
+        state.company = coBtn.getAttribute('data-company') || '';
+        refreshPillsActive(); applyAndRender();
+        showToast('🏷️ عرض منتجات: ' + state.company);
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+        return;
+      }
+      // Action buttons
+      const actionEl = e.target.closest('[data-action]');
+      if (!actionEl) return;
+      const action = actionEl.getAttribute('data-action');
+      const id = parseInt(actionEl.getAttribute('data-id'), 10);
+      if (action === 'share') {
+        e.preventDefault(); handleShare(id);
+      } else if (action === 'cart') {
+        e.preventDefault(); handleCartToggle(id);
+      } else if (action === 'order') {
+        showToast('📤 جاري فتح واتساب...', 'success');
+      }
+    });
+
+    // header + fab wa
+    const generalHref = WAModule.generalLink();
+    els.headerWA.href = generalHref;
+    els.fabWA.href = generalHref;
+
+    // keyboard shortcuts
+    document.addEventListener('keydown', (e) => {
+      if (e.key === '/' && document.activeElement !== els.search) {
+        e.preventDefault(); els.search.focus();
+      }
+    });
+
+    // PWA banner events
+    els.pwaInstall.addEventListener('click', async () => {
+      hidePWABanner();
+      if (PWAModule.canPromptInstall()) {
+        const res = await PWAModule.promptInstall();
+        if (res.status === 'accepted') showToast('🎉 تم التثبيت بنجاح', 'success');
+        else if (res.status === 'dismissed') showToast('تم الإلغاء');
+        else PWAModal.open();
+      } else {
+        // Show instructions modal
+        PWAModal.open();
+      }
+    });
+    els.pwaDismiss.addEventListener('click', () => {
+      try { localStorage.setItem(CONFIG.PWA_DISMISS_KEY, String(Date.now())); } catch (e) {}
+      hidePWABanner();
+    });
+  }
+
+  function showPWABanner() {
+    // Don't show if already installed
+    if (PWAModule.isInstalled()) return;
+    // Don't show if dismissed in last 7 days
+    try {
+      const d = parseInt(localStorage.getItem(CONFIG.PWA_DISMISS_KEY) || '0', 10);
+      if (d && (Date.now() - d) < 7 * 86400000) return;
+    } catch (e) {}
+    setTimeout(() => { els.pwaBanner.classList.add('show'); }, 3500);
+  }
+  function hidePWABanner() { els.pwaBanner.classList.remove('show'); }
+
+  function init() {
+    // Use externally-loaded data if available
+    const dataSource = (window.__LOADED_DATA && Array.isArray(window.__LOADED_DATA) && window.__LOADED_DATA.length)
+                       ? window.__LOADED_DATA : RAW_DATA;
+    ALL = DataModule.normalize(dataSource);
+    companyAvg = DataModule.computeCompanyAvg(ALL);
+
+    // Cart — link product catalog
+    CartModule.setProducts(ALL);
+
+    updateGlobalStats();
+    buildUnitOptions();
+    buildPriceRange();
+    buildPills();
+    bindEvents();
+    applyAndRender();
+
+    // Init submodules
+    CartUI.init();
+
+    // PWA
+    PWAModule.setupServiceWorker();
+    PWAModule.setupInstallPrompt();
+    PWAModule.on('available', showPWABanner);
+    PWAModule.on('installed', () => {
+      showToast('🎉 تم تثبيت التطبيق بنجاح!', 'success');
+      hidePWABanner();
+      PWAModal.close();
+    });
+    PWAModal.init();
+    // Show banner even if prompt unavailable (iOS, Firefox) — user can still install manually
+    setTimeout(() => {
+      if (!PWAModule.isInstalled() && !PWAModule.canPromptInstall()) {
+        // Check if user previously dismissed
+        try {
+          const d = parseInt(localStorage.getItem(CONFIG.PWA_DISMISS_KEY) || '0', 10);
+          if (d && (Date.now() - d) < 7 * 86400000) return;
+        } catch (e) {}
+        // Show banner in "manual" mode
+        const p = PWAModule.detectPlatform();
+        if (p.isMobile || p.isIOS) {
+          els.pwaBanner.classList.add('show');
+        }
+      }
+    }, 5000);
+
+    // Cart changes → refresh visible cards' state
+    CartModule.subscribe(() => {
+      // Only refresh cards actually in DOM (performance-safe)
+      document.querySelectorAll('.pcard').forEach(card => {
+        const id = parseInt(card.getAttribute('data-id'), 10);
+        RenderModule.refreshCardCartState(id);
+      });
+    });
+
+    // Welcome toast
+    setTimeout(() => { showToast('👋 مرحبًا — أضف منتجاتك للسلة 🛒 واطلبها كلها برسالة واحدة'); }, 700);
+  }
+
+  return { init };
+})();
+
+// ═══════════════════════════════════════════════
+// DATA LOADER (external data.json with fallback)
+// ═══════════════════════════════════════════════
+const DataLoader = (() => {
+  const CACHE_KEY = 'mn_data_cache_v1';
+  const CACHE_TTL = 24 * 60 * 60 * 1000; // 24 hours
+
+  async function fetchFresh() {
+    // cache buster to bypass HTTP cache
+    const url = 'data.json?v=' + Date.now();
+    const resp = await fetch(url, { cache: 'no-store' });
+    if (!resp.ok) throw new Error('HTTP ' + resp.status);
+    const data = await resp.json();
+    if (!data || !Array.isArray(data.products)) throw new Error('Invalid data structure');
+    return data;
+  }
+
+  function cacheData(data) {
+    try {
+      localStorage.setItem(CACHE_KEY, JSON.stringify({
+        ts: Date.now(),
+        data: data
+      }));
+    } catch (e) { /* quota */ }
+  }
+
+  function loadCached() {
+    try {
+      const raw = localStorage.getItem(CACHE_KEY);
+      if (!raw) return null;
+      const obj = JSON.parse(raw);
+      if (!obj || !obj.data) return null;
+      return obj.data;
+    } catch (e) { return null; }
+  }
+
+  function showUpdateBanner(version) {
+    // Tiny non-intrusive update notification
+    const div = document.createElement('div');
+    div.style.cssText = 'position:fixed;top:80px;right:50%;transform:translateX(50%);background:#128C7E;color:#fff;padding:8px 16px;border-radius:30px;font-size:12.5px;font-weight:700;z-index:400;box-shadow:0 4px 14px rgba(0,0,0,0.2);animation:slideDown 0.4s ease';
+    div.textContent = '⚡ تم تحديث الأسعار — إصدار ' + version;
+    document.body.appendChild(div);
+    setTimeout(() => { div.style.opacity = '0'; div.style.transition = 'opacity 0.5s'; }, 3000);
+    setTimeout(() => div.remove(), 3700);
+  }
+
+  async function load() {
+    // 1) Try fresh fetch
+    try {
+      const fresh = await fetchFresh();
+      const cached = loadCached();
+      if (cached && cached.version && fresh.version && cached.version !== fresh.version) {
+        // version changed → notify
+        setTimeout(() => showUpdateBanner(fresh.version), 1500);
+      }
+      cacheData(fresh);
+      console.info('[Data] Loaded from data.json — version:', fresh.version, '— count:', fresh.count);
+      return fresh.products.map(p => ({
+        n: p.n, p: p.p, u: p.u, c: p.c, s: p.s, sku: p.sku || ''
+      }));
+    } catch (err) {
+      console.warn('[Data] data.json fetch failed:', err.message);
+
+      // 2) Try cache
+      const cached = loadCached();
+      if (cached && cached.products) {
+        console.info('[Data] Using cached data — version:', cached.version);
+        return cached.products.map(p => ({
+          n: p.n, p: p.p, u: p.u, c: p.c, s: p.s, sku: p.sku || ''
+        }));
+      }
+
+      // 3) Fall back to embedded data
+      console.info('[Data] Using embedded fallback data');
+      return RAW_DATA;
+    }
+  }
+
+  return { load };
+})();
+
+// ═══════════════════════════════════════════════
+// SMART BOOT (data first, then app init)
+// ═══════════════════════════════════════════════
+async function bootApp() {
+  try {
+    const products = await DataLoader.load();
+    // Override RAW_DATA with loaded products
+    window.__LOADED_DATA = products;
+    App.init();
+  } catch (err) {
+    console.error('[Boot] Failed:', err);
+    // Last resort: use embedded
+    App.init();
+  }
+}
+
+if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', bootApp);
+else bootApp();
+</script>
+</body>
+</html>
