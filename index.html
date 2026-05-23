@@ -3758,7 +3758,7 @@ const DataLoader = (() => {
 
   async function fetchFresh() {
     // cache buster to bypass HTTP cache
-    const url = 'data.json?v=' + Date.now();
+    const url = 'https://raw.githubusercontent.com/ELASAYS/mohamed-nour-pwa-v2/main/data.json?v=' + Date.now();
     const resp = await fetch(url, { cache: 'no-store' });
     if (!resp.ok) throw new Error('HTTP ' + resp.status);
     const data = await resp.json();
