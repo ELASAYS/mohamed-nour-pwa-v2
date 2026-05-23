@@ -3,7 +3,7 @@
    Strategy: cache-first for static, network-first for HTML
    ============================================================= */
 
-const CACHE_VERSION = 'mn-oils-v1.1.0';
+const CACHE_VERSION = 'mn-oils-v1.2.0';
 const CORE_ASSETS = [
   './',
   './index.html',
